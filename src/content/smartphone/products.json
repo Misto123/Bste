@@ -1,0 +1,3239 @@
+[
+  {
+    "rank": 79,
+    "subRank": null,
+    "id": "6a598e51-1197-4d7f-bb5a-9a344eaebc55",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "0840493614847",
+    "url": "motorola/moto-g87-pantone-overture",
+    "awards": null,
+    "header": {
+      "brand": "motorola",
+      "type": "moto g87 - PANTONE Overture",
+      "brand_url": "motorola",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De motorola moto g87 - PANTONE Overture is een smartphone met Android. Het scherm heeft een diagonaal van 17,3 cm (6,8 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,8 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Grijs",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "4",
+    "highPrice": 329,
+    "variants": [
+      {
+        "kkId": "52196953",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1785314989/productvergelijker/MOBTEL/20006-0699-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1785314989/productvergelijker/MOBTEL/20006-0699-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52196953",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 299,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 299,
+    "hasShops": true
+  },
+  {
+    "rank": 112,
+    "subRank": null,
+    "id": "d27267b6-6aed-4f42-a844-061b3f3017e4",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6932554493271",
+    "url": "redmi/a7-pro-64-gb-black",
+    "awards": null,
+    "header": {
+      "brand": "REDMI",
+      "type": "A7 Pro (64 GB) - Black",
+      "brand_url": "redmi",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De REDMI A7 Pro (64 GB) - Black is een smartphone met Android. Het scherm heeft een diagonaal van 17,5 cm (6,9 inch). De opslagcapaciteit is 64 GB. Je kunt twee simkaarten tegelijk gebruiken. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,9 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Black",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Nee",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 129.9,
+    "variants": [
+      {
+        "kkId": "52157537",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1783591642/productvergelijker/MOBTEL/20006-0696-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1783591642/productvergelijker/MOBTEL/20006-0696-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52157537",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 127,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 127,
+    "hasShops": true
+  },
+  {
+    "rank": 95,
+    "subRank": null,
+    "id": "cb1d21b7-94ca-47f9-9957-8f9ec8dc8694",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6932169396639",
+    "url": "oppo/a6-5g-sapphire-black",
+    "awards": null,
+    "header": {
+      "brand": "OPPO",
+      "type": "A6 5G - Sapphire Black",
+      "brand_url": "oppo",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De OPPO A6 5G - Sapphire Black is een smartphone met Android. Het scherm heeft een diagonaal van 17,1 cm (6,7 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,7 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Blauw",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 239,
+    "variants": [
+      {
+        "kkId": "52153340",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1780579344/productvergelijker/MOBTEL/20006-0693-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1780579344/productvergelijker/MOBTEL/20006-0693-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52153340",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 239,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 239,
+    "hasShops": true
+  },
+  {
+    "rank": 85,
+    "subRank": null,
+    "id": "14c9a01f-12f2-42e9-8c10-bc3c122cbc59",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "8806099035273",
+    "url": "samsung/galaxy-a37-128-plus-6-gb-awesome-charcoal",
+    "awards": null,
+    "header": {
+      "brand": "Samsung",
+      "type": "Galaxy A37 (128 + 6 GB) - Awesome Charcoal",
+      "brand_url": "samsung",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Samsung Galaxy A37 (128 + 6 GB) - Awesome Charcoal is een smartphone met Android. Het scherm heeft een diagonaal van 17 cm (6,7 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 128 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,7 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Grijs",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "5",
+    "highPrice": 449,
+    "variants": [
+      {
+        "kkId": "52157779",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1780579330/productvergelijker/MOBTEL/20006-0692-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1780579330/productvergelijker/MOBTEL/20006-0692-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52157779",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 269,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 269,
+    "hasShops": true
+  },
+  {
+    "rank": 56,
+    "subRank": null,
+    "id": "94caaf3f-cbd6-4f81-b04a-3013c43639ea",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "8806099028305",
+    "url": "samsung/galaxy-a57-128-plus-8-gb-awesome-navy",
+    "awards": null,
+    "header": {
+      "brand": "Samsung",
+      "type": "Galaxy A57 (128 + 8 GB) - Awesome Navy",
+      "brand_url": "samsung",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Samsung Galaxy A57 (128 + 8 GB) - Awesome Navy is een smartphone met Android. Het scherm heeft een diagonaal van 17 cm (6,7 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 128 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,7 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Blauw",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "5",
+    "highPrice": 449,
+    "variants": [
+      {
+        "kkId": "52155864",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1780579315/productvergelijker/MOBTEL/20006-0691-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1780579315/productvergelijker/MOBTEL/20006-0691-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52155864",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 349,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 349,
+    "hasShops": true
+  },
+  {
+    "rank": 111,
+    "subRank": null,
+    "id": "0284f530-3afb-4500-8eaa-b109b379c385",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6932554444860",
+    "url": "redmi/15c-128-gb-black",
+    "awards": null,
+    "header": {
+      "brand": "REDMI",
+      "type": "15C (128 GB) - Black",
+      "brand_url": "redmi",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De REDMI 15C (128 GB) - Black is een smartphone met Android. Het scherm heeft een diagonaal van 17,5 cm (6,9 inch). De opslagcapaciteit is 128 GB. Je kunt twee simkaarten tegelijk gebruiken. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,9 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Nee",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 148.4,
+    "variants": [
+      {
+        "kkId": "52118221",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1779115403/productvergelijker/MOBTEL/20006-0683-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1779115403/productvergelijker/MOBTEL/20006-0683-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52118221",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 119,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 119,
+    "hasShops": true
+  },
+  {
+    "rank": 84,
+    "subRank": null,
+    "id": "fa4b7fde-6c1e-45e4-9692-5d46fbe7e5b1",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "0840493617206",
+    "url": "motorola/moto-g77-256-gb-pantone-black-olive",
+    "awards": null,
+    "header": {
+      "brand": "motorola",
+      "type": "moto g77 (256 GB) - PANTONE Black Olive",
+      "brand_url": "motorola",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De motorola moto g77 (256 GB) - PANTONE Black Olive is een smartphone met Android. Het scherm heeft een diagonaal van 17,3 cm (6,8 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,8 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 249,
+    "variants": [
+      {
+        "kkId": "52154918",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1777902414/productvergelijker/MOBTEL/20006-0681-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1777902414/productvergelijker/MOBTEL/20006-0681-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "2544e07b-c616-467e-aa0b-659e0a35b609",
+      "groupName": "motorola moto g77",
+      "name": "Black Olive",
+      "sequence": 0
+    },
+    "kkId": "52154918",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 222,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 222,
+    "hasShops": true
+  },
+  {
+    "rank": 49,
+    "subRank": null,
+    "id": "1230491c-a804-47db-a695-3d5a4dd6c53b",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "0840493611037",
+    "url": "motorola/edge-70-fusion-7000-mah-pantone-silhouette",
+    "awards": null,
+    "header": {
+      "brand": "motorola",
+      "type": "edge 70 fusion (7000 mAh) - PANTONE Silhouette",
+      "brand_url": "motorola",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De motorola edge 70 fusion (7000 mAh) - PANTONE Silhouette is een smartphone met Android. Het scherm heeft een diagonaal van 17,3 cm (6,8 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,8 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 349,
+    "variants": [
+      {
+        "kkId": "52149417",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1777902431/productvergelijker/MOBTEL/20006-0682-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1777902431/productvergelijker/MOBTEL/20006-0682-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "27fd0ae2-6f77-4ac6-88f7-9c4c085244e5",
+      "groupName": "motorola edge 70 fusion",
+      "name": "7000 mAh - PANTONE Silhouette",
+      "sequence": 0
+    },
+    "kkId": "52149417",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 349,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 349,
+    "hasShops": true
+  },
+  {
+    "rank": 55,
+    "subRank": null,
+    "id": "01e795c4-3eda-4ea7-a3fc-5a93ac156b9e",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6932169394932",
+    "url": "oppo/reno15-f-5g-256-plus-8-gb-twilight-black",
+    "awards": null,
+    "header": {
+      "brand": "OPPO",
+      "type": "Reno15 F 5G (256 + 8 GB) - Twilight Black",
+      "brand_url": "oppo",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De OPPO Reno15 F 5G (256 + 8 GB) - Twilight Black is een smartphone met Android. Het scherm heeft een diagonaal van 16,7 cm (6,6 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,6 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Blauw",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 339,
+    "variants": [
+      {
+        "kkId": "52143122",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774621372/productvergelijker/MOBTEL/20006-0668-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774621372/productvergelijker/MOBTEL/20006-0668-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52143122",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 339,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 339,
+    "hasShops": true
+  },
+  {
+    "rank": 35,
+    "subRank": null,
+    "id": "562930d9-8cd2-4d22-9575-858df7762a4d",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6932169393904",
+    "url": "oppo/reno15-5g-aurora-white",
+    "awards": null,
+    "header": {
+      "brand": "OPPO",
+      "type": "Reno15 5G - Aurora White",
+      "brand_url": "oppo",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De OPPO Reno15 5G - Aurora White is een smartphone met Android. Het scherm heeft een diagonaal van 16,7 cm (6,6 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 512 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,6 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Wit",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 399,
+    "variants": [
+      {
+        "kkId": "52143545",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774621357/productvergelijker/MOBTEL/20006-0667-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774621357/productvergelijker/MOBTEL/20006-0667-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52143545",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 399,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 399,
+    "hasShops": true
+  },
+  {
+    "rank": 43,
+    "subRank": null,
+    "id": "7ce9bbc0-997f-4375-ab7f-b180fccb323d",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "0840353949737",
+    "url": "google/pixel-10a-128-gb-obsidiaan",
+    "awards": null,
+    "header": {
+      "brand": "Google",
+      "type": "Pixel 10a (128 GB) - Obsidiaan",
+      "brand_url": "google",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Google Pixel 10a (128 GB) - Obsidiaan is een smartphone met Android. Het scherm heeft een diagonaal van 16 cm (6,3 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 128 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Je kunt dit toestel draadloos opladen. Een draadloze oplader wordt echter niet meegeleverd. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,3 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "5",
+    "highPrice": 489,
+    "variants": [
+      {
+        "kkId": "52144614",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774621389/productvergelijker/MOBTEL/20006-0669-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774621389/productvergelijker/MOBTEL/20006-0669-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52144614",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 426,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 426,
+    "hasShops": true
+  },
+  {
+    "rank": 41,
+    "subRank": null,
+    "id": "d3509ea0-4a54-4bf6-9848-e0b6f3817bb6",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "0195951030593",
+    "url": "apple/iphone-17e-256-gb-zwart",
+    "awards": null,
+    "header": {
+      "brand": "Apple",
+      "type": "iPhone 17e (256 GB) - Zwart",
+      "brand_url": "apple",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Apple iPhone 17e (256 GB) - Zwart is een smartphone met iOS. Het scherm heeft een diagonaal van 15,4 cm (6,1 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Je kunt dit toestel draadloos opladen. Een draadloze oplader wordt echter niet meegeleverd. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,1 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 850,
+    "variants": [
+      {
+        "kkId": "52148841",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774527377/productvergelijker/MOBTEL/20006-0675-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774527377/productvergelijker/MOBTEL/20006-0675-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52148841",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 829,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 829,
+    "hasShops": true
+  },
+  {
+    "rank": 16,
+    "subRank": null,
+    "id": "8aed9652-1fa3-4516-aa8d-da00c70ee788",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "8806097827436",
+    "url": "samsung/galaxy-s26-512-gb-black",
+    "awards": null,
+    "header": {
+      "brand": "Samsung",
+      "type": "Galaxy S26 (512 GB) - Black",
+      "brand_url": "samsung",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Samsung Galaxy S26 (512 GB) - Black is een smartphone met Android. Het scherm heeft een diagonaal van 16 cm (6,3 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 512 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Je kunt dit toestel draadloos opladen. Een draadloze oplader wordt echter niet meegeleverd. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,3 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "5",
+    "highPrice": 1199,
+    "variants": [
+      {
+        "kkId": "52145343",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774527316/productvergelijker/MOBTEL/20006-0672-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774527316/productvergelijker/MOBTEL/20006-0672-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "c52ca521-f46b-4db0-a6e0-f558f7b2bea2",
+      "groupName": "Samsung Galaxy S26",
+      "name": "512 GB - Black",
+      "sequence": 0
+    },
+    "kkId": "52145343",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 739,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 739,
+    "hasShops": true
+  },
+  {
+    "rank": 11,
+    "subRank": null,
+    "id": "e8736818-0ee6-46fe-b608-61d62d6029d1",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6921815630937",
+    "url": "oneplus/15r-256-gb-charcoal-black",
+    "awards": null,
+    "header": {
+      "brand": "OnePlus",
+      "type": "15R (256 GB) - Charcoal Black",
+      "brand_url": "oneplus",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De OnePlus 15R (256 GB) - Charcoal Black is een smartphone met Android. Het scherm heeft een diagonaal van 17,3 cm (6,8 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,8 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 746,
+    "variants": [
+      {
+        "kkId": "52141426",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774527395/productvergelijker/MOBTEL/20006-0654-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774527395/productvergelijker/MOBTEL/20006-0654-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52141426",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 746,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 746,
+    "hasShops": true
+  },
+  {
+    "rank": 21,
+    "subRank": null,
+    "id": "b66de28a-9dd7-497f-ab52-8435f963213e",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "8806097828327",
+    "url": "samsung/galaxy-s26-plus-512-gb-black",
+    "awards": null,
+    "header": {
+      "brand": "Samsung",
+      "type": "Galaxy S26+ (512 GB) - Black",
+      "brand_url": "samsung",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Samsung Galaxy S26+ (512 GB) - Black is een smartphone met Android. Het scherm heeft een diagonaal van 17 cm (6,7 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 512 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Je kunt dit toestel draadloos opladen. Een draadloze oplader wordt echter niet meegeleverd. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,7 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "5",
+    "highPrice": 1399,
+    "variants": [
+      {
+        "kkId": "52145324",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774527363/productvergelijker/MOBTEL/20006-0674-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774527363/productvergelijker/MOBTEL/20006-0674-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ebf1d916-267a-4e20-a527-2e129b791bec",
+      "groupName": "Samsung Galaxy S26+",
+      "name": "512 GB - Black",
+      "sequence": 0
+    },
+    "kkId": "52145324",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 978,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 978,
+    "hasShops": true
+  },
+  {
+    "rank": 1,
+    "subRank": null,
+    "id": "6e30e225-d25f-425f-b61c-dcc221258a6e",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "8806097827191",
+    "url": "samsung/galaxy-s26-ultra-512-plus-12-gb-black",
+    "awards": null,
+    "header": {
+      "brand": "Samsung",
+      "type": "Galaxy S26 Ultra (512 + 12 GB) - Black",
+      "brand_url": "samsung",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Samsung Galaxy S26 Ultra (512 + 12 GB) - Black is een smartphone met Android. Het scherm heeft een diagonaal van 17,5 cm (6,9 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 512 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Je kunt dit toestel draadloos opladen. Een draadloze oplader wordt echter niet meegeleverd. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,9 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "5",
+    "highPrice": 1599,
+    "variants": [
+      {
+        "kkId": "52145337",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774527348/productvergelijker/MOBTEL/20006-0673-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774527348/productvergelijker/MOBTEL/20006-0673-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "03ebd630-c856-4b88-ab54-b80ad31db488",
+      "groupName": "Samsung Galaxy S26 Ultra",
+      "name": "512 GB opslag - 12 GB RAM - Black",
+      "sequence": 0
+    },
+    "kkId": "52145337",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 1.091,69",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 1091.69,
+    "hasShops": true
+  },
+  {
+    "rank": 98,
+    "subRank": null,
+    "id": "7ed89076-d235-4a5f-a131-4f42a3f1c49e",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6932554476281",
+    "url": "redmi/note-15-128-plus-6-gb-black",
+    "awards": null,
+    "header": {
+      "brand": "REDMI",
+      "type": "Note 15 (128 + 6 GB) - Black",
+      "brand_url": "redmi",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De REDMI Note 15 (128 + 6 GB) - Black is een smartphone met Android. Het scherm heeft een diagonaal van 17,2 cm (6,8 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 128 GB. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,8 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Nee",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 199,
+    "variants": [
+      {
+        "kkId": "52146395",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774527235/productvergelijker/MOBTEL/20006-0659-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774527235/productvergelijker/MOBTEL/20006-0659-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52146395",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 154,76",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 154.76,
+    "hasShops": true
+  },
+  {
+    "rank": 90,
+    "subRank": null,
+    "id": "6e8acf8e-1ff7-409e-a07b-5d0cb6a38912",
+    "productGroupCode": "MOBTEL",
+    "categoryId": "5b0eeb7b-8b24-3ee2-bef0-3ab12280299f",
+    "ean": "6932554469252",
+    "url": "redmi/note-15-5g-256-plus-8-gb-black",
+    "awards": null,
+    "header": {
+      "brand": "REDMI",
+      "type": "Note 15 5G (256 + 8 GB) - Black",
+      "brand_url": "redmi",
+      "predicate_group": null
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De REDMI Note 15 5G (256 + 8 GB) - Black is een smartphone met Android. Het scherm heeft een diagonaal van 17,2 cm (6,8 inch). Deze smartphone is voorzien van stereoluidsprekers. De opslagcapaciteit is 256 GB. Het is mogelijk om verbinding te maken met 5G-netwerken. Je kunt twee simkaarten tegelijk gebruiken. Er is geen 3,5 mm-aansluiting voor oordopjes. Bekijk de winkelprijzen om deze smartphone te kopen.",
+      "items": [
+        {
+          "name": "Schermdiagonaal",
+          "value": "6,8 inch",
+          "tooltip": "De schermdiagonaal geeft aan hoe groot het scherm is. Het is de afstand van een hoek van het scherm naar de tegenovergestelde hoek van het scherm. Het is hier uitgedrukt in inches (in).\n\nAls de schermhoek afgerond is, dan doen we voor deze meting net alsof dat niet zo is.",
+          "gold": false
+        },
+        {
+          "name": "Gewicht",
+          "tooltip": "Dit is het gewicht van de smartphone in grammen (g), afgerond op 0 cijfers achter de komma. We wegen de smartphone met simkaart en batterij.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Kleur",
+          "value": "Zwart",
+          "tooltip": "Dit is de kleur van het product in onze woorden. Hoe het bedrijf de kleur noemt, vind je in de productnaam. Meestal zijn dat hippe marketingtermen. Wij proberen dit vervolgens te vertalen naar simpele kleuren zoals 'grijs' en 'blauw', zodat je makkelijk een smartphone kunt vinden in een kleur die jij mooi vindt. \n\nBinnen één zo'n rubriek (zoals blauw) zijn er natuurlijk allerlei verschillende tinten en soorten. Soms hebben we te maken met grensgevallen: zetten we extreem donkergrijs bijvoorbeeld onder grijs of onder zwart? We proberen hier de beste keuze in te maken.",
+          "gold": false
+        },
+        {
+          "name": "5G",
+          "value": "Ja",
+          "tooltip": "Dit geeft aan of de smartphone verbinding kan maken met een 5G telefoonnetwerk.\n\n5G staat voor ‘5e generatie’. Het is een verzameling technieken voor mobiel telefoneren en mobielinternet.\n\nKies een smartphone met 5G-ondersteuning als je klaar wilt zijn voor de komende jaren. We verwachten niet dat het oudere 4G LTE-netwerk snel zal verdwijnen, maar 5G zal wel steeds belangrijker worden.",
+          "gold": false
+        },
+        {
+          "name": "Systeemversie na updates",
+          "tooltip": "Dit is de hoogste softwareversie die je kunt gebruiken. Met de nieuwste versie heb je alle nieuwe functies. Een oudere versie hoeft niet onveilig te zijn.\n\nWe controleren dit elke 2 tot 6 maanden. Na onze laatste controle zijn er mogelijk nieuwe updates uitgebracht. Bij onze volgende controle passen we dat dan aan.\n\nSoms verschilt het per land welke updates beschikbaar zijn. Wij kopen smartphones niet altijd in Nederland. En sommige Nederlandse winkeliers verkopen geïmporteerde telefoons. Controleer daarom vóór aankoop de softwareversie.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Beveiligingsniveau na updates",
+          "tooltip": "Bij sommige software kan het beveiligingsniveau worden bijgewerkt zonder systeemsoftware-update. Dit is in ieder geval zo op Android-smartphones. \n\nWe controleren elke 2 tot 6 maanden of er beveiligingsupdates zijn. \n\nHet Androidbeveiligingsniveau wordt uitgedrukt als een datum. Tot dat moment zijn er veiligheidsproblemen verholpen. De smartphone is vatbaar voor bekende veiligheidsproblemen na die datum. \n\nHet kan per land en provider verschillen welke updates beschikbaar zijn. Controleer daarom voor aankoop het beveiligingsniveau.\n\nDit heeft invloed op het testoordeel Beveiliging.",
+          "gold": true,
+          "displayValue": ""
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 282,
+    "variants": [
+      {
+        "kkId": "52138058",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1774527286/productvergelijker/MOBTEL/20006-0665-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1774527286/productvergelijker/MOBTEL/20006-0665-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52138058",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 229,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Batterij",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Scherm",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Camera's: fotograferen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Ons oordeel voor fotograferen met de camera('s) aan de achterkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de voorkant ('Selfies'). En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: selfies",
+          "weight": null,
+          "score": null,
+          "tooltip": "Oordeel voor fotograferen met de camera('s) aan de voorkant van deze smartphone.\n\nEr is een apart rapportcijfer voor fotograferen met de camera's aan de achterkant. En ook voor Filmen."
+        },
+        {
+          "title": "Camera's: filmen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Stevigheid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Prestaties",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Bellen",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Beveiliging",
+          "weight": null,
+          "score": null,
+          "tooltip": "Onze tests hebben als doel om veelvoorkomende problemen en gebreken te signaleren. Dit rapportcijfer geeft dus niet aan of een product veilig is, maar alleen of het niet door de mand viel bij onze specifieke tests. Het is belangrijk om te beseffen dat er geen product bestaat dat 100% veilig is."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Mogelijkheden",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 229,
+    "hasShops": true
+  }
+]

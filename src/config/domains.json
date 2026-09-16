@@ -1,33 +1,66 @@
 {
   "domains": [
     {
-      "id": "beste-wasdroogcombinatie",
-      "domain": "bestewasdroogcombinatieconsumentenbond.nl",
+      "id": "stoomstrijkijzer",
+      "domain": "bestestoomstrijkijzerconsumentenbond.nl",
       "locale": "nl",
-      "category": "home-appliances",
+      "category": "stoomstrijkijzer",
       "meta": {
-        "title": "Beste Wasdroogcombinatie Consumentenbond",
-        "description": "Alle testresultaten van wasdroogcombinaties",
-        "keywords": ["wasdroogcombinatie", "consumentenbond", "test"]
+        "title": "Beste Stoomstrijkijzer 2026 - Consumentenbond Test Vergelijking",
+        "description": "Vind de beste stoomstrijkijzer met onze uitgebreide vergelijking van 18 modellen. Test scores voor gladstrijken, levensduur en meer.",
+        "keywords": ["stoomstrijkijzer", "consumentenbond", "test", "vergelijking", "beste"]
       },
       "theme": {
         "primary": "#0066cc",
         "secondary": "#00cc66"
+      },
+      "data": {
+        "productCount": 18,
+        "brands": ["Philips", "Tefal", "Braun"],
+        "priceRange": { "min": 24.99, "max": 380.00 },
+        "testMetrics": ["Gladstrijken", "Levensduur", "Gebruiksgemak", "Krasbestendigheid zool", "Stoomproductie"]
       }
     },
     {
-      "id": "example-domain-2",
-      "domain": "example2.nl",
+      "id": "wasmachine",
+      "domain": "bestewasmachineconsumentenbond.nl",
       "locale": "nl",
-      "category": "electronics",
+      "category": "wasmachine",
       "meta": {
-        "title": "Example Domain 2",
-        "description": "Another test domain",
-        "keywords": ["electronics", "test", "review"]
+        "title": "Beste Wasmachine 2026 - Consumentenbond Test Vergelijking",
+        "description": "Ontdek de beste wasmachine met vergelijking van 18 modellen. Test scores voor schoonwassen, energieverbruik, geluid en duurzaamheid.",
+        "keywords": ["wasmachine", "consumentenbond", "test", "vergelijking", "beste"]
       },
       "theme": {
-        "primary": "#cc0066",
-        "secondary": "#6600cc"
+        "primary": "#0066cc",
+        "secondary": "#00cc66"
+      },
+      "data": {
+        "productCount": 18,
+        "brands": ["Bosch", "Siemens", "Beko", "AEG", "Hisense"],
+        "priceRange": { "min": 365.00, "max": 757.00 },
+        "testMetrics": ["Schoonwassen", "Uitspoelen", "Centrifugeren", "Snelheid", "Geluid", "Gebruiksgemak", "Duurzaamheid", "Energiegebruik", "Waterverbruik"]
+      }
+    },
+    {
+      "id": "smartphone",
+      "domain": "bestesmartphoneconsumentenbond.nl",
+      "locale": "nl",
+      "category": "smartphone",
+      "meta": {
+        "title": "Beste Smartphone 2026 - Consumentenbond Test Vergelijking",
+        "description": "Vind de beste smartphone met vergelijking van 18 modellen. Test scores voor batterij, camera's, scherm en prestaties.",
+        "keywords": ["smartphone", "consumentenbond", "test", "vergelijking", "beste"]
+      },
+      "theme": {
+        "primary": "#0066cc",
+        "secondary": "#00cc66"
+      },
+      "data": {
+        "productCount": 18,
+        "brands": ["Samsung", "Apple", "Google", "Motorola", "OPPO", "REDMI", "OnePlus"],
+        "priceRange": { "min": 119.00, "max": 1091.69 },
+        "testMetrics": ["Batterij", "Scherm", "Camera's: fotograferen", "Camera's: selfies", "Camera's: filmen", "Stevigheid", "Prestaties", "Bellen", "Geluid", "Beveiliging", "Gebruiksgemak", "Mogelijkheden"]
       }
     }
   ]

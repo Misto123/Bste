@@ -1,0 +1,2952 @@
+[
+  {
+    "rank": 74,
+    "subRank": 23,
+    "id": "a0ec5df9-2044-4550-b299-206e4e24156b",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005575190",
+    "url": "bosch/wgj23407nl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WGJ23407NL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WGJ23407NL voorlader uit de Serie 6 biedt ruimte aan 8 kilo wasgoed en centrifugeert met 1400 toeren. Met de Home Connect app bedien je deze machine met je telefoon en los je problemen op afstand op. De Easy Start functie in de app geeft advies over  de juiste wasprogramma's. Met Iron Assist om kreukels in je wasgoed te verminderen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Ja",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 629,
+    "variants": [
+      {
+        "kkId": "52496238",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1783421973/productvergelijker/WASM/22009-1004-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1783421973/productvergelijker/WASM/22009-1004-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "01ae165c-8a95-4bfb-b96f-1278bfd78cef",
+      "groupName": "Bosch WGJ2340*",
+      "name": "Verkrijgbaar bij Bosch en Mediamarkt",
+      "sequence": 3
+    },
+    "kkId": "52496238",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 629,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 629,
+    "hasShops": true
+  },
+  {
+    "rank": 84,
+    "subRank": 26,
+    "id": "803e9b8a-15be-44f5-8ee4-886bf954803d",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005573691",
+    "url": "bosch/wgj23403fg",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WGJ23403FG",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WGJ23403FG voorlader uit de Serie 6 biedt ruimte aan 8 kilo wasgoed en centrifugeert met 1400 toeren. Met de Home Connect app bedien je deze machine met je telefoon en los je problemen op afstand op. De Easy Start functie in de app geeft advies over  de juiste wasprogramma's. Met Iron Assist om kreukels in je wasgoed te verminderen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Ja",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": null,
+    "highPrice": 710,
+    "variants": [
+      {
+        "kkId": "52350262",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1783953156/productvergelijker/WASM/WGJ23403FG_STP",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1783953156/productvergelijker/WASM/WGJ23403FG_STP.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "01ae165c-8a95-4bfb-b96f-1278bfd78cef",
+      "groupName": "Bosch WGJ2340*",
+      "name": "Verkrijgbaar bij CoolBlue",
+      "sequence": 1
+    },
+    "kkId": "52350262",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 710,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": false,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 710,
+    "hasShops": false
+  },
+  {
+    "rank": 85,
+    "subRank": 27,
+    "id": "ac57bd77-aa16-4d4c-b1e8-d6a6fc058093",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005575176",
+    "url": "bosch/wgj23400nl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WGJ23400NL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WGJ23400NL voorlader uit de Serie 6 biedt ruimte aan 8 kilo wasgoed en centrifugeert met 1400 toeren. Met de Home Connect app bedien je deze machine met je telefoon en los je problemen op afstand op. De Easy Start functie in de app geeft advies over  de juiste wasprogramma's. Met Iron Assist om kreukels in je wasgoed te verminderen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Ja",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "6",
+    "highPrice": 749,
+    "variants": [
+      {
+        "kkId": "52195379",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1783421935/productvergelijker/WASM/22009-1004-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1783421935/productvergelijker/WASM/22009-1004-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "01ae165c-8a95-4bfb-b96f-1278bfd78cef",
+      "groupName": "Bosch WGJ2340*",
+      "name": "Verkrijgbaar bij speciaalzaken",
+      "sequence": 2
+    },
+    "kkId": "52195379",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 711,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 711,
+    "hasShops": true
+  },
+  {
+    "rank": 87,
+    "subRank": 29,
+    "id": "d228ea11-1522-4ff2-8e5f-fff6637b0634",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005575183",
+    "url": "bosch/wgj23405nl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WGJ23405NL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WGJ23405NL voorlader uit de Serie 6 biedt ruimte aan 8 kilo wasgoed en centrifugeert met 1400 toeren. Met de Home Connect app bedien je deze machine met je telefoon en los je problemen op afstand op. De Easy Start functie in de app geeft advies over  de juiste wasprogramma's. Met Iron Assist om kreukels in je wasgoed te verminderen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Ja",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 757,
+    "variants": [
+      {
+        "kkId": "0",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1783421884/productvergelijker/WASM/22009-1004-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1783421884/productvergelijker/WASM/22009-1004-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "01ae165c-8a95-4bfb-b96f-1278bfd78cef",
+      "groupName": "Bosch WGJ2340*",
+      "name": "Verkrijgbaar bij Bol",
+      "sequence": 0
+    },
+    "kkId": "0",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 757,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 757,
+    "hasShops": true
+  },
+  {
+    "rank": 75,
+    "subRank": 24,
+    "id": "0423f6db-a7fd-4485-a189-04de88c12544",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005535460",
+    "url": "bosch/wan2827gnl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WAN2827GNL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WAN2827GNL voorlader uit de Serie 4 heeft een trommelcapaciteit van 8 kilo en centrifugeert tot 1400 toeren. Deze machine heeft een Iron Assist-programma waarmee je kleding opfrist en kreukels vermindert. Met de SpeedPerfect-functie kun je de wastijd tot 65% verkorten terwijl je dezelfde wasresultaten zou krijgen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 635,
+    "variants": [
+      {
+        "kkId": "52146921",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1781106044/productvergelijker/WASM/WAN2827GNL_Productafbeelding%2B%2528standaard%2529_4000x4000px_16",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1781106044/productvergelijker/WASM/WAN2827GNL_Productafbeelding%2B%2528standaard%2529_4000x4000px_16.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ca478fe6-86eb-4936-b8aa-52770f54dbb3",
+      "groupName": "Bosch WAN2827",
+      "name": " geen extra spoelen functie, nacht/stil functie",
+      "sequence": 3
+    },
+    "kkId": "52146921",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 635,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 635,
+    "hasShops": true
+  },
+  {
+    "rank": 86,
+    "subRank": 28,
+    "id": "e91c0077-3c12-4672-8238-b029d46b26b9",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005535620",
+    "url": "bosch/wan2829znl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WAN2829ZNL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WAN2827ZNL voorlader uit de Serie 4 heeft een trommelcapaciteit van 8 kilo en centrifugeert tot 1400 toeren. Deze machine heeft een Iron Assist-programma waarmee je kleding opfrist en kreukels vermindert. Met de SpeedPerfect-functie kun je de wastijd tot 65% verkorten terwijl je dezelfde wasresultaten zou krijgen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 729,
+    "variants": [
+      {
+        "kkId": "52138507",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1781246571/productvergelijker/WASM/WAN2829ZNL_Productafbeelding%2B%2528galerij%2529_4000x4000px_8",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1781246571/productvergelijker/WASM/WAN2829ZNL_Productafbeelding%2B%2528galerij%2529_4000x4000px_8.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ca478fe6-86eb-4936-b8aa-52770f54dbb3",
+      "groupName": "Bosch WAN2827",
+      "name": "Aquastop ***",
+      "sequence": 4
+    },
+    "kkId": "52138507",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 729,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 729,
+    "hasShops": true
+  },
+  {
+    "rank": 149,
+    "subRank": 49,
+    "id": "82c9e2ac-46fc-463f-98ae-d40af2b1c389",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "8690842820243",
+    "url": "beko/b1w864bb-be",
+    "awards": null,
+    "header": {
+      "brand": "Beko",
+      "type": "B1W864BB BE",
+      "brand_url": "beko",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Beko B1W864BB BE voorlader heeft een vulcapaciteit van 8 kilo en centrifugeert met 1400 toeren. De SteamCure stoomfunctie zou vlekken en geurtjes verwijderen. Met een sneltoets waarmee je standaard programma's kunt inkorten zonder in te leveren op het resultaat als het goed is.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": null,
+    "highPrice": 365,
+    "variants": [
+      {
+        "kkId": "52138581",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1779869537/productvergelijker/WASM/8785443200_B1W864BB%2BBE_MDM2_LOW_3",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1779869537/productvergelijker/WASM/8785443200_B1W864BB%2BBE_MDM2_LOW_3.png",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "0f04f437-08d8-4187-a412-171e20048657",
+      "groupName": "Beko B1W864*B BE",
+      "name": "Design",
+      "sequence": 1
+    },
+    "kkId": "52138581",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 365,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": false,
+    "priceAsNumber": 365,
+    "hasShops": false
+  },
+  {
+    "rank": 111,
+    "subRank": 35,
+    "id": "a31b6850-94c5-4980-b8ab-ecad77453ba4",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "6901101830180",
+    "url": "hisense/wf3s8043bw3-blx",
+    "awards": null,
+    "header": {
+      "brand": "Hisense",
+      "type": "WF3S8043BW3/BLX",
+      "brand_url": "hisense",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Hisense WF3S8043BW3/BLX voorlader kan 8 kilo wasgoed aan en centrifugeert met 1400 toeren. Met de ConnectLife app kun je je water- en stroomverbruik bijhouden. De Smart Assist functie combineert temperatuur, tijd en water voor het beste wasresultaat. Met een stoomfuntie tegen bacterien en Auto Wash voor een wasprogramma op maat.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Ja",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 399,
+    "variants": [
+      {
+        "kkId": "50848486",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1778589693/productvergelijker/WASM/22009-0973-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1778589693/productvergelijker/WASM/22009-0973-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "50848486",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 379,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 379,
+    "hasShops": true
+  },
+  {
+    "rank": 150,
+    "subRank": 50,
+    "id": "a04a6803-7966-4d82-873e-252b454707b7",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "8690842820243",
+    "url": "beko/b1w864wb-be",
+    "awards": null,
+    "header": {
+      "brand": "Beko",
+      "type": "B1W864WB BE",
+      "brand_url": "beko",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Beko B1W864WB BE voorlader heeft een vulcapaciteit van 8 kilo en centrifugeert met 1400 toeren. De SteamCure stoomfunctie zou vlekken en geurtjes verwijderen. Met een sneltoets waarmee je standaard programma's kunt inkorten zonder in te leveren op het resultaat als het goed is.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": null,
+    "highPrice": 385,
+    "variants": [
+      {
+        "kkId": "52138581",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1778589744/productvergelijker/WASM/22009-0935-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1778589744/productvergelijker/WASM/22009-0935-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "0f04f437-08d8-4187-a412-171e20048657",
+      "groupName": "Beko B1W864*B BE",
+      "name": "Design",
+      "sequence": 0
+    },
+    "kkId": "52138581",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 385,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": false,
+    "priceAsNumber": 385,
+    "hasShops": false
+  },
+  {
+    "rank": 69,
+    "subRank": 19,
+    "id": "6a121cd1-91c8-4256-9cc2-d6d816a2914f",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242003978290",
+    "url": "siemens/wm14n27tnl",
+    "awards": null,
+    "header": {
+      "brand": "Siemens",
+      "type": "WM14N27TNL",
+      "brand_url": "siemens",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Siemens WM14N27TNL smartFinish voorlader uit de iQ300 serie heeft een trommelcapaciteit van 8 kilo en centrifugeert deze met 1400 toeren. Deze machine heeft een smartFinish-programma waarmee je kleding opfrist en kreukels vermindert. Met de SpeedPerfect-functie kun je de wastijd tot 65% verkorten terwijl je dezelfde wasresultaten zou krijgen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "6",
+    "highPrice": 577,
+    "variants": [
+      {
+        "kkId": "52146478",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1787828729/productvergelijker/WASM/52146478_kk_1",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1787828729/productvergelijker/WASM/52146478_kk_1.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52146478",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 577,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 577,
+    "hasShops": true
+  },
+  {
+    "rank": 68,
+    "subRank": 18,
+    "id": "f442b819-e5a9-4cea-8f48-f1689dd75095",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005535453",
+    "url": "bosch/wan2827dnl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WAN2827DNL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WAN2827DNL voorlader uit de Serie 4 heeft een trommelcapaciteit van 8 kilo en centrifugeert met 1400 toeren. Deze machine beschikt over Iron Assist waarmee je kleding kunt opfrissen en kreukels vermindert. Met de SpeedPerfect-functie zou je de wastijd tot 65% verkorten terwijl je dezelfde wasresultaten moet krijgen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "4",
+    "highPrice": 569,
+    "variants": [
+      {
+        "kkId": "52144811",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1787829074/productvergelijker/WASM/52144811_kk_1",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1787829074/productvergelijker/WASM/52144811_kk_1.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ca478fe6-86eb-4936-b8aa-52770f54dbb3",
+      "groupName": "Bosch WAN2827",
+      "name": "Verkrijgbaar bij de vakhandel en Mediamarkt",
+      "sequence": 2
+    },
+    "kkId": "52144811",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 569,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 569,
+    "hasShops": true
+  },
+  {
+    "rank": 71,
+    "subRank": 20,
+    "id": "22edd861-a762-4a35-800d-f6a783b80883",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005535446",
+    "url": "bosch/wan2827cnl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WAN2827CNL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WAN2827CNL voorlader uit de Serie 4 heeft een trommelcapaciteit van 8 kilo en centrifugeert met 1400 toeren. Deze machine beschikt over Iron Assist waarmee je kleding kunt opfrissen en kreukels vermindert. Met de SpeedPerfect-functie zou je de wastijd tot 65% verkorten terwijl je dezelfde wasresultaten moet krijgen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": null,
+    "highPrice": 590,
+    "variants": [
+      {
+        "kkId": "52142137",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1787828996/productvergelijker/WASM/52142137_kk_1",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1787828996/productvergelijker/WASM/52142137_kk_1.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ca478fe6-86eb-4936-b8aa-52770f54dbb3",
+      "groupName": "Bosch WAN2827",
+      "name": "Verkrijgbaar bij Coolblue",
+      "sequence": 0
+    },
+    "kkId": "52142137",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 590,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": false,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 590,
+    "hasShops": false
+  },
+  {
+    "rank": 72,
+    "subRank": 21,
+    "id": "774e847f-9e47-4a8f-bbd2-7599edcd0711",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242003978344",
+    "url": "siemens/wm14n27xfg",
+    "awards": null,
+    "header": {
+      "brand": "Siemens",
+      "type": "WM14N27XFG",
+      "brand_url": "siemens",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Siemens WM14N27XFG smartFinish voorlader uit de iQ300 serie heeft een trommelcapaciteit van 8 kilo en centrifugeert deze met 1400 toeren. Deze machine heeft een smartFinish-programma waarmee je kleding opfrist en kreukels vermindert. Met de SpeedPerfect-functie zou je de wastijd tot 65% verkorten terwijl je dezelfde wasresultaten moet krijgen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 599,
+    "variants": [
+      {
+        "kkId": "52144551",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1777902167/productvergelijker/WASM/22009-0934-00_000",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1777902167/productvergelijker/WASM/22009-0934-00_000.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52144551",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 599,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 599,
+    "hasShops": true
+  },
+  {
+    "rank": 73,
+    "subRank": 22,
+    "id": "5798ec86-cce9-4065-bb31-f84c344fbedf",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "4242005535439",
+    "url": "bosch/wan2827bnl",
+    "awards": null,
+    "header": {
+      "brand": "Bosch",
+      "type": "WAN2827BNL",
+      "brand_url": "bosch",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Bosch WAN2827BNL voorlader uit de Serie 4 heeft een trommelcapaciteit van 8 kilo en centrifugeert met 1400 toeren. Deze machine beschikt over Iron Assist waarmee je kleding kunt opfrissen en kreukels vermindert. Met de SpeedPerfect-functie zou je de wastijd tot 65% verkorten terwijl je dezelfde wasresultaten moet krijgen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 606.19,
+    "variants": [
+      {
+        "kkId": "52158337",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1763737483/productvergelijker/WASM/default-image",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1763737483/productvergelijker/WASM/default-image.avif",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ca478fe6-86eb-4936-b8aa-52770f54dbb3",
+      "groupName": "Bosch WAN2827",
+      "name": "Verkrijgbaar bij Bol",
+      "sequence": 1
+    },
+    "kkId": "52158337",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 606,19",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 606.19,
+    "hasShops": true
+  },
+  {
+    "rank": 114,
+    "subRank": 36,
+    "id": "3fcca20a-eaf1-4fcd-a4cb-ceeb627925f2",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "8690842653681",
+    "url": "beko/bm3wfu4861b",
+    "awards": null,
+    "header": {
+      "brand": "Beko",
+      "type": "BM3WFU4861B",
+      "brand_url": "beko",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Beko BM3WFU4861B voorlader heeft een trommelcapaciteit van 8 kilo en centrifugeert met 1600 toeren. Met EnergySpin dat het wasmiddel sneller moet oplossen waardoor het energieverbruik daalt. Energievriendelijk wassen kan ook met het CoolClean-programma. StainExpert zou 24 soorten vlekken uit het wasgoed halen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1600 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 569,
+    "variants": [
+      {
+        "kkId": "50931193",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1771231353/productvergelijker/WASM/22009-0930-00_001",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1771231353/productvergelijker/WASM/22009-0930-00_001.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "50931193",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 485,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 485,
+    "hasShops": true
+  },
+  {
+    "rank": 60,
+    "subRank": 12,
+    "id": "f06bed8a-e9b1-4fff-b444-6294ee67cebd",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "",
+    "url": "aeg/lr86cbc86",
+    "awards": null,
+    "header": {
+      "brand": "AEG",
+      "type": "LR86CBC86",
+      "brand_url": "aeg",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De AEG LR86CBC86 8000 PowerCare UniversalDose voorlader uit de EcoLine heeft een trommelcapaciteit van 8 kilo en centrifugeert met 1600 toeren. De ProSteam functie frist kleding op en vermindert kreukels. Je was is binnen het uur gedaan met PowerClean '59. Deze machine heeft een UniversalDose lade voor waspods of vloeibaar wasmiddel. Hij heeft ook een extra groot display. Op afstand bedienbaar met de AEG app.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1600 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Ja",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": null,
+    "highPrice": 745,
+    "variants": [
+      {
+        "kkId": "",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1771231393/productvergelijker/WASM/22009-0933-00_001",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1771231393/productvergelijker/WASM/22009-0933-00_001.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "6b0108b8-0de4-46fe-9288-8264a6575f9d",
+      "groupName": "AEG LR86 8 kg 1600",
+      "name": "Verkrijgbaar bij CoolBlue",
+      "sequence": 0
+    },
+    "kkId": "",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 745,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": false,
+    "priceAsNumber": 745,
+    "hasShops": false
+  },
+  {
+    "rank": 140,
+    "subRank": 48,
+    "id": "0b89eefb-8785-45f7-9113-fee310ae838f",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "8690842718021",
+    "url": "beko/bm3wft3841b1",
+    "awards": null,
+    "header": {
+      "brand": "Beko",
+      "type": "BM3WFT3841B1",
+      "brand_url": "beko",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Beko BM3WFT3841B1 voorlader biedt ruimte aan 8 kilo wasgoed en centrifugeert met 1400 toeren. Deze machine beschikt over EnergySpin dat wasmiddel sneller zou oplossen, waardoor je minder energie verbruikt. Het StainExpert programma zou de 24 meest voorkomende vlekken verwijderen. Met de SteamCure stoomfunctie zou je extra hygienisch schoon wassen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 439,
+    "variants": [
+      {
+        "kkId": "52140264",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1768922216/productvergelijker/WASM/BM3WFT3841B1",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1768922216/productvergelijker/WASM/BM3WFT3841B1.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "7f24b605-8339-4b4c-97ed-ec7d2b0b7c98",
+      "groupName": "Beko BM3WFT3841",
+      "name": "Wit met zwart paneel",
+      "sequence": 2
+    },
+    "kkId": "52140264",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 439,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 439,
+    "hasShops": true
+  },
+  {
+    "rank": 137,
+    "subRank": 47,
+    "id": "3c2624c5-cd6a-4e72-860f-228624bdeb1c",
+    "productGroupCode": "WASM",
+    "categoryId": "04ecce84-3321-3132-985a-c380f6872cea",
+    "ean": "8690842662331",
+    "url": "beko/bm3wft3841a",
+    "awards": null,
+    "header": {
+      "brand": "Beko",
+      "type": "BM3WFT3841A",
+      "brand_url": "beko",
+      "predicate_group": "Huishoudens t/m 4 personen"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Beko BM3WFT3841A voorlader biedt ruimte aan 8 kilo wasgoed en centrifugeert met 1400 toeren. Deze machine beschikt over EnergySpin dat wasmiddel sneller zou oplossen, waardoor je minder energie verbruikt. Het StainExpert programma zou de 24 meest voorkomende vlekken verwijderen. Met de SteamCure stoomfunctie zou je extra hygienisch schoon wassen.",
+      "items": [
+        {
+          "name": "Vulgewicht",
+          "value": "8 kg",
+          "tooltip": "Dit zegt met hoeveel kg droge was je je trommel maximaal kunt vullen. \n\n- Was je voor 1 of 2 personen, dan heb je aan 5-6 kg genoeg.\n- Was je voor 3 of 4 personen, dan red je het vaak prima met 7 of 8 kg. \n- Was je voor 5 personen of meer,  kies dan voor een machine met een capaciteit van 9 kg of meer. \n\nBij gevoeliger wasgoed zoals synthetica en wol wordt aangeraden de trommel maximaal halfvol te doen.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/grootte\">Lees meer over de grootte van een wasmachine.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Toerental",
+          "value": "1400 toeren",
+          "tooltip": "Maximale aantal omwentelingen per minuut. In principe hoe hoger het toerental hoe droger de was uit de machine komt, maar in de praktijk blijkt dat 1400 of 1600 toeren niet altijd een merkbaar verschil maakt. \n\nAls er met een hoger toerental wordt gecentrifugeerd, kreukt de was meer. Vaak kun je het toerental naar beneden aanpassen. ",
+          "gold": false
+        },
+        {
+          "name": "Energieklasse",
+          "value": "Energieklasse A",
+          "tooltip": "Klasse voor het energieverbruik van het wasprogramma 'Eco 40-60'. De schaal loopt van A t/m G, waarbij A het meest zuinig is. \n\nSinds maart 2021 hebben wasmachines dit nieuwe <a href=\"https://www.consumentenbond.nl/wasmachine/zuinige-wasmachines#no2\"\"energielabel=\"x\">energielabel</a>. Voorheen was de energieklasse meestal A+++. \n",
+          "gold": false
+        },
+        {
+          "name": "Automatische wasmiddeldosering",
+          "value": "Nee",
+          "tooltip": "Een wasmachine met automatische dosering heeft een reservoir dat je met vloeibaar wasmiddel kan vullen. Op basis van de hoeveelheid wasgoed, de waterhardheid en vuilgraad voegt de wasmachine het wasmiddel automatisch toe.\n\n<a href=\"https://www.consumentenbond.nl/wasmachine/automatische-wasmiddeldosering\">Lees meer over automatische wasmiddeldosering.</a> ",
+          "gold": false
+        },
+        {
+          "name": "Voor- of Bovenlader",
+          "value": "Voorlader",
+          "tooltip": "",
+          "gold": false
+        },
+        {
+          "name": "Bediening via app",
+          "value": "Nee",
+          "tooltip": "Door de wasmachine met een app te verbinden, kun je hem bedienen op afstand, wasprogramma's selecteren en meldingen ontvangen. \n\nZolang de verbinding niet 'aan' gezet is, kun je altijd de machine gewoon via het bedieningspaneel bedienen. \n\n<a href=\"https://www.consumentenbond.nl/wasmachine/wasmachine-met-wifi-app\">Lees meer over wasmachines met een app.</a> ",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "6",
+    "highPrice": 499,
+    "variants": [
+      {
+        "kkId": "51270834",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1768984821/productvergelijker/WASM/BM3WFT3841A",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1768984821/productvergelijker/WASM/BM3WFT3841A.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "7f24b605-8339-4b4c-97ed-ec7d2b0b7c98",
+      "groupName": "Beko BM3WFT3841",
+      "name": "Antraciet",
+      "sequence": 1
+    },
+    "kkId": "51270834",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 449,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Schoonwassen",
+          "weight": null,
+          "score": null,
+          "tooltip": "We stoppen wasgoed met verschillende soorten vlekken in de wastrommel en draaien de was met twee verschillende wasprogramma's; katoen op 40°C en synthetisch op 30°C. Na de wasbeurt meten we hoe goed de vlek uit het wasgoed is gewassen."
+        },
+        {
+          "title": "Uitspoelen",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen, spoelt de wasmachine vuil en wasmiddel weer uit het wasgoed. Omdat wasmachines steeds zuiniger zijn met water, gaat de spoelkwaliteit achteruit. \n\nVanaf december 2022 testen we hoeveel wasmiddel en vuil nog in het wasgoed zit, waar we voorheen testen hoeveel in het overgebleven spoelwater zat. \n\nHeb je een gevoelige huid, dan kun je mogelijk last krijgen van wasmiddel wat in het wasgoed achterblijft. \n"
+        },
+        {
+          "title": "Centrifugeren",
+          "weight": null,
+          "score": null,
+          "tooltip": "Na het wassen en spoelen centrifugeert de wasmachine de was 'droog'. Na de wasbeurt meten we hoeveel vocht nog in het wasgoed is achtergebleven. Dit meten en beoordelen we bij twee wasprogramma's: katoen op 40°C en synthetisch op 30°C."
+        },
+        {
+          "title": "Snelheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten hoelang het katoen- en synthetisch wasprogramma duren en beoordelen de snelheid per kilo wasgoed."
+        },
+        {
+          "title": "Geluid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het geluid tijdens het wassen en centrifugeren wordt gemeten in decibel én beoordeeld door 3 labmedewerkers."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen het gebruiksgemak van de wasmachine door te kijken naar het vullen en leeghalen van de trommel, de bediening, de wasmiddellade, de informatie tijdens het wassen en het onderhoud.\n\nVoor december 2022 werd gebruiksgemak strenger beoordeeld, die testresultaten zijn dus niet vergelijkbaar met de recente test. "
+        },
+        {
+          "title": "Duurzaamheid",
+          "weight": null,
+          "score": null,
+          "tooltip": "Het oordeel voor duurzaamheid wordt voor het grootste deel (85%) bepaald door de zuinigheid van de machine. Dit bestaat uit het energieverbruik (75%) en het waterverbruik (25%). \n\nDaarnaast beoordelen we 'Duurzaam ontwerp (5%), 'Duurzaam gebruik' (5%) en de Merkervaring (5%). "
+        },
+        {
+          "title": "Energiegebruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel energie een wasbeurt gebruikt per kilo wasgoed.\n\nHierbij nemen we het gebruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook het stand-by gebruik en het gebruik op het energielabel mee. "
+        },
+        {
+          "title": "Waterverbruik",
+          "weight": null,
+          "score": null,
+          "tooltip": "We meten en beoordelen hoeveel liter water een wasbeurt verbruikt per kilo wasgoed.\n\nHierbij nemen we het verbruik van het katoenprogramma en synthetisch programma mee. En daarnaast weegt ook  het verbruik op het energielabel mee. "
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 449,
+    "hasShops": true
+  }
+]

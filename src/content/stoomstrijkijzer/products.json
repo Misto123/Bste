@@ -1,0 +1,2506 @@
+[
+  {
+    "rank": 84,
+    "subRank": 35,
+    "id": "b0971ca3-9038-4f43-b3ae-b16237f128ae",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8720389044595",
+    "url": "philips/dst2010-20-2000-series",
+    "awards": null,
+    "header": {
+      "brand": "Philips",
+      "type": "DST2010/20 2000 Series",
+      "brand_url": "philips",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Philips DST2010/20 2000 Series is een stoomstrijkijzer met een anti-kleef zoolplaat. In de watertank past 239 ml water. De temperatuur stel je zelf in. Je reinigt het strijkijzer met de reinigingsknop.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "26,7 x 11,6 x 18 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 29.99,
+    "variants": [
+      {
+        "kkId": "51627341",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1767621195/productvergelijker/STOOMSTRIJK/18041-0959-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1767621195/productvergelijker/STOOMSTRIJK/18041-0959-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "51627341",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 24,99",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 24.99,
+    "hasShops": true
+  },
+  {
+    "rank": 90,
+    "subRank": 41,
+    "id": "cf3139cd-f528-4bcd-8f6a-10e8b7454f0d",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8720389044786",
+    "url": "philips/dst2020-30-2000-series",
+    "awards": null,
+    "header": {
+      "brand": "Philips",
+      "type": "DST2020/30 2000 Series",
+      "brand_url": "philips",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Philips DST2020/30 2000 Series is een stoomstrijkijzer met een Ceramic zoolplaat. In de watertank past 233 ml water. De temperatuur stel je zelf in. Je reinigt het strijkijzer met de reinigingsknop.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "26,7 x 11,6 x 18 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 29.99,
+    "variants": [
+      {
+        "kkId": "52145087",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1767881697/productvergelijker/STOOMSTRIJK/IC18041-0958-50%2BPhilips%2BDST202030%2B2000%2BSeries%2B4",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1767881697/productvergelijker/STOOMSTRIJK/IC18041-0958-50%2BPhilips%2BDST202030%2B2000%2BSeries%2B4.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "dd9b4fe1-5e7b-4ce6-998d-12ba42057292",
+      "groupName": "Philips DST2020 2000 Series",
+      "name": "Wit met paars",
+      "sequence": 1
+    },
+    "kkId": "52145087",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 29,99",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 29.99,
+    "hasShops": true
+  },
+  {
+    "rank": 91,
+    "subRank": 42,
+    "id": "a06f8d2b-96d6-4f72-81f6-fce70ee3ebf0",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8720389044748",
+    "url": "philips/dst2020-80-2000-series",
+    "awards": null,
+    "header": {
+      "brand": "Philips",
+      "type": "DST2020/80 2000 Series",
+      "brand_url": "philips",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Philips DST2020/80 2000 Series is een stoomstrijkijzer met een Ceramic zoolplaat. In de watertank past 233 ml water. De temperatuur stel je zelf in. Je reinigt het strijkijzer met de reinigingsknop.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "26,7 x 11,6 x 18 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 30.57,
+    "variants": [
+      {
+        "kkId": "51547595",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1767621174/productvergelijker/STOOMSTRIJK/18041-0958-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1767621174/productvergelijker/STOOMSTRIJK/18041-0958-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "dd9b4fe1-5e7b-4ce6-998d-12ba42057292",
+      "groupName": "Philips DST2020 2000 Series",
+      "name": "Wit met grijs",
+      "sequence": 0
+    },
+    "kkId": "51547595",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 30,57",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 30.57,
+    "hasShops": true
+  },
+  {
+    "rank": 24,
+    "subRank": 2,
+    "id": "62b288a4-8391-4d29-969d-6b7ea08eba1f",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8021098003850",
+    "url": "braun/si5225pu-texstyle-5",
+    "awards": null,
+    "header": {
+      "brand": "Braun",
+      "type": "SI5225PU TexStyle 5",
+      "brand_url": "braun",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Braun SI5225PU TexStyle 5 is een stoomstrijkijzer met een SuperCeramic FreeGlide 3D zoolplaat. In de watertank past 320 ml water. De temperatuur stel je zelf in. Je reinigt het strijkijzer met de reinigingsknop.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Zwaar strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,3 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "30 x 12,9 x 18,7 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 45.5,
+    "variants": [
+      {
+        "kkId": "52142948",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1767621094/productvergelijker/STOOMSTRIJK/18041-0964-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1767621094/productvergelijker/STOOMSTRIJK/18041-0964-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52142948",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 45,40",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 45.4,
+    "hasShops": true
+  },
+  {
+    "rank": 71,
+    "subRank": 42,
+    "id": "634cf131-a4af-456a-8060-b661323564f7",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8021098005502",
+    "url": "braun/is3257bk",
+    "awards": null,
+    "header": {
+      "brand": "Braun",
+      "type": "IS3257BK",
+      "brand_url": "braun",
+      "predicate_group": "Stoomgenerator"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Braun IS3257BK is een stoomgenerator met een EloxalPlus FreeGlide 3D zoolplaat en een verwijderbare tank. In de watertank past 1778 ml water. Met een automatische temperatuurinstelling strijk je altijd op de juiste temperatuur. Je reinigt het strijkijzer met de reinigingsknop.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomgenerator",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "1,8 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Ja",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "36,1 x 18,2 x 27,2 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 169,
+    "variants": [
+      {
+        "kkId": "52137849",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1767621118/productvergelijker/STOOMSTRIJK/18041-0951-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1767621118/productvergelijker/STOOMSTRIJK/18041-0951-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "52137849",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 166,38",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 166.38,
+    "hasShops": true
+  },
+  {
+    "rank": 66,
+    "subRank": 26,
+    "id": "6c740499-2bd6-4bae-a4bf-b7ffc481e0d2",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8021098270665",
+    "url": "braun/si-3030-pu-texstyle-3",
+    "awards": null,
+    "header": {
+      "brand": "Braun",
+      "type": "SI 3030 PU TexStyle 3",
+      "brand_url": "braun",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Braun SI 3030 PU TexStyle 3 is een stoomstrijkijzer met een SuperCeramic FreeGlide 3D zoolplaat. In de watertank past 287 ml water. De temperatuur stel je zelf in. Je reinigt het strijkijzer met de reinigingsknop.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,3 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "29,3 x 13 x 17,3 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "7",
+    "highPrice": 40.99,
+    "variants": [
+      {
+        "kkId": "7889508",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1753099219/productvergelijker/STOOMSTRIJK/18041-0932-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1753099219/productvergelijker/STOOMSTRIJK/18041-0932-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "15bedd5a-9d01-4d18-8d02-29110d2d2ffd",
+      "groupName": "Braun TexStyle 3",
+      "name": "Roze met wit, roze knoppen",
+      "sequence": 0
+    },
+    "kkId": "7889508",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 28,99",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 28.99,
+    "hasShops": true
+  },
+  {
+    "rank": 67,
+    "subRank": 27,
+    "id": "13f16ce8-1115-4c85-bf41-dfdde198dfb5",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8021098270658",
+    "url": "braun/si-3031-pu-texstyle-3",
+    "awards": null,
+    "header": {
+      "brand": "Braun",
+      "type": "SI 3031 PU TexStyle 3",
+      "brand_url": "braun",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Braun SI 3031 PU TexStyle 3 is een stoomstrijkijzer met een SuperCeramic FreeGlide 3D zoolplaat. In de watertank past 287 ml water. De temperatuur stel je zelf in. Je reinigt het strijkijzer met de reinigingsknop.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,3 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "29,3 x 13 x 17,3 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 42.95,
+    "variants": [
+      {
+        "kkId": "9698839",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1753386101/productvergelijker/STOOMSTRIJK/0062-50braunsi3031pu",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1753386101/productvergelijker/STOOMSTRIJK/0062-50braunsi3031pu.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "15bedd5a-9d01-4d18-8d02-29110d2d2ffd",
+      "groupName": "Braun TexStyle 3",
+      "name": "Roze met wit, grijze knoppen",
+      "sequence": 1
+    },
+    "kkId": "9698839",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 42,95",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 42.95,
+    "hasShops": true
+  },
+  {
+    "rank": 85,
+    "subRank": 36,
+    "id": "3e5c908f-4b74-3be7-86f5-948130ccac5f",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "3121040077153",
+    "url": "tefal/fv6830-ultragliss-anti-calc-plus",
+    "awards": null,
+    "header": {
+      "brand": "Tefal",
+      "type": "FV6830 Ultragliss Anti-Calc Plus",
+      "brand_url": "tefal",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Tefal FV6830 Ultragliss Anti-Calc Plus is een stoomstrijkijzer met een Durilium AirGlide zoolplaat. In de watertank past 263 ml water. De temperatuur stel je zelf in. Het strijkijzer heeft een anti-kalkstaafje en een anti-kalkventiel.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Zwaar strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,3 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "31 x 14,2 x 16,6 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 62.09,
+    "variants": [
+      {
+        "kkId": "12809788",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1753096757/productvergelijker/STOOMSTRIJK/18041-0933-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1753096757/productvergelijker/STOOMSTRIJK/18041-0933-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "12809788",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 62,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 62,
+    "hasShops": true
+  },
+  {
+    "rank": 2,
+    "subRank": 2,
+    "id": "4f744d48-5d78-4340-9f60-a29053f9ad8c",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8021098001016",
+    "url": "braun/is7282bl-carestyle-7-pro",
+    "awards": null,
+    "header": {
+      "brand": "Braun",
+      "type": "IS7282BL CareStyle 7 Pro",
+      "brand_url": "braun",
+      "predicate_group": "Stoomgenerator"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Braun IS7282BL CareStyle 7 Pro is een stoomgenerator met een EloxalPlus FreeGlide 3D zoolplaat en een verwijderbare tank. In de watertank past 2007 ml water. Met een automatische temperatuurinstelling strijk je altijd op de juiste temperatuur. Dit strijkijzer heeft geen speciale ontkalkingsvoorziening.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomgenerator",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Ja",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "40 x 22,5 x 29 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 295.63,
+    "variants": [
+      {
+        "kkId": "30647917",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1753096844/productvergelijker/STOOMSTRIJK/18041-0929-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1753096844/productvergelijker/STOOMSTRIJK/18041-0929-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "2701a478-a57d-4e0a-9077-17504b7488b4",
+      "groupName": "Braun CareStyle 7 Pro",
+      "name": "Wit met blauw",
+      "sequence": 1
+    },
+    "kkId": "30647917",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 295,63",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": false,
+    "priceAsNumber": 295.63,
+    "hasShops": true
+  },
+  {
+    "rank": 15,
+    "subRank": 14,
+    "id": "a10948da-9629-4df3-a778-49161672e95f",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8720389058318",
+    "url": "philips/psg7300-70-perfectcare-7000-series",
+    "awards": null,
+    "header": {
+      "brand": "Philips",
+      "type": "PSG7300/70 PerfectCare 7000 Series",
+      "brand_url": "philips",
+      "predicate_group": "Stoomgenerator"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Philips PSG7300/70 PerfectCare 7000 Series is een stoomgenerator met een SteamGlide Elite zoolplaat en een verwijderbare tank. In de watertank past 1476 ml water. Met een automatische temperatuurinstelling strijk je altijd op de juiste temperatuur. Dit strijkijzer heeft geen speciale ontkalkingsvoorziening.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomgenerator",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Lichtgewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "1,5 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Ja",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "44,5 x 24 x 28,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 379,
+    "variants": [
+      {
+        "kkId": "51664923",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1753096784/productvergelijker/STOOMSTRIJK/18041-0930-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1753096784/productvergelijker/STOOMSTRIJK/18041-0930-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "0520ba54-10a6-4c73-8e1f-9e1104139041",
+      "groupName": "Philips PerfectCare 7000 Series",
+      "name": "PSG7300/70",
+      "sequence": 0
+    },
+    "kkId": "51664923",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 379,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 379,
+    "hasShops": true
+  },
+  {
+    "rank": 16,
+    "subRank": 15,
+    "id": "3a1113fa-e187-4b1f-ace6-811357b20be7",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8720389058325",
+    "url": "philips/psg7300-20-perfectcare-7000-series",
+    "awards": null,
+    "header": {
+      "brand": "Philips",
+      "type": "PSG7300/20 PerfectCare 7000 Series",
+      "brand_url": "philips",
+      "predicate_group": "Stoomgenerator"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Philips PSG7300/20 PerfectCare 7000 Series is een stoomgenerator met een SteamGlide Elite zoolplaat en een verwijderbare tank. In de watertank past 1476 ml water. Met een automatische temperatuurinstelling strijk je altijd op de juiste temperatuur. Dit strijkijzer heeft geen speciale ontkalkingsvoorziening.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomgenerator",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Lichtgewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "1,5 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Ja",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "44,5 x 24 x 28,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 380,
+    "variants": [
+      {
+        "kkId": "51697741",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1753098495/productvergelijker/STOOMSTRIJK/18041-0930-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1753098495/productvergelijker/STOOMSTRIJK/18041-0930-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "0520ba54-10a6-4c73-8e1f-9e1104139041",
+      "groupName": "Philips PerfectCare 7000 Series",
+      "name": "PSG7300/20",
+      "sequence": 1
+    },
+    "kkId": "51697741",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 380,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 380,
+    "hasShops": true
+  },
+  {
+    "rank": 108,
+    "subRank": 53,
+    "id": "9ebe13d1-9aee-440e-bc9a-920747feb00c",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "3121040092767",
+    "url": "tefal/fv2c41-virtuo-30",
+    "awards": null,
+    "header": {
+      "brand": "Tefal",
+      "type": "FV2C41 Virtuo 30",
+      "brand_url": "tefal",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Tefal FV2C41 Virtuo 30 is een stoomstrijkijzer met een Ceramic easy gliding zoolplaat. In de watertank past 242 ml water. De temperatuur stel je zelf in. Je ontkalkt het strijkijzer door een anti-kalkventiel los te draaien.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "28,3 x 11,9 x 18,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "3",
+    "highPrice": 41.99,
+    "variants": [
+      {
+        "kkId": "51620094",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1737633833/productvergelijker/STOOMSTRIJK/ic18041-0896-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1737633833/productvergelijker/STOOMSTRIJK/ic18041-0896-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ef8f0229-bdfa-4cd7-acc6-873210a948a3",
+      "groupName": "Tefal Virtuo 30",
+      "name": "Blauw",
+      "sequence": 0
+    },
+    "kkId": "51620094",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 24,99",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 24.99,
+    "hasShops": true
+  },
+  {
+    "rank": 109,
+    "subRank": 54,
+    "id": "8b3fee9e-8764-4fa7-a6ce-c8d58f93e41f",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "3121040092774",
+    "url": "tefal/fv2c42-virtuo-30",
+    "awards": null,
+    "header": {
+      "brand": "Tefal",
+      "type": "FV2C42 Virtuo 30",
+      "brand_url": "tefal",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Tefal FV2C42 Virtuo 30 is een stoomstrijkijzer met een Ceramic easy gliding zoolplaat. In de watertank past 242 ml water. De temperatuur stel je zelf in. Je ontkalkt het strijkijzer door een anti-kalkventiel los te draaien.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "28,3 x 11,9 x 18,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 27.89,
+    "variants": [
+      {
+        "kkId": "52165692",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1731937763/productvergelijker/STOOMSTRIJK/Tefal%2BFV2C42",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1731937763/productvergelijker/STOOMSTRIJK/Tefal%2BFV2C42.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ef8f0229-bdfa-4cd7-acc6-873210a948a3",
+      "groupName": "Tefal Virtuo 30",
+      "name": "Groen",
+      "sequence": 2
+    },
+    "kkId": "52165692",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 27,89",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 27.89,
+    "hasShops": true
+  },
+  {
+    "rank": 110,
+    "subRank": 55,
+    "id": "bdf49172-10f0-495b-8b27-101f9e9f135c",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "3121040092781",
+    "url": "tefal/fv2c43-virtuo-30",
+    "awards": null,
+    "header": {
+      "brand": "Tefal",
+      "type": "FV2C43 Virtuo 30",
+      "brand_url": "tefal",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Tefal FV2C43 Virtuo 30 is een stoomstrijkijzer met een Ceramic easy gliding zoolplaat. In de watertank past 242 ml water. De temperatuur stel je zelf in. Je ontkalkt het strijkijzer door een anti-kalkventiel los te draaien.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "28,3 x 11,9 x 18,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 27.99,
+    "variants": [
+      {
+        "kkId": "51547727",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1731937686/productvergelijker/STOOMSTRIJK/Tefal%2BFV2C43",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1731937686/productvergelijker/STOOMSTRIJK/Tefal%2BFV2C43.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ef8f0229-bdfa-4cd7-acc6-873210a948a3",
+      "groupName": "Tefal Virtuo 30",
+      "name": "Grijs",
+      "sequence": 3
+    },
+    "kkId": "51547727",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 27,99",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 27.99,
+    "hasShops": true
+  },
+  {
+    "rank": 111,
+    "subRank": 56,
+    "id": "72dc0cef-09fd-4a8d-85a3-bb66a3e5b4ea",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "3121040092729",
+    "url": "tefal/fv2c40-virtuo-30",
+    "awards": null,
+    "header": {
+      "brand": "Tefal",
+      "type": "FV2C40 Virtuo 30",
+      "brand_url": "tefal",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Tefal FV2C40 Virtuo 30 is een stoomstrijkijzer met een Ceramic easy gliding zoolplaat. In de watertank past 242 ml water. De temperatuur stel je zelf in. Je ontkalkt het strijkijzer door een anti-kalkventiel los te draaien.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Normaal gewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "28,3 x 11,9 x 18,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": null,
+    "highPrice": 34,
+    "variants": [
+      {
+        "kkId": "",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1731937825/productvergelijker/STOOMSTRIJK/Tefal%2BFV2C40",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1731937825/productvergelijker/STOOMSTRIJK/Tefal%2BFV2C40.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "ef8f0229-bdfa-4cd7-acc6-873210a948a3",
+      "groupName": "Tefal Virtuo 30",
+      "name": "Oranje",
+      "sequence": 1
+    },
+    "kkId": "",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 34,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": false,
+    "priceAsNumber": 34,
+    "hasShops": false
+  },
+  {
+    "rank": 89,
+    "subRank": 40,
+    "id": "baa74c59-3714-4ca0-ba0a-ba2a02d674ef",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "3121040078105",
+    "url": "tefal/fv6820-ultragliss-plus",
+    "awards": null,
+    "header": {
+      "brand": "Tefal",
+      "type": "FV6820 Ultragliss Plus",
+      "brand_url": "tefal",
+      "predicate_group": "Stoomstrijkijzer"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Tefal FV6820 Ultragliss Plus is een stoomstrijkijzer met een Durilium AirGlide zoolplaat. In de watertank past 287 ml water. De temperatuur stel je zelf in. Je ontkalkt het strijkijzer door een anti-kalkventiel los te draaien.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomstrijkijzer",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Zwaar strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "0,3 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Nee",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "30,7 x 14,4 x 17 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "1",
+    "highPrice": 83.5,
+    "variants": [
+      {
+        "kkId": "13313442",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1737633817/productvergelijker/STOOMSTRIJK/ic18041-0897-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1737633817/productvergelijker/STOOMSTRIJK/ic18041-0897-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "13313442",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 83,50",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 83.5,
+    "hasShops": true
+  },
+  {
+    "rank": 63,
+    "subRank": 39,
+    "id": "40fcd94e-ec0d-420f-bf41-182a36b50166",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "3121040092972",
+    "url": "tefal/gv9e22-pro-express-eco",
+    "awards": null,
+    "header": {
+      "brand": "Tefal",
+      "type": "GV9E22 Pro Express Eco",
+      "brand_url": "tefal",
+      "predicate_group": "Stoomgenerator"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Tefal GV9E22 Pro Express Eco is een stoomgenerator met een Durilium AirGlide Autoclean zoolplaat en een verwijderbare tank. In de watertank past 1942 ml water. Met een automatische temperatuurinstelling strijk je altijd op de juiste temperatuur. Kalk verzamelt zich in een anti-kalkstaafje.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomgenerator",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Lichtgewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "1,9 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Ja",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "39,8 x 24 x 29,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "4",
+    "highPrice": 280,
+    "variants": [
+      {
+        "kkId": "51556603",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1731938063/productvergelijker/STOOMSTRIJK/Tefal%2BGVE22",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1731938063/productvergelijker/STOOMSTRIJK/Tefal%2BGVE22.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": {
+      "groupId": "5a6328ac-9315-45f8-a32f-9b8a86cae9c0",
+      "groupName": "Tefal Pro Express Eco",
+      "name": "Beige, 7,6 bar, max. stoomproductie 550 gr/min.",
+      "sequence": 0
+    },
+    "kkId": "51556603",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 201,60",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "priceAsNumber": 201.6,
+    "hasShops": true
+  },
+  {
+    "rank": 21,
+    "subRank": 20,
+    "id": "45915eaf-6da0-48c4-af9c-26944664fe1c",
+    "productGroupCode": "STOOMSTRIJK",
+    "categoryId": "d67bdfff-b597-3a11-af15-31af6c6397d2",
+    "ean": "8021098003690",
+    "url": "braun/is5245bl-carestyle-5",
+    "awards": null,
+    "header": {
+      "brand": "Braun",
+      "type": "IS5245BL Carestyle 5",
+      "brand_url": "braun",
+      "predicate_group": "Stoomgenerator"
+    },
+    "active": true,
+    "tested": true,
+    "soonTested": false,
+    "available": true,
+    "notRecommended": false,
+    "summary": {
+      "title": "Samenvatting",
+      "description": "De Braun IS5245BL Carestyle 5 is een stoomgenerator met een EloxalPlus FreeGlide 3D zoolplaat en een verwijderbare tank. In de watertank past 2002 ml water. Met een automatische temperatuurinstelling strijk je altijd op de juiste temperatuur. Dit strijkijzer heeft geen speciale ontkalkingsvoorziening.",
+      "items": [
+        {
+          "name": "Soort",
+          "value": "Stoomgenerator",
+          "tooltip": "Een stoomstrijkijzer is een klassiek strijkijzer dat stoomt. Kies voor een stoomstrijkijzer als je niet heel veel strijkt, je budget beperkt is, of als je weinig opbergruimte hebt.\n\nEen stoomgenerator is een strijkijzer met een extern waterreservoir. Kies voor een stoomgenerator als je veel strijkt. Door de grotere watertank hoef je minder vaak water bij te vullen. Ook stoomt hij krachtiger. Een generator kost al gauw meer dan €100.",
+          "gold": false
+        },
+        {
+          "name": "Gewichtscategorie strijkijzer",
+          "value": "Lichtgewicht strijkijzer",
+          "tooltip": "De lichtste ijzers vind je bij stoomgeneratoren, omdat de tank daar los staat van het strijkijzer. Bij stoomstrijkijzers is de tank ingebouwd. Die zijn daardoor gemiddeld zwaarder.\n\n<=1kg is lichtgewicht\n1 t/m 1,5 kg is een normaal gewicht\n>1,5 kg is zwaar.\n\nBij stoomgeneratoren meten we het gewicht van het strijkijzer zonder water. Voor stoomstrijkijzers tonen we het gewicht van het strijkijzer met een gevulde watertank.",
+          "gold": false
+        },
+        {
+          "name": "Inhoud watertank",
+          "value": "2 l",
+          "tooltip": "Inhoud van de watertank in liters, gemeten tot aanduiding maximum niveau.",
+          "gold": false
+        },
+        {
+          "name": "Watertank verwijderbaar",
+          "value": "Ja",
+          "tooltip": "Bij stoomgeneratoren is vullen en legen van de watertank makkelijker als je de watertank kunt verwijderen.\n\nStoomstrijkijzers hebben nooit een verwijderbare watertank.",
+          "gold": false
+        },
+        {
+          "name": "Stoomhoeveelheid",
+          "tooltip": "De hoeveelheid stoom bepaalt voor een deel het strijkresultaat. Meer stoom maakt gladstrijken makkelijker. De stoomproductie wordt weergegeven in grammen waterdamp per minuut (g/min).\n\nStoomgeneratoren produceren meer stoom (gemiddeld 100 g/min) dan stoomstrijkijzers (gemiddeld 35 g/min) en strijken iets beter glad.\n\nDe stoomhoeveelheid telt in de testresultaten mee in het oordeel over 'Stoomproductie'. Maar de stoomproductie zelf weegt echter niet mee in het Testoordeel. Het gaat namelijk uiteindelijk om het werkelijke strijkresultaat, ongeacht de stoomproductie.",
+          "gold": true,
+          "displayValue": ""
+        },
+        {
+          "name": "Afmetingen (lxbxh)",
+          "value": "39,3 x 22 x 28,5 cm",
+          "tooltip": "Afmetingen lengte x breedte x hoogte, zoals gemeten in het testlab.",
+          "gold": false
+        }
+      ]
+    },
+    "attributes": null,
+    "predicates": null,
+    "shops": "2",
+    "highPrice": 224.93,
+    "variants": [
+      {
+        "kkId": "50860694",
+        "colorDescription": null,
+        "colorCodes": null
+      }
+    ],
+    "asset": {
+      "id": "v1737562036/productvergelijker/STOOMSTRIJK/ic18041-0877-00_00",
+      "src": "https://consumentenbond-res.cloudinary.com/image/upload/v1737562036/productvergelijker/STOOMSTRIJK/ic18041-0877-00_00.jpg",
+      "alt": null,
+      "type": "image",
+      "thumbnailUrl": null,
+      "previewUrl": null,
+      "originalUrl": null
+    },
+    "assets": null,
+    "specifications": null,
+    "variant": null,
+    "kkId": "50860694",
+    "productDealPrice": null,
+    "exclusivePrice": null,
+    "exclusiveShops": null,
+    "predicates_string": null,
+    "price": "€ 211,-",
+    "testresults": {
+      "rating": null,
+      "testDate": null,
+      "ratingDisplayValue": null,
+      "testDateDisplayValue": null,
+      "pros": null,
+      "cons": null,
+      "results": [
+        {
+          "title": "Gladstrijken",
+          "weight": null,
+          "score": null,
+          "tooltip": "We beoordelen hoe glad de stof wordt door twee keer over de stof heen en weer te bewegen. Een 10 betekent dat er dan geen kreukje meer te zien is. \n\nWe strijken met een robotstrijkarm, zodat elke stof op dezelfde manier wordt gestreken. We doen dat met 3 verschillende stoffen. Van elke stof strijken we 3 lappen. In totaal strijkt elk strijkijzer in de gladstrijktest dus 9 lappen stof."
+        },
+        {
+          "title": "Levensduur",
+          "weight": null,
+          "score": null,
+          "tooltip": "Bij lang gebruik kan kalkaanslag de stoomkanalen verstoppen. Het strijkijzer stoomt dan steeds minder goed. \n\nDaarom testen we hoe de strijkijzers met kalk omgaan.\nIn deze test staat het strijkijzer 252 uur volop stomend aan. Dat is net zo lang als bij 5 jaar elke week een uur strijken. We ontkalken het apparaat volgens de aanwijzingen in de handleiding. Elke 12 uur meten we hoe goed het strijkijzer nog stoomt. We stoppen de test als het strijkijzer stuk gaat. De beste apparaten stomen ook aan het einde van de test nog volop."
+        },
+        {
+          "title": "Gebruiksgemak",
+          "weight": null,
+          "score": null,
+          "tooltip": ""
+        },
+        {
+          "title": "Krasbestendigheid zool",
+          "weight": null,
+          "score": null,
+          "tooltip": "Een strijkzool met krassen strijkt minder goed glad. Met een krasbestendige zool strijk je langer glad. Zo heb je langer plezier van je strijkijzer."
+        },
+        {
+          "title": "Stoomproductie",
+          "weight": null,
+          "score": null,
+          "tooltip": "Voor stoomproductie testen we hoeveel stoom het strijkijzer per minuut produceert. We meten hoe snel de stoom op gang komt. En we meten hoe lang het weer duurt tot het strijkijzer voldoende is afgekoeld om het op te bergen.\n\nDit oordeel telt niet mee in het totale testoordeel."
+        }
+      ]
+    },
+    "is_kk_price": true,
+    "hasProductDeal": true,
+    "hasProductDealAndIsLowestPrice": true,
+    "priceAsNumber": 211,
+    "hasShops": true
+  }
+]
