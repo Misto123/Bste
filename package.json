@@ -11,8 +11,12 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy:cf": "npm run build && wrangler pages deploy dist --project-name=bste",
-    "deploy:workers": "wrangler deploy --config wrangler.toml"
+    "deploy:pages": "npm run build && wrangler pages deploy dist --project-name=bste",
+    "deploy:router": "wrangler deploy --config wrangler-worker.toml",
+    "deploy:admin": "wrangler deploy --config wrangler-admin.toml",
+    "deploy:all": "npm run deploy:pages && npm run deploy:router && npm run deploy:admin",
+    "logs:router": "wrangler tail bste-router",
+    "logs:admin": "wrangler tail bste-admin"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
