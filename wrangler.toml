@@ -1,9 +1,11 @@
 name = "bste-router"
 main = "workers/router.js"
 compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
 
 [env.production]
 vars = { PAGES_URL = "https://bste.pages.dev" }
+account_id = "461a686448dba495410aefba52b5123b"
 
 [[env.production.routes]]
 pattern = "*.nl/*"

@@ -1,0 +1,8 @@
+name = "bste-admin"
+main = "workers/admin.js"
+compatibility_date = "2024-01-01"
+account_id = "461a686448dba495410aefba52b5123b"
+
+[[kv_namespaces]]
+binding = "DOMAINS_KV"
+id = "b7c108ef3cbe4c5fb5b62f01388a2ed8"
