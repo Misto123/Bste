@@ -1,0 +1,13 @@
+name = "bste-router"
+main = "workers/router.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+vars = { PAGES_URL = "https://bste.pages.dev" }
+
+[[env.production.routes]]
+pattern = "*.nl/*"
+zone_name = "*.nl"
+
+[env.staging]
+vars = { PAGES_URL = "https://bste-staging.pages.dev" }

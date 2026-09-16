@@ -1,0 +1,168 @@
+---
+import Layout from '../layouts/Layout.astro';
+import translations from '../i18n/translations.json';
+import products from '../content/beste-wasdroogcombinatie/products.json';
+
+const t = translations.nl;
+---
+
+<Layout title="Beste Wasdroogcombinatie 2026" description="Volledige ranglijst van wasdroogcombinaties">
+  <!-- Header -->
+  <header class="bg-white border-b sticky top-0 z-50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <h1 class="text-2xl font-bold text-blue-600">De Test Experts!</h1>
+        <nav class="hidden md:flex gap-6">
+          <a href="#modellen" class="text-gray-700 hover:text-blue-600 transition">{t.nav.models}</a>
+          <a href="#kosten" class="text-gray-700 hover:text-blue-600 transition">{t.nav.costs}</a>
+          <a href="#merken" class="text-gray-700 hover:text-blue-600 transition">{t.nav.brands}</a>
+          <a href="#faq" class="text-gray-700 hover:text-blue-600 transition">{t.nav.faq}</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-blue-200 mb-4 text-sm uppercase tracking-wide">Testdata-overzicht, editie 2026</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">{t.hero.title}</h2>
+      <p class="text-xl text-blue-100 mb-8">{t.hero.subtitle}</p>
+      <a href="#modellen" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+        {t.hero.cta}
+      </a>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="bg-white py-12 border-b">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div>
+          <div class="text-4xl font-bold text-blue-600 mb-2">13</div>
+          <div class="text-gray-600">Modellen vergeleken</div>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-blue-600 mb-2">6.7</div>
+          <div class="text-gray-600">Gemiddelde score</div>
+        </div>
+        <div>
+          <div class="text-4xl font-bold text-blue-600 mb-2">8 jaar</div>
+          <div class="text-gray-600">Kostenanalyse</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Table -->
+  <section id="modellen" class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-gray-900">Alle wasdroogcombinaties op een rij</h2>
+      
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50 border-b">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.rank}</th>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.model}</th>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.score}</th>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.price}</th>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.washing}</th>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.drying}</th>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.review}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {products.map((product) => (
+                <tr class="hover:bg-gray-50 transition">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{product.rank}</td>
+                  <td class="px-6 py-4">
+                    <div class="flex items-center gap-3">
+                      {product.badge === 'beste-koop' && (
+                        <span class="bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">
+                          Beste Koop
+                        </span>
+                      )}
+                      <div>
+                        <div class="font-semibold text-gray-900">{product.brand}</div>
+                        <div class="text-sm text-gray-500">{product.model}</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4">
+                    <div class="flex items-center gap-2">
+                      <span class="text-2xl font-bold text-blue-600">{product.score}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-sm text-gray-900">€ {product.price}</td>
+                  <td class="px-6 py-4 text-sm text-gray-900">{product.washing}</td>
+                  <td class="px-6 py-4 text-sm text-gray-900">{product.drying}</td>
+                  <td class="px-6 py-4">
+                    <a href={product.url} target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                      Bekijk prijs →
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-gray-900">Veelgestelde vragen</h2>
+      <div class="space-y-4">
+        <details class="bg-white rounded-lg shadow-sm">
+          <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900">
+            Wat is in 2026 de beste wasdroogcombinatie?
+          </summary>
+          <div class="px-6 pb-4 text-gray-600">
+            Op basis van onze meting komt de Miele WTR860 WPM als sterkste model uit de analyse. 
+            Het model combineert een bovengemiddelde droogprestatie met relatief laag jaarverbruik.
+          </div>
+        </details>
+        <details class="bg-white rounded-lg shadow-sm">
+          <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900">
+            Zijn wasdroogcombinaties energiezuinig?
+          </summary>
+          <div class="px-6 pb-4 text-gray-600">
+            De meeste modellen gebruiken meer energie dan losse apparaten. Een warmtepompdroger 
+            is 60-70% zuiniger dan een combimachine voor drogen.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">De Test Experts!</h3>
+          <p class="text-gray-400 text-sm">Onafhankelijk analyseplatform voor consumentenelektronica in Nederland.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Navigatie</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="#modellen" class="hover:text-white transition">Ranglijst 2026</a></li>
+            <li><a href="#kosten" class="hover:text-white transition">Kostenanalyse</a></li>
+            <li><a href="#merken" class="hover:text-white transition">Merken</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Contact</h4>
+          <p class="text-sm text-gray-400">Keizersgracht 482<br>1017 EG Amsterdam</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
+        {t.footer.copyright} · {t.footer.disclaimer}
+      </div>
+    </div>
+  </footer>
+</Layout>

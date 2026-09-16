@@ -1,0 +1,34 @@
+{
+  "domains": [
+    {
+      "id": "beste-wasdroogcombinatie",
+      "domain": "bestewasdroogcombinatieconsumentenbond.nl",
+      "locale": "nl",
+      "category": "home-appliances",
+      "meta": {
+        "title": "Beste Wasdroogcombinatie Consumentenbond",
+        "description": "Alle testresultaten van wasdroogcombinaties",
+        "keywords": ["wasdroogcombinatie", "consumentenbond", "test"]
+      },
+      "theme": {
+        "primary": "#0066cc",
+        "secondary": "#00cc66"
+      }
+    },
+    {
+      "id": "example-domain-2",
+      "domain": "example2.nl",
+      "locale": "nl",
+      "category": "electronics",
+      "meta": {
+        "title": "Example Domain 2",
+        "description": "Another test domain",
+        "keywords": ["electronics", "test", "review"]
+      },
+      "theme": {
+        "primary": "#cc0066",
+        "secondary": "#6600cc"
+      }
+    }
+  ]
+}

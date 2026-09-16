@@ -1,0 +1,48 @@
+[
+  {
+    "id": "bosch-wnc254a0nl",
+    "rank": 1,
+    "brand": "Bosch",
+    "model": "WNC254A0NL",
+    "score": 6.9,
+    "price": 1049,
+    "washing": 7.5,
+    "drying": 5.4,
+    "combined": 6.6,
+    "usability": 6.8,
+    "energy": 612,
+    "cycletime": 318,
+    "badge": "beste-koop",
+    "url": "https://www.bemmelenkroon.nl/zoeken?q=Bosch%20WNC254A0NL"
+  },
+  {
+    "id": "siemens-wn54c2a0nl",
+    "rank": 2,
+    "brand": "Siemens",
+    "model": "WN54C2A0NL",
+    "score": 6.9,
+    "price": 977,
+    "washing": 7.5,
+    "drying": 5.4,
+    "combined": 6.6,
+    "usability": 6.8,
+    "energy": 612,
+    "cycletime": 318,
+    "url": "https://www.bol.com/nl/nl/s/?searchtext=Siemens%20WN54C2A0NL"
+  },
+  {
+    "id": "miele-wtr860wpm",
+    "rank": 7,
+    "brand": "Miele",
+    "model": "WTR860 WPM",
+    "score": 6.7,
+    "price": 2199,
+    "washing": 7.6,
+    "drying": 6.2,
+    "combined": 6.9,
+    "usability": 7.4,
+    "energy": 540,
+    "cycletime": 295,
+    "url": "https://www.coolblue.nl/zoeken?query=Miele%20WTR860%20WPM"
+  }
+]

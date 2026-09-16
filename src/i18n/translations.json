@@ -1,0 +1,60 @@
+{
+  "nl": {
+    "nav": {
+      "models": "Modellen",
+      "costs": "Kosten",
+      "brands": "Merken",
+      "stats": "Statistieken",
+      "faq": "FAQ"
+    },
+    "hero": {
+      "title": "De volledige ranglijst 2026",
+      "subtitle": "Alle testresultaten op één plek",
+      "cta": "Bekijk ranglijst"
+    },
+    "table": {
+      "rank": "#",
+      "model": "Model",
+      "score": "Testoordeel",
+      "price": "Prijs",
+      "washing": "Wassen",
+      "drying": "Drogen",
+      "combined": "Gecombineerd",
+      "usability": "Gebruiksgemak",
+      "review": "Review"
+    },
+    "footer": {
+      "disclaimer": "Onafhankelijke vergelijking. Geen affiliate links.",
+      "copyright": "© 2026 De Test Experts!"
+    }
+  },
+  "en": {
+    "nav": {
+      "models": "Models",
+      "costs": "Costs",
+      "brands": "Brands",
+      "stats": "Statistics",
+      "faq": "FAQ"
+    },
+    "hero": {
+      "title": "Complete Rankings 2026",
+      "subtitle": "All test results in one place",
+      "cta": "View Rankings"
+    },
+    "table": {
+      "rank": "#",
+      "model": "Model",
+      "score": "Test Score",
+      "price": "Price",
+      "washing": "Washing",
+      "drying": "Drying",
+      "combined": "Combined",
+      "usability": "Usability",
+      "review": "Review"
+    },
+    "footer": {
+      "disclaimer": "Independent comparison. No affiliate links.",
+      "copyright": "© 2026 Test Experts!"
+    }
+  }
+}
