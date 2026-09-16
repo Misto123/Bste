@@ -13,13 +13,15 @@
       <div class="bg-white p-8 rounded-lg shadow-lg w-96">
         <h1 class="text-2xl font-bold mb-6 text-center">Bste Admin Panel</h1>
         <div class="mb-4">
-          <label class="block text-sm font-medium mb-2">Admin Secret</label>
+          <label class="block text-sm font-medium mb-2">Password</label>
           <input 
             type="password" 
             id="adminSecret" 
             class="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
-            placeholder="Enter admin secret"
+            placeholder="Enter password"
+            onkeypress="if(event.key==='Enter') login()"
           />
+          <p class="text-xs text-gray-500 mt-1">Hint: starts with 'r'</p>
         </div>
         <button 
           onclick="login()" 
@@ -36,33 +38,49 @@
       <nav class="bg-white shadow-sm">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 class="text-xl font-bold text-blue-600">Bste Admin</h1>
-          <button onclick="logout()" class="text-gray-600 hover:text-gray-900">Logout</button>
+          <div class="flex gap-4">
+            <button onclick="switchTab('domains')" id="tabDomains" class="px-4 py-2 rounded-lg bg-blue-100 text-blue-600 font-medium">Domains</button>
+            <button onclick="switchTab('affiliates')" id="tabAffiliates" class="px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100">Affiliate Links</button>
+            <button onclick="logout()" class="text-gray-600 hover:text-gray-900">Logout</button>
+          </div>
         </div>
       </nav>
 
       <div class="max-w-7xl mx-auto px-4 py-8">
-        <!-- Add Domain Button -->
-        <div class="mb-6 flex justify-between items-center">
-          <h2 class="text-2xl font-bold">Domains</h2>
-          <button 
-            onclick="showAddModal()" 
-            class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
-          >
-            + Add Domain
-          </button>
+        <!-- Domains Tab -->
+        <div id="domainsTab">
+          <div class="mb-6 flex justify-between items-center">
+            <h2 class="text-2xl font-bold">Domains</h2>
+            <button 
+              onclick="showAddDomainModal()" 
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+            >
+              + Add Domain
+            </button>
+          </div>
+          <div id="domainsList" class="space-y-4"></div>
         </div>
 
-        <!-- Domains List -->
-        <div id="domainsList" class="space-y-4">
-          <!-- Domains will be loaded here -->
+        <!-- Affiliates Tab -->
+        <div id="affiliatesTab" class="hidden">
+          <div class="mb-6 flex justify-between items-center">
+            <h2 class="text-2xl font-bold">Affiliate Links</h2>
+            <button 
+              onclick="showAddAffiliateModal()" 
+              class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
+            >
+              + Add Affiliate Link
+            </button>
+          </div>
+          <div id="affiliatesList" class="space-y-4"></div>
         </div>
       </div>
     </div>
 
-    <!-- Add/Edit Domain Modal -->
-    <div id="domainModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center">
+    <!-- Domain Modal -->
+    <div id="domainModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
       <div class="bg-white rounded-lg p-8 w-full max-w-2xl max-h-screen overflow-y-auto">
-        <h3 id="modalTitle" class="text-2xl font-bold mb-6">Add Domain</h3>
+        <h3 id="domainModalTitle" class="text-2xl font-bold mb-6">Add Domain</h3>
         
         <form id="domainForm" onsubmit="saveDomain(event)">
           <div class="space-y-4">
@@ -138,7 +156,109 @@
               </button>
               <button 
                 type="button" 
-                onclick="closeModal()" 
+                onclick="closeModal('domainModal')" 
+                class="flex-1 bg-gray-300 text-gray-700 py-2 rounded-lg hover:bg-gray-400"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Affiliate Link Modal -->
+    <div id="affiliateModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
+      <div class="bg-white rounded-lg p-8 w-full max-w-2xl max-h-screen overflow-y-auto">
+        <h3 id="affiliateModalTitle" class="text-2xl font-bold mb-6">Add Affiliate Link</h3>
+        
+        <form id="affiliateForm" onsubmit="saveAffiliateLink(event)">
+          <div class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium mb-2">Link ID *</label>
+              <input 
+                type="text" 
+                id="affiliateId" 
+                required
+                class="w-full px-3 py-2 border rounded-lg"
+                placeholder="e.g., bol-philips-steam"
+              />
+              <p class="text-xs text-gray-500 mt-1">Unique identifier for this link</p>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">Domain *</label>
+              <select id="affiliateDomain" required class="w-full px-3 py-2 border rounded-lg">
+                <option value="">Select domain...</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">Product/Page *</label>
+              <input 
+                type="text" 
+                id="affiliateProduct" 
+                required
+                class="w-full px-3 py-2 border rounded-lg"
+                placeholder="e.g., Philips DST2010 or Homepage"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">Target URL (Affiliate Link) *</label>
+              <input 
+                type="url" 
+                id="affiliateTargetUrl" 
+                required
+                class="w-full px-3 py-2 border rounded-lg"
+                placeholder="https://partner.bol.com/click/..."
+              />
+              <p class="text-xs text-gray-500 mt-1">Full affiliate URL with tracking parameters</p>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">Button Text</label>
+              <input 
+                type="text" 
+                id="affiliateButtonText" 
+                class="w-full px-3 py-2 border rounded-lg"
+                placeholder="e.g., Bekijk prijs"
+                value="Bekijk prijs"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium mb-2">Notes</label>
+              <textarea 
+                id="affiliateNotes" 
+                class="w-full px-3 py-2 border rounded-lg"
+                rows="2"
+                placeholder="Internal notes (not shown to users)"
+              ></textarea>
+            </div>
+
+            <div class="bg-blue-50 p-4 rounded-lg">
+              <p class="text-sm font-medium text-blue-900 mb-2">📋 Generated /out/ Link:</p>
+              <code id="generatedOutLink" class="text-xs text-blue-700 block bg-white p-2 rounded">
+                Will be: /out/{link-id}
+              </code>
+              <p class="text-xs text-gray-600 mt-2">
+                ✓ No-follow<br>
+                ✓ Target: _blank<br>
+                ✓ Opens in new tab
+              </p>
+            </div>
+
+            <div class="flex gap-4 pt-4">
+              <button 
+                type="submit" 
+                class="flex-1 bg-green-600 text-white py-2 rounded-lg hover:bg-green-700"
+              >
+                Save Affiliate Link
+              </button>
+              <button 
+                type="button" 
+                onclick="closeModal('affiliateModal')" 
                 class="flex-1 bg-gray-300 text-gray-700 py-2 rounded-lg hover:bg-gray-400"
               >
                 Cancel
@@ -154,23 +274,25 @@
     const API_BASE = 'https://bste-admin.contact-461.workers.dev/api';
     let adminSecret = '';
     let editingDomainId = null;
+    let editingAffiliateId = null;
+    let domains = [];
 
     function login() {
       adminSecret = document.getElementById('adminSecret').value;
       
-      // Test authentication
       fetch(`${API_BASE}/domains`, {
         headers: { 'Authorization': `Bearer ${adminSecret}` }
       })
       .then(res => {
         if (res.status === 401) {
-          document.getElementById('loginError').textContent = 'Invalid admin secret';
+          document.getElementById('loginError').textContent = 'Invalid password';
           document.getElementById('loginError').classList.remove('hidden');
           return;
         }
         document.getElementById('loginScreen').classList.add('hidden');
         document.getElementById('dashboard').classList.remove('hidden');
         loadDomains();
+        loadAffiliateLinks();
       })
       .catch(err => {
         document.getElementById('loginError').textContent = 'Connection error';
@@ -185,14 +307,33 @@
       document.getElementById('adminSecret').value = '';
     }
 
+    function switchTab(tab) {
+      if (tab === 'domains') {
+        document.getElementById('domainsTab').classList.remove('hidden');
+        document.getElementById('affiliatesTab').classList.add('hidden');
+        document.getElementById('tabDomains').classList.add('bg-blue-100', 'text-blue-600', 'font-medium');
+        document.getElementById('tabDomains').classList.remove('text-gray-600', 'hover:bg-gray-100');
+        document.getElementById('tabAffiliates').classList.remove('bg-blue-100', 'text-blue-600', 'font-medium');
+        document.getElementById('tabAffiliates').classList.add('text-gray-600', 'hover:bg-gray-100');
+      } else {
+        document.getElementById('domainsTab').classList.add('hidden');
+        document.getElementById('affiliatesTab').classList.remove('hidden');
+        document.getElementById('tabAffiliates').classList.add('bg-blue-100', 'text-blue-600', 'font-medium');
+        document.getElementById('tabAffiliates').classList.remove('text-gray-600', 'hover:bg-gray-100');
+        document.getElementById('tabDomains').classList.remove('bg-blue-100', 'text-blue-600', 'font-medium');
+        document.getElementById('tabDomains').classList.add('text-gray-600', 'hover:bg-gray-100');
+      }
+    }
+
     function loadDomains() {
       fetch(`${API_BASE}/domains`, {
         headers: { 'Authorization': `Bearer ${adminSecret}` }
       })
       .then(res => res.json())
-      .then(domains => {
+      .then(data => {
+        domains = data || [];
         const list = document.getElementById('domainsList');
-        if (!domains || domains.length === 0) {
+        if (domains.length === 0) {
           list.innerHTML = '<div class="bg-white p-8 rounded-lg text-center text-gray-500">No domains configured yet</div>';
           return;
         }
@@ -207,7 +348,7 @@
               </div>
               <div class="flex gap-2">
                 <button 
-                  onclick='editDomain(${JSON.stringify(domain)})' 
+                  onclick='editDomain(${JSON.stringify(domain).replace(/'/g, "&apos;")})' 
                   class="px-3 py-1 bg-blue-100 text-blue-600 rounded hover:bg-blue-200"
                 >
                   Edit
@@ -222,19 +363,78 @@
             </div>
           </div>
         `).join('');
+
+        // Update affiliate domain dropdown
+        updateAffiliateDomainDropdown();
       });
     }
 
-    function showAddModal() {
+    function updateAffiliateDomainDropdown() {
+      const select = document.getElementById('affiliateDomain');
+      select.innerHTML = '<option value="">Select domain...</option>' + 
+        domains.map(d => `<option value="${d.domain}">${d.domain}</option>`).join('');
+    }
+
+    function loadAffiliateLinks() {
+      fetch(`${API_BASE}/affiliate-links`, {
+        headers: { 'Authorization': `Bearer ${adminSecret}` }
+      })
+      .then(res => res.json())
+      .then(links => {
+        const list = document.getElementById('affiliatesList');
+        if (!links || links.length === 0) {
+          list.innerHTML = '<div class="bg-white p-8 rounded-lg text-center text-gray-500">No affiliate links configured yet</div>';
+          return;
+        }
+
+        list.innerHTML = links.map(link => `
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <div class="flex justify-between items-start">
+              <div class="flex-1">
+                <h3 class="text-lg font-bold text-gray-900">${link.product || link.id}</h3>
+                <p class="text-sm text-gray-500 mt-1">${link.domain}</p>
+                <p class="text-sm text-blue-600 mt-2 font-mono">/out/${link.id}</p>
+                <p class="text-xs text-gray-400 mt-1 truncate">${link.targetUrl}</p>
+                ${link.clicks !== undefined ? `<p class="text-xs text-gray-500 mt-2">📊 Clicks: ${link.clicks}</p>` : ''}
+              </div>
+              <div class="flex gap-2">
+                <button 
+                  onclick='editAffiliateLink(${JSON.stringify(link).replace(/'/g, "&apos;")})' 
+                  class="px-3 py-1 bg-green-100 text-green-600 rounded hover:bg-green-200"
+                >
+                  Edit
+                </button>
+                <button 
+                  onclick="deleteAffiliateLink('${link.id}')" 
+                  class="px-3 py-1 bg-red-100 text-red-600 rounded hover:bg-red-200"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      });
+    }
+
+    function showAddDomainModal() {
       editingDomainId = null;
-      document.getElementById('modalTitle').textContent = 'Add Domain';
+      document.getElementById('domainModalTitle').textContent = 'Add Domain';
       document.getElementById('domainForm').reset();
       document.getElementById('domainModal').classList.remove('hidden');
     }
 
+    function showAddAffiliateModal() {
+      editingAffiliateId = null;
+      document.getElementById('affiliateModalTitle').textContent = 'Add Affiliate Link';
+      document.getElementById('affiliateForm').reset();
+      document.getElementById('affiliateModal').classList.remove('hidden');
+      document.getElementById('generatedOutLink').textContent = 'Will be: /out/{link-id}';
+    }
+
     function editDomain(domain) {
       editingDomainId = domain.id;
-      document.getElementById('modalTitle').textContent = 'Edit Domain';
+      document.getElementById('domainModalTitle').textContent = 'Edit Domain';
       document.getElementById('domainId').value = domain.id;
       document.getElementById('domainName').value = domain.domain;
       document.getElementById('domainLocale').value = domain.locale;
@@ -244,9 +444,23 @@
       document.getElementById('domainModal').classList.remove('hidden');
     }
 
-    function closeModal() {
-      document.getElementById('domainModal').classList.add('hidden');
+    function editAffiliateLink(link) {
+      editingAffiliateId = link.id;
+      document.getElementById('affiliateModalTitle').textContent = 'Edit Affiliate Link';
+      document.getElementById('affiliateId').value = link.id;
+      document.getElementById('affiliateDomain').value = link.domain;
+      document.getElementById('affiliateProduct').value = link.product || '';
+      document.getElementById('affiliateTargetUrl').value = link.targetUrl;
+      document.getElementById('affiliateButtonText').value = link.buttonText || 'Bekijk prijs';
+      document.getElementById('affiliateNotes').value = link.notes || '';
+      document.getElementById('generatedOutLink').textContent = `/out/${link.id}`;
+      document.getElementById('affiliateModal').classList.remove('hidden');
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.add('hidden');
       editingDomainId = null;
+      editingAffiliateId = null;
     }
 
     function saveDomain(e) {
@@ -279,10 +493,44 @@
       })
       .then(res => res.json())
       .then(result => {
-        closeModal();
+        closeModal('domainModal');
         loadDomains();
       })
       .catch(err => alert('Error saving domain'));
+    }
+
+    function saveAffiliateLink(e) {
+      e.preventDefault();
+      
+      const data = {
+        id: document.getElementById('affiliateId').value,
+        domain: document.getElementById('affiliateDomain').value,
+        product: document.getElementById('affiliateProduct').value,
+        targetUrl: document.getElementById('affiliateTargetUrl').value,
+        buttonText: document.getElementById('affiliateButtonText').value,
+        notes: document.getElementById('affiliateNotes').value
+      };
+
+      const url = editingAffiliateId 
+        ? `${API_BASE}/affiliate-links/${editingAffiliateId}`
+        : `${API_BASE}/affiliate-links`;
+      
+      const method = editingAffiliateId ? 'PUT' : 'POST';
+
+      fetch(url, {
+        method,
+        headers: {
+          'Authorization': `Bearer ${adminSecret}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+      .then(res => res.json())
+      .then(result => {
+        closeModal('affiliateModal');
+        loadAffiliateLinks();
+      })
+      .catch(err => alert('Error saving affiliate link'));
     }
 
     function deleteDomain(id) {
@@ -295,6 +543,28 @@
       .then(() => loadDomains())
       .catch(err => alert('Error deleting domain'));
     }
+
+    function deleteAffiliateLink(id) {
+      if (!confirm('Are you sure you want to delete this affiliate link?')) return;
+
+      fetch(`${API_BASE}/affiliate-links/${id}`, {
+        method: 'DELETE',
+        headers: { 'Authorization': `Bearer ${adminSecret}` }
+      })
+      .then(() => loadAffiliateLinks())
+      .catch(err => alert('Error deleting affiliate link'));
+    }
+
+    // Update generated link preview
+    document.addEventListener('DOMContentLoaded', () => {
+      const idInput = document.getElementById('affiliateId');
+      if (idInput) {
+        idInput.addEventListener('input', (e) => {
+          const id = e.target.value;
+          document.getElementById('generatedOutLink').textContent = id ? `/out/${id}` : 'Will be: /out/{link-id}';
+        });
+      }
+    });
   </script>
 </body>
 </html>

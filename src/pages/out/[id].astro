@@ -1,0 +1,48 @@
+---
+// /out/[id].astro - Redirect handler for affiliate links
+// Handles /out/{link-id} → affiliate URL with no-follow
+
+export async function getStaticPaths() {
+  // This will be generated at build time
+  // For now, return empty - we'll handle dynamically via middleware
+  return [];
+}
+
+const { id } = Astro.params;
+
+// Fetch affiliate link from API
+const API_BASE = 'https://bste-admin.contact-461.workers.dev/api';
+
+try {
+  const response = await fetch(`${API_BASE}/affiliate-links`);
+  const links = await response.json();
+  
+  const link = links.find((l: any) => l.id === id);
+  
+  if (link) {
+    // Track click (increment counter)
+    // We'll do this async, don't wait for it
+    fetch(`${API_BASE}/affiliate-links/${id}/click`, { method: 'POST' }).catch(() => {});
+    
+    // Redirect to affiliate URL
+    return Astro.redirect(link.targetUrl, 302);
+  }
+} catch (error) {
+  console.error('Error fetching affiliate link:', error);
+}
+
+// If link not found, redirect to homepage
+return Astro.redirect('/', 302);
+---
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
