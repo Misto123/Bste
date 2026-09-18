@@ -50,10 +50,10 @@ const topProduct = products[0];
             <span>Testdata-overzicht, editie 2026</span>
           </div>
           <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            {domainConfig.category_nl} Consumentenbond: de volledige ranglijst 2026
+            {domainConfig.category_nl || domainConfig.category} Consumentenbond: de volledige ranglijst 2026
           </h1>
           <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-            Wij verzamelen de officiële testresultaten van de Consumentenbond voor alle geteste {domainConfig.category_nl.toLowerCase()} en presenteren ze in één doorzoekbaar overzicht.
+            Wij verzamelen de officiële testresultaten van de Consumentenbond voor alle geteste {(domainConfig.category_nl || domainConfig.category || '').toLowerCase()} en presenteren ze in één doorzoekbaar overzicht.
           </p>
         </div>
 
@@ -122,7 +122,7 @@ const topProduct = products[0];
 
       <!-- Full Comparison Table -->
       <div id="modellen" class="mb-12">
-        <h2 class="text-3xl font-bold mb-6">Alle {products.length} {domainConfig.category_nl.toLowerCase()} op een rij</h2>
+        <h2 class="text-3xl font-bold mb-6">Alle {products.length} {(domainConfig.category_nl || domainConfig.category || '').toLowerCase()} op een rij</h2>
         
         <div class="bg-white rounded-lg shadow-sm overflow-hidden">
           <div class="overflow-x-auto">
@@ -192,7 +192,7 @@ const topProduct = products[0];
         <h2 class="text-3xl font-bold mb-6">Veelgestelde vragen</h2>
         <div class="space-y-4">
           <div class="bg-white rounded-lg p-6 shadow-sm">
-            <h3 class="text-xl font-bold mb-2">Wat is de beste {domainConfig.category_nl.toLowerCase()} van 2026?</h3>
+            <h3 class="text-xl font-bold mb-2">Wat is de beste {(domainConfig.category_nl || domainConfig.category || '').toLowerCase()} van 2026?</h3>
             <p class="text-gray-700">
               Op basis van de Consumentenbond testresultaten komt de {topProduct?.header?.brand} {topProduct?.header?.type} als beste uit de test met een testoordeel van {topProduct?.testresults?.ratingDisplayValue || 'N/A'}.
             </p>
@@ -223,7 +223,7 @@ const topProduct = products[0];
           <div>
             <div class="text-xl font-bold mb-4">De Test Experts!</div>
             <p class="text-gray-400 text-sm">
-              Onafhankelijk analyseplatform voor {domainConfig.category_nl.toLowerCase()} in Nederland.
+              Onafhankelijk analyseplatform voor {(domainConfig.category_nl || domainConfig.category || '').toLowerCase()} in Nederland.
             </p>
           </div>
           <div>
