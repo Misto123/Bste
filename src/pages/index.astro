@@ -1,168 +1,259 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import translations from '../i18n/translations.json';
-import products from '../content/beste-wasdroogcombinatie/products.json';
 
-const t = translations.nl;
+// Get domain from URL or default to first domain
+const currentDomain = Astro.url.hostname;
+
+// Load domain config
+import domainsConfig from '../config/domains.json';
+const domainConfig = domainsConfig.domains.find(d => d.domain === currentDomain) || domainsConfig.domains[0];
+
+// Load products for this domain
+let products = [];
+try {
+  const productData = await import(`../content/${domainConfig.id}/products.json`);
+  products = productData.default || [];
+} catch (e) {
+  console.error('Error loading products:', e);
+}
+
+// Sort by rank or score
+products.sort((a, b) => (a.rank || 0) - (b.rank || 0));
+
+const topProduct = products[0];
 ---
 
-<Layout title="Beste Wasdroogcombinatie 2026" description="Volledige ranglijst van wasdroogcombinaties">
-  <!-- Header -->
-  <header class="bg-white border-b sticky top-0 z-50 shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 py-4">
-      <div class="flex items-center justify-between">
-        <h1 class="text-2xl font-bold text-blue-600">De Test Experts!</h1>
-        <nav class="hidden md:flex gap-6">
-          <a href="#modellen" class="text-gray-700 hover:text-blue-600 transition">{t.nav.models}</a>
-          <a href="#kosten" class="text-gray-700 hover:text-blue-600 transition">{t.nav.costs}</a>
-          <a href="#merken" class="text-gray-700 hover:text-blue-600 transition">{t.nav.brands}</a>
-          <a href="#faq" class="text-gray-700 hover:text-blue-600 transition">{t.nav.faq}</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
-    <div class="max-w-7xl mx-auto px-4 text-center">
-      <p class="text-blue-200 mb-4 text-sm uppercase tracking-wide">Testdata-overzicht, editie 2026</p>
-      <h2 class="text-4xl md:text-5xl font-bold mb-4">{t.hero.title}</h2>
-      <p class="text-xl text-blue-100 mb-8">{t.hero.subtitle}</p>
-      <a href="#modellen" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-        {t.hero.cta}
-      </a>
-    </div>
-  </section>
-
-  <!-- Stats Bar -->
-  <section class="bg-white py-12 border-b">
-    <div class="max-w-7xl mx-auto px-4">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-        <div>
-          <div class="text-4xl font-bold text-blue-600 mb-2">13</div>
-          <div class="text-gray-600">Modellen vergeleken</div>
-        </div>
-        <div>
-          <div class="text-4xl font-bold text-blue-600 mb-2">6.7</div>
-          <div class="text-gray-600">Gemiddelde score</div>
-        </div>
-        <div>
-          <div class="text-4xl font-bold text-blue-600 mb-2">8 jaar</div>
-          <div class="text-gray-600">Kostenanalyse</div>
+<Layout title={domainConfig.meta?.title || domainConfig.domain}>
+  <div class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 py-4">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <div class="text-2xl font-bold text-blue-600">De Test Experts!</div>
+          </div>
+          <div class="hidden md:flex gap-6 text-sm">
+            <a href="#modellen" class="text-gray-600 hover:text-gray-900">Modellen</a>
+            <a href="#kosten" class="text-gray-600 hover:text-gray-900">Kosten</a>
+            <a href="#merken" class="text-gray-600 hover:text-gray-900">Merken</a>
+            <a href="#faq" class="text-gray-600 hover:text-gray-900">FAQ</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- Products Table -->
-  <section id="modellen" class="py-16">
-    <div class="max-w-7xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-8 text-gray-900">Alle wasdroogcombinaties op een rij</h2>
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-b from-blue-50 to-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm mb-4">
+            <span>Testdata-overzicht, editie 2026</span>
+          </div>
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {domainConfig.category_nl} Consumentenbond: de volledige ranglijst 2026
+          </h1>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            Wij verzamelen de officiële testresultaten van de Consumentenbond voor alle geteste {domainConfig.category_nl.toLowerCase()} en presenteren ze in één doorzoekbaar overzicht.
+          </p>
+        </div>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
+          <div class="bg-white p-4 rounded-lg text-center">
+            <div class="text-3xl font-bold text-blue-600">{products.length}</div>
+            <div class="text-sm text-gray-600">Modellen</div>
+          </div>
+          <div class="bg-white p-4 rounded-lg text-center">
+            <div class="text-3xl font-bold text-blue-600">2026</div>
+            <div class="text-sm text-gray-600">Editie</div>
+          </div>
+          <div class="bg-white p-4 rounded-lg text-center">
+            <div class="text-3xl font-bold text-blue-600">✓</div>
+            <div class="text-sm text-gray-600">Onafhankelijk</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 py-12">
       
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-        <div class="overflow-x-auto">
-          <table class="w-full">
-            <thead class="bg-gray-50 border-b">
-              <tr>
-                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.rank}</th>
-                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.model}</th>
-                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.score}</th>
-                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.price}</th>
-                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.washing}</th>
-                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.drying}</th>
-                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t.table.review}</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              {products.map((product) => (
-                <tr class="hover:bg-gray-50 transition">
-                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{product.rank}</td>
-                  <td class="px-6 py-4">
-                    <div class="flex items-center gap-3">
-                      {product.badge === 'beste-koop' && (
-                        <span class="bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">
-                          Beste Koop
-                        </span>
-                      )}
-                      <div>
-                        <div class="font-semibold text-gray-900">{product.brand}</div>
-                        <div class="text-sm text-gray-500">{product.model}</div>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="px-6 py-4">
-                    <div class="flex items-center gap-2">
-                      <span class="text-2xl font-bold text-blue-600">{product.score}</span>
-                    </div>
-                  </td>
-                  <td class="px-6 py-4 text-sm text-gray-900">€ {product.price}</td>
-                  <td class="px-6 py-4 text-sm text-gray-900">{product.washing}</td>
-                  <td class="px-6 py-4 text-sm text-gray-900">{product.drying}</td>
-                  <td class="px-6 py-4">
-                    <a href={product.url} target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
-                      Bekijk prijs →
-                    </a>
-                  </td>
+      <!-- Top Pick Card -->
+      {topProduct && (
+        <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8 mb-12 border-2 border-green-200">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="bg-green-500 text-white px-4 py-2 rounded-full font-bold text-sm">
+              🏆 Beste Koop
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h2 class="text-3xl font-bold mb-2">{topProduct.header?.brand} {topProduct.header?.type}</h2>
+              <div class="text-5xl font-bold text-green-600 mb-4">
+                {topProduct.testresults?.ratingDisplayValue || 'N/A'}
+              </div>
+              <p class="text-gray-700 mb-6">
+                {topProduct.summary?.description || 'Top getest product in deze categorie.'}
+              </p>
+              <div class="flex gap-4">
+                <a 
+                  href={`/out/top-pick-${domainConfig.id}`}
+                  target="_blank"
+                  rel="nofollow"
+                  class="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 font-bold"
+                >
+                  Bekijk prijs →
+                </a>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div class="bg-white rounded-lg p-4">
+                <div class="text-sm text-gray-600">Prijs</div>
+                <div class="text-2xl font-bold">{topProduct.price || 'N/A'}</div>
+              </div>
+              <div class="bg-white rounded-lg p-4">
+                <div class="text-sm text-gray-600">Testoordeel</div>
+                <div class="text-2xl font-bold text-green-600">{topProduct.testresults?.ratingDisplayValue || 'N/A'}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <!-- Full Comparison Table -->
+      <div id="modellen" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6">Alle {products.length} {domainConfig.category_nl.toLowerCase()} op een rij</h2>
+        
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead class="bg-gray-50 border-b">
+                <tr>
+                  <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">#</th>
+                  <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">Model</th>
+                  <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">Testoordeel</th>
+                  <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">Prijs</th>
+                  <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">Actie</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="py-16 bg-gray-50">
-    <div class="max-w-4xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-8 text-gray-900">Veelgestelde vragen</h2>
-      <div class="space-y-4">
-        <details class="bg-white rounded-lg shadow-sm">
-          <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900">
-            Wat is in 2026 de beste wasdroogcombinatie?
-          </summary>
-          <div class="px-6 pb-4 text-gray-600">
-            Op basis van onze meting komt de Miele WTR860 WPM als sterkste model uit de analyse. 
-            Het model combineert een bovengemiddelde droogprestatie met relatief laag jaarverbruik.
+              </thead>
+              <tbody class="divide-y divide-gray-100">
+                {products.map((product, index) => (
+                  <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="px-6 py-4 text-gray-900 font-bold">{index + 1}</td>
+                    <td class="px-6 py-4">
+                      <div class="flex items-center gap-3">
+                        {product.asset?.src && (
+                          <img 
+                            src={product.asset.src} 
+                            alt={product.header?.brand}
+                            class="w-16 h-16 object-contain"
+                          />
+                        )}
+                        <div>
+                          <div class="font-bold text-gray-900">
+                            {product.header?.brand}
+                          </div>
+                          <div class="text-sm text-gray-600">
+                            {product.header?.type}
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-6 py-4">
+                      <div class="text-2xl font-bold text-blue-600">
+                        {product.testresults?.ratingDisplayValue || 'N/A'}
+                      </div>
+                    </td>
+                    <td class="px-6 py-4">
+                      <div class="font-bold text-gray-900">
+                        {product.price || 'N/A'}
+                      </div>
+                    </td>
+                    <td class="px-6 py-4">
+                      <a 
+                        href={`/out/${domainConfig.id}-${product.id || index}`}
+                        target="_blank"
+                        rel="nofollow"
+                        class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 text-sm font-medium"
+                      >
+                        Bekijk prijs →
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
-        </details>
-        <details class="bg-white rounded-lg shadow-sm">
-          <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900">
-            Zijn wasdroogcombinaties energiezuinig?
-          </summary>
-          <div class="px-6 pb-4 text-gray-600">
-            De meeste modellen gebruiken meer energie dan losse apparaten. Een warmtepompdroger 
-            is 60-70% zuiniger dan een combimachine voor drogen.
-          </div>
-        </details>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-12">
-    <div class="max-w-7xl mx-auto px-4">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-        <div>
-          <h3 class="text-xl font-bold mb-4">De Test Experts!</h3>
-          <p class="text-gray-400 text-sm">Onafhankelijk analyseplatform voor consumentenelektronica in Nederland.</p>
-        </div>
-        <div>
-          <h4 class="font-semibold mb-4">Navigatie</h4>
-          <ul class="space-y-2 text-sm text-gray-400">
-            <li><a href="#modellen" class="hover:text-white transition">Ranglijst 2026</a></li>
-            <li><a href="#kosten" class="hover:text-white transition">Kostenanalyse</a></li>
-            <li><a href="#merken" class="hover:text-white transition">Merken</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="font-semibold mb-4">Contact</h4>
-          <p class="text-sm text-gray-400">Keizersgracht 482<br>1017 EG Amsterdam</p>
+      <!-- FAQ Section -->
+      <div id="faq" class="mb-12">
+        <h2 class="text-3xl font-bold mb-6">Veelgestelde vragen</h2>
+        <div class="space-y-4">
+          <div class="bg-white rounded-lg p-6 shadow-sm">
+            <h3 class="text-xl font-bold mb-2">Wat is de beste {domainConfig.category_nl.toLowerCase()} van 2026?</h3>
+            <p class="text-gray-700">
+              Op basis van de Consumentenbond testresultaten komt de {topProduct?.header?.brand} {topProduct?.header?.type} als beste uit de test met een testoordeel van {topProduct?.testresults?.ratingDisplayValue || 'N/A'}.
+            </p>
+          </div>
+          
+          <div class="bg-white rounded-lg p-6 shadow-sm">
+            <h3 class="text-xl font-bold mb-2">Hoe vaak worden de testresultaten bijgewerkt?</h3>
+            <p class="text-gray-700">
+              Wij updaten deze vergelijking maandelijks met de nieuwste testresultaten van de Consumentenbond.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 shadow-sm">
+            <h3 class="text-xl font-bold mb-2">Zijn jullie onderdeel van de Consumentenbond?</h3>
+            <p class="text-gray-700">
+              Nee, De Test Experts! is onafhankelijk. Wij verzamelen publiek beschikbare testresultaten en presenteren ze overzichtelijk.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-        {t.footer.copyright} · {t.footer.disclaimer}
-      </div>
+
     </div>
-  </footer>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <div class="text-xl font-bold mb-4">De Test Experts!</div>
+            <p class="text-gray-400 text-sm">
+              Onafhankelijk analyseplatform voor {domainConfig.category_nl.toLowerCase()} in Nederland.
+            </p>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Navigatie</h3>
+            <div class="space-y-2 text-sm">
+              <a href="#modellen" class="block text-gray-400 hover:text-white">Ranglijst</a>
+              <a href="#kosten" class="block text-gray-400 hover:text-white">Kosten</a>
+              <a href="#merken" class="block text-gray-400 hover:text-white">Merken</a>
+              <a href="#faq" class="block text-gray-400 hover:text-white">FAQ</a>
+            </div>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Contact</h3>
+            <div class="space-y-2 text-sm text-gray-400">
+              <div>Keizersgracht 482</div>
+              <div>1017 EG Amsterdam</div>
+              <div>redactie@testexperts.nl</div>
+            </div>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Databron</h3>
+            <p class="text-sm text-gray-400">
+              Alle testdata is eigendom van Consumentenbond.nl
+            </p>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
+          © 2026 De Test Experts! B.V. · Laatste update: {new Date().toLocaleDateString('nl-NL')}
+        </div>
+      </div>
+    </footer>
+  </div>
 </Layout>
