@@ -23,6 +23,9 @@ const topProduct = products[0];
 
 const categoryName = domainConfig.category_nl || domainConfig.category || 'producten';
 const currentMonth = new Date().toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' });
+
+// Serialize products for JavaScript
+const productsJson = JSON.stringify(products);
 ---
 
 <Layout title={domainConfig.meta?.title || domainConfig.domain}>
@@ -109,9 +112,58 @@ const currentMonth = new Date().toLocaleDateString('nl-NL', { month: 'long', yea
           <h2 class="font-display text-2xl text-ink md:text-3xl mb-2">
             Alle {products.length} {categoryName.toLowerCase()} op een rij
           </h2>
-          <p class="text-xs text-muted-foreground">
+          <p class="text-xs text-muted-foreground mb-6">
             Sorteer en filter direct in de tabel
           </p>
+        </div>
+
+        <!-- Filter/Sort Controls -->
+        <div class="mb-6 grid gap-4 md:grid-cols-4">
+          <div>
+            <label class="block text-sm font-medium text-ink mb-2">Zoeken</label>
+            <input 
+              type="text" 
+              id="searchInput"
+              placeholder="Zoek model..."
+              class="w-full rounded-lg border border-border bg-card px-4 py-2 text-sm focus:ring-2 focus:ring-primary"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-ink mb-2">Sorteer op</label>
+            <select 
+              id="sortSelect"
+              class="w-full rounded-lg border border-border bg-card px-4 py-2 text-sm focus:ring-2 focus:ring-primary"
+            >
+              <option value="rank">Rangorde</option>
+              <option value="score-desc">Score (hoog-laag)</option>
+              <option value="score-asc">Score (laag-hoog)</option>
+              <option value="price-asc">Prijs (laag-hoog)</option>
+              <option value="price-desc">Prijs (hoog-laag)</option>
+              <option value="brand">Merk (A-Z)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-ink mb-2">Filter Merk</label>
+            <select 
+              id="brandFilter"
+              class="w-full rounded-lg border border-border bg-card px-4 py-2 text-sm focus:ring-2 focus:ring-primary"
+            >
+              <option value="">Alle merken</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-ink mb-2">Min. Score</label>
+            <select 
+              id="scoreFilter"
+              class="w-full rounded-lg border border-border bg-card px-4 py-2 text-sm focus:ring-2 focus:ring-primary"
+            >
+              <option value="0">Alle scores</option>
+              <option value="6">6.0+</option>
+              <option value="7">7.0+</option>
+              <option value="8">8.0+</option>
+              <option value="9">9.0+</option>
+            </select>
+          </div>
         </div>
 
         <!-- Products Table -->
@@ -127,56 +179,15 @@ const currentMonth = new Date().toLocaleDateString('nl-NL', { month: 'long', yea
                   <th class="px-4 py-3 text-left text-xs font-medium text-muted-foreground"></th>
                 </tr>
               </thead>
-              <tbody class="divide-y divide-border">
-                {products.map((product, index) => (
-                  <tr class="hover:bg-muted/50 transition-colors">
-                    <td class="px-4 py-4">
-                      <span class="font-display text-lg text-ink">{index + 1}</span>
-                    </td>
-                    <td class="px-4 py-4">
-                      <div class="flex items-center gap-3">
-                        {product.asset?.src && (
-                          <img 
-                            src={product.asset.src} 
-                            alt={product.header?.brand}
-                            class="h-12 w-12 object-contain"
-                          />
-                        )}
-                        <div>
-                          <div class="font-medium text-ink">
-                            {product.header?.brand}
-                          </div>
-                          <div class="text-sm text-muted-foreground">
-                            {product.header?.type}
-                          </div>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="px-4 py-4">
-                      <div class="font-display text-2xl text-primary">
-                        {product.testresults?.ratingDisplayValue || 'N/A'}
-                      </div>
-                    </td>
-                    <td class="px-4 py-4">
-                      <div class="font-medium text-ink">
-                        {product.price || 'N/A'}
-                      </div>
-                    </td>
-                    <td class="px-4 py-4">
-                      <a 
-                        href={`/out/${domainConfig.id}-${product.id || index}`}
-                        target="_blank"
-                        rel="nofollow"
-                        class="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
-                      >
-                        Bekijk →
-                      </a>
-                    </td>
-                  </tr>
-                ))}
+              <tbody id="productsTableBody" class="divide-y divide-border">
+                <!-- Products will be inserted by JavaScript -->
               </tbody>
             </table>
           </div>
+        </div>
+
+        <div id="noResults" class="hidden text-center py-12 text-muted-foreground">
+          Geen producten gevonden met deze filters.
         </div>
       </div>
 
@@ -294,4 +305,126 @@ const currentMonth = new Date().toLocaleDateString('nl-NL', { month: 'long', yea
       </div>
     </div>
   </footer>
+
+  <!-- JavaScript for filtering/sorting -->
+  <script define:vars={{ products: productsJson, domainId: domainConfig.id }}>
+    const allProducts = typeof products === 'string' ? JSON.parse(products) : products;
+    let filteredProducts = [...allProducts];
+
+    // Extract unique brands
+    const brands = [...new Set(allProducts.map(p => p.header?.brand).filter(Boolean))].sort();
+    const brandFilter = document.getElementById('brandFilter');
+    brands.forEach(brand => {
+      const option = document.createElement('option');
+      option.value = brand;
+      option.textContent = brand;
+      brandFilter.appendChild(option);
+    });
+
+    function parsePrice(priceStr) {
+      if (!priceStr) return 0;
+      return parseFloat(priceStr.replace(/[^0-9.,]/g, '').replace(',', '.')) || 0;
+    }
+
+    function parseScore(product) {
+      return parseFloat(product.testresults?.ratingDisplayValue) || 0;
+    }
+
+    function renderProducts() {
+      const tbody = document.getElementById('productsTableBody');
+      const noResults = document.getElementById('noResults');
+      
+      if (filteredProducts.length === 0) {
+        tbody.innerHTML = '';
+        noResults.classList.remove('hidden');
+        return;
+      }
+
+      noResults.classList.add('hidden');
+      tbody.innerHTML = filteredProducts.map((product, index) => `
+        <tr class="hover:bg-muted/50 transition-colors">
+          <td class="px-4 py-4">
+            <span class="font-display text-lg text-ink">${index + 1}</span>
+          </td>
+          <td class="px-4 py-4">
+            <div class="flex items-center gap-3">
+              ${product.asset?.src ? `<img src="${product.asset.src}" alt="${product.header?.brand}" class="h-12 w-12 object-contain" />` : ''}
+              <div>
+                <div class="font-medium text-ink">${product.header?.brand || ''}</div>
+                <div class="text-sm text-muted-foreground">${product.header?.type || ''}</div>
+              </div>
+            </div>
+          </td>
+          <td class="px-4 py-4">
+            <div class="font-display text-2xl text-primary">${product.testresults?.ratingDisplayValue || 'N/A'}</div>
+          </td>
+          <td class="px-4 py-4">
+            <div class="font-medium text-ink">${product.price || 'N/A'}</div>
+          </td>
+          <td class="px-4 py-4">
+            <a 
+              href="/out/${domainId}-${product.id || index}"
+              target="_blank"
+              rel="nofollow"
+              class="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
+            >
+              Bekijk →
+            </a>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function filterAndSort() {
+      const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+      const sortBy = document.getElementById('sortSelect').value;
+      const brandValue = document.getElementById('brandFilter').value;
+      const minScore = parseFloat(document.getElementById('scoreFilter').value);
+
+      // Filter
+      filteredProducts = allProducts.filter(product => {
+        const matchesSearch = !searchTerm || 
+          (product.header?.brand || '').toLowerCase().includes(searchTerm) ||
+          (product.header?.type || '').toLowerCase().includes(searchTerm);
+        
+        const matchesBrand = !brandValue || product.header?.brand === brandValue;
+        const matchesScore = parseScore(product) >= minScore;
+
+        return matchesSearch && matchesBrand && matchesScore;
+      });
+
+      // Sort
+      switch(sortBy) {
+        case 'rank':
+          filteredProducts.sort((a, b) => (a.rank || 0) - (b.rank || 0));
+          break;
+        case 'score-desc':
+          filteredProducts.sort((a, b) => parseScore(b) - parseScore(a));
+          break;
+        case 'score-asc':
+          filteredProducts.sort((a, b) => parseScore(a) - parseScore(b));
+          break;
+        case 'price-asc':
+          filteredProducts.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+          break;
+        case 'price-desc':
+          filteredProducts.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
+          break;
+        case 'brand':
+          filteredProducts.sort((a, b) => (a.header?.brand || '').localeCompare(b.header?.brand || ''));
+          break;
+      }
+
+      renderProducts();
+    }
+
+    // Event listeners
+    document.getElementById('searchInput').addEventListener('input', filterAndSort);
+    document.getElementById('sortSelect').addEventListener('change', filterAndSort);
+    document.getElementById('brandFilter').addEventListener('change', filterAndSort);
+    document.getElementById('scoreFilter').addEventListener('change', filterAndSort);
+
+    // Initial render
+    filterAndSort();
+  </script>
 </Layout>
