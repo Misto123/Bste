@@ -1,8 +1,5 @@
 ---
-import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
-import Sectionhead from "@components/sectionhead.astro";
-import { Icon } from "astro-icon/components";
 
 // Get domain from URL or default to first domain
 const currentDomain = Astro.url.hostname;
@@ -23,213 +20,278 @@ try {
 // Sort by rank or score
 products.sort((a, b) => (a.rank || 0) - (b.rank || 0));
 const topProduct = products[0];
+
+const categoryName = domainConfig.category_nl || domainConfig.category || 'producten';
+const currentMonth = new Date().toLocaleDateString('nl-NL', { month: 'long', year: 'numeric' });
 ---
 
 <Layout title={domainConfig.meta?.title || domainConfig.domain}>
-  <Container>
-    <!-- Hero Section -->
-    <div class="mt-16 md:mt-24">
-      <Sectionhead>
-        <Fragment slot="badge">Consumentenbond Test 2026</Fragment>
-        <Fragment slot="title">
-          {domainConfig.category_nl || domainConfig.category} Vergelijking
-        </Fragment>
-        <Fragment slot="desc">
-          Alle {products.length} geteste modellen uit de Consumentenbond test, overzichtelijk vergeleken.
-          Onafhankelijke scores, prijzen en specificaties.
-        </Fragment>
-      </Sectionhead>
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-sand to-background pb-12 pt-24">
+    <div class="container mx-auto max-w-5xl px-4">
+      <!-- Header -->
+      <div class="mb-12 text-center">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm text-muted-foreground">
+          <span>Testdata-overzicht, editie 2026</span>
+        </div>
+        <h1 class="font-display text-4xl text-ink md:text-6xl lg:text-7xl mb-6">
+          {categoryName} Consumentenbond: de volledige ranglijst 2026
+        </h1>
+        <p class="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+          Wij verzamelen de officiële testresultaten van de Consumentenbond voor alle geteste {categoryName.toLowerCase()} 
+          en presenteren ze in één doorzoekbaar overzicht.
+        </p>
 
-      <!-- Stats -->
-      <div class="grid md:grid-cols-3 gap-6 mt-12 mb-16">
-        <div class="bg-white rounded-xl p-6 shadow-sm text-center border border-gray-100">
-          <div class="text-4xl font-bold text-primary mb-2">{products.length}</div>
-          <div class="text-gray-600">Geteste modellen</div>
-        </div>
-        <div class="bg-white rounded-xl p-6 shadow-sm text-center border border-gray-100">
-          <div class="text-4xl font-bold text-primary mb-2">2026</div>
-          <div class="text-gray-600">Nieuwste editie</div>
-        </div>
-        <div class="bg-white rounded-xl p-6 shadow-sm text-center border border-gray-100">
-          <div class="text-4xl font-bold text-primary mb-2">✓</div>
-          <div class="text-gray-600">Onafhankelijk</div>
+        <!-- Quick Stats -->
+        <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
+          <div class="rounded-xl border border-border bg-card p-4">
+            <div class="font-display text-3xl text-primary mb-1">{products.length}</div>
+            <div class="text-xs text-muted-foreground">Geteste modellen</div>
+          </div>
+          <div class="rounded-xl border border-border bg-card p-4">
+            <div class="font-display text-3xl text-primary mb-1">2026</div>
+            <div class="text-xs text-muted-foreground">Nieuwste editie</div>
+          </div>
+          <div class="rounded-xl border border-border bg-card p-4">
+            <div class="font-display text-3xl text-primary mb-1">✓</div>
+            <div class="text-xs text-muted-foreground">Onafhankelijk</div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Top Pick -->
-    {topProduct && (
-      <div class="my-16">
-        <div class="bg-gradient-to-br from-green-50 to-primary/5 rounded-2xl p-8 border-2 border-green-200">
-          <div class="flex items-center gap-3 mb-6">
-            <span class="bg-green-500 text-white px-4 py-2 rounded-full font-bold text-sm">
-              🏆 Beste Koop 2026
-            </span>
+      <!-- Top Pick Card -->
+      {topProduct && (
+        <div class="mb-16 rounded-2xl border border-border bg-gradient-to-br from-primary/5 to-accent/5 p-8">
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground">
+            🏆 Beste Koop 2026
           </div>
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h2 class="text-3xl md:text-4xl font-bold mb-3">
+              <h2 class="font-display text-3xl text-ink mb-3 md:text-4xl">
                 {topProduct.header?.brand} {topProduct.header?.type}
               </h2>
-              <div class="flex items-baseline gap-2 mb-6">
-                <span class="text-6xl font-bold text-green-600">
+              <div class="mb-6 flex items-baseline gap-2">
+                <span class="font-display text-6xl text-primary">
                   {topProduct.testresults?.ratingDisplayValue || 'N/A'}
                 </span>
-                <span class="text-gray-600">/ 10</span>
+                <span class="text-muted-foreground">/ 10</span>
               </div>
-              <p class="text-gray-700 mb-6 leading-relaxed">
+              <p class="text-muted-foreground mb-6 leading-relaxed">
                 {topProduct.summary?.description || 'Beste getest in deze categorie volgens Consumentenbond.'}
               </p>
               <a 
                 href={`/out/top-${domainConfig.id}`}
                 target="_blank"
                 rel="nofollow"
-                class="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 font-bold transition"
+                class="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-medium text-primary-foreground transition hover:bg-primary/90"
               >
-                Bekijk beste prijs
-                <Icon name="bx:bx-right-arrow-alt" class="w-5 h-5" />
+                Bekijk beste prijs →
               </a>
             </div>
             <div class="space-y-4">
-              <div class="bg-white rounded-xl p-6 shadow-sm">
-                <div class="text-sm text-gray-600 mb-1">Prijs</div>
-                <div class="text-3xl font-bold text-gray-900">{topProduct.price || 'N/A'}</div>
+              <div class="rounded-xl border border-border bg-card p-6">
+                <div class="text-sm text-muted-foreground mb-2">Prijs</div>
+                <div class="font-display text-3xl text-ink">{topProduct.price || 'N/A'}</div>
               </div>
-              <div class="bg-white rounded-xl p-6 shadow-sm">
-                <div class="text-sm text-gray-600 mb-1">Shops</div>
-                <div class="text-3xl font-bold text-gray-900">{topProduct.shops || '1'}+ beschikbaar</div>
+              <div class="rounded-xl border border-border bg-card p-6">
+                <div class="text-sm text-muted-foreground mb-2">Testoordeel</div>
+                <div class="font-display text-3xl text-primary">{topProduct.testresults?.ratingDisplayValue || 'N/A'}</div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    )}
+      )}
 
-    <!-- Comparison Table -->
-    <div class="my-16">
-      <h2 class="text-3xl font-bold mb-8">Volledige vergelijking: alle {products.length} modellen</h2>
-      
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
-        <div class="overflow-x-auto">
-          <table class="w-full">
-            <thead>
-              <tr class="bg-gray-50 border-b border-gray-200">
-                <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">#</th>
-                <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">Model</th>
-                <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">Score</th>
-                <th class="px-6 py-4 text-left text-sm font-bold text-gray-900">Prijs</th>
-                <th class="px-6 py-4 text-left text-sm font-bold text-gray-900"></th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-100">
-              {products.map((product, index) => (
-                <tr class="hover:bg-gray-50 transition-colors">
-                  <td class="px-6 py-4">
-                    <span class="text-lg font-bold text-gray-900">{index + 1}</span>
-                  </td>
-                  <td class="px-6 py-4">
-                    <div class="flex items-center gap-4">
-                      {product.asset?.src && (
-                        <img 
-                          src={product.asset.src} 
-                          alt={product.header?.brand}
-                          class="w-16 h-16 object-contain"
-                        />
-                      )}
-                      <div>
-                        <div class="font-bold text-gray-900">
-                          {product.header?.brand}
-                        </div>
-                        <div class="text-sm text-gray-600">
-                          {product.header?.type}
+      <!-- Full Table Section -->
+      <div class="mb-16">
+        <div class="mb-8">
+          <p class="text-xs font-medium uppercase tracking-wide text-primary mb-2">Volledige ranglijst</p>
+          <h2 class="font-display text-2xl text-ink md:text-3xl mb-2">
+            Alle {products.length} {categoryName.toLowerCase()} op een rij
+          </h2>
+          <p class="text-xs text-muted-foreground">
+            Sorteer en filter direct in de tabel
+          </p>
+        </div>
+
+        <!-- Products Table -->
+        <div class="rounded-xl border border-border bg-card overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead class="border-b border-border bg-muted/50">
+                <tr>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-muted-foreground">#</th>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-muted-foreground">Model</th>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-muted-foreground">Score</th>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-muted-foreground">Prijs</th>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-muted-foreground"></th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                {products.map((product, index) => (
+                  <tr class="hover:bg-muted/50 transition-colors">
+                    <td class="px-4 py-4">
+                      <span class="font-display text-lg text-ink">{index + 1}</span>
+                    </td>
+                    <td class="px-4 py-4">
+                      <div class="flex items-center gap-3">
+                        {product.asset?.src && (
+                          <img 
+                            src={product.asset.src} 
+                            alt={product.header?.brand}
+                            class="h-12 w-12 object-contain"
+                          />
+                        )}
+                        <div>
+                          <div class="font-medium text-ink">
+                            {product.header?.brand}
+                          </div>
+                          <div class="text-sm text-muted-foreground">
+                            {product.header?.type}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </td>
-                  <td class="px-6 py-4">
-                    <div class="text-2xl font-bold text-primary">
-                      {product.testresults?.ratingDisplayValue || 'N/A'}
-                    </div>
-                  </td>
-                  <td class="px-6 py-4">
-                    <div class="font-bold text-gray-900">
-                      {product.price || 'N/A'}
-                    </div>
-                  </td>
-                  <td class="px-6 py-4">
-                    <a 
-                      href={`/out/${domainConfig.id}-${product.id || index}`}
-                      target="_blank"
-                      rel="nofollow"
-                      class="inline-flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition text-sm font-medium"
-                    >
-                      Bekijk prijs
-                      <Icon name="bx:bx-right-arrow-alt" class="w-4 h-4" />
-                    </a>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                    </td>
+                    <td class="px-4 py-4">
+                      <div class="font-display text-2xl text-primary">
+                        {product.testresults?.ratingDisplayValue || 'N/A'}
+                      </div>
+                    </td>
+                    <td class="px-4 py-4">
+                      <div class="font-medium text-ink">
+                        {product.price || 'N/A'}
+                      </div>
+                    </td>
+                    <td class="px-4 py-4">
+                      <a 
+                        href={`/out/${domainConfig.id}-${product.id || index}`}
+                        target="_blank"
+                        rel="nofollow"
+                        class="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
+                      >
+                        Bekijk →
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- FAQ Section -->
-    <div class="my-16">
-      <h2 class="text-3xl font-bold mb-8">Veelgestelde vragen</h2>
-      <div class="space-y-4">
-        <details class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-          <summary class="font-bold text-lg cursor-pointer text-gray-900">
-            Wat is de beste {(domainConfig.category_nl || domainConfig.category || '').toLowerCase()} van 2026?
-          </summary>
-          <p class="mt-4 text-gray-700 leading-relaxed">
-            Op basis van de Consumentenbond testresultaten komt de {topProduct?.header?.brand} {topProduct?.header?.type} 
-            als beste uit de test met een testoordeel van {topProduct?.testresults?.ratingDisplayValue || 'N/A'}.
-          </p>
-        </details>
+      <!-- FAQ Section -->
+      <div class="mb-16">
+        <div class="mb-8">
+          <p class="text-xs font-medium uppercase tracking-wide text-primary mb-2">Veelgesteld</p>
+          <h2 class="font-display text-2xl text-ink md:text-3xl">
+            Veelgestelde vragen
+          </h2>
+        </div>
+        <div class="space-y-4">
+          <details class="group rounded-xl border border-border bg-card p-6">
+            <summary class="cursor-pointer font-medium text-ink list-none">
+              <span class="flex items-center justify-between">
+                Wat is de beste {categoryName.toLowerCase()} van 2026?
+                <span class="text-muted-foreground">+</span>
+              </span>
+            </summary>
+            <p class="mt-4 text-muted-foreground leading-relaxed">
+              Op basis van de Consumentenbond testresultaten komt de {topProduct?.header?.brand} {topProduct?.header?.type} 
+              als beste uit de test met een testoordeel van {topProduct?.testresults?.ratingDisplayValue || 'N/A'}.
+            </p>
+          </details>
 
-        <details class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-          <summary class="font-bold text-lg cursor-pointer text-gray-900">
-            Hoe vaak worden de testresultaten bijgewerkt?
-          </summary>
-          <p class="mt-4 text-gray-700 leading-relaxed">
-            Wij updaten deze vergelijking maandelijks met de nieuwste testresultaten van de Consumentenbond.
-          </p>
-        </details>
+          <details class="group rounded-xl border border-border bg-card p-6">
+            <summary class="cursor-pointer font-medium text-ink list-none">
+              <span class="flex items-center justify-between">
+                Hoe vaak worden de testresultaten bijgewerkt?
+                <span class="text-muted-foreground">+</span>
+              </span>
+            </summary>
+            <p class="mt-4 text-muted-foreground leading-relaxed">
+              Wij updaten deze vergelijking maandelijks met de nieuwste testresultaten van de Consumentenbond.
+            </p>
+          </details>
 
-        <details class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-          <summary class="font-bold text-lg cursor-pointer text-gray-900">
-            Zijn jullie onderdeel van de Consumentenbond?
-          </summary>
-          <p class="mt-4 text-gray-700 leading-relaxed">
-            Nee, De Test Experts! is onafhankelijk. Wij verzamelen publiek beschikbare testresultaten 
-            en presenteren ze overzichtelijk.
-          </p>
-        </details>
+          <details class="group rounded-xl border border-border bg-card p-6">
+            <summary class="cursor-pointer font-medium text-ink list-none">
+              <span class="flex items-center justify-between">
+                Zijn jullie onderdeel van de Consumentenbond?
+                <span class="text-muted-foreground">+</span>
+              </span>
+            </summary>
+            <p class="mt-4 text-muted-foreground leading-relaxed">
+              Nee, De Test Experts! is onafhankelijk. Wij verzamelen publiek beschikbare testresultaten 
+              en presenteren ze overzichtelijk.
+            </p>
+          </details>
 
-        <details class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-          <summary class="font-bold text-lg cursor-pointer text-gray-900">
-            Waar komen de prijzen vandaan?
-          </summary>
-          <p class="mt-4 text-gray-700 leading-relaxed">
-            De prijzen zijn gebaseerd op publieke prijsinformatie en worden regelmatig geüpdatet. 
-            Klik op "Bekijk prijs" voor de actuele prijs bij onze partnerretailers.
-          </p>
-        </details>
+          <details class="group rounded-xl border border-border bg-card p-6">
+            <summary class="cursor-pointer font-medium text-ink list-none">
+              <span class="flex items-center justify-between">
+                Waar komen de prijzen vandaan?
+                <span class="text-muted-foreground">+</span>
+              </span>
+            </summary>
+            <p class="mt-4 text-muted-foreground leading-relaxed">
+              De prijzen zijn gebaseerd op publieke prijsinformatie en worden regelmatig geüpdatet. 
+              Klik op "Bekijk prijs" voor de actuele prijs bij onze partnerretailers.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="rounded-xl border border-border bg-muted/50 p-6">
+        <p class="text-sm text-muted-foreground leading-relaxed">
+          <strong class="text-ink">Onafhankelijke disclaimer:</strong> De Test Experts! is op geen enkele manier verbonden aan 
+          of een partner van de Consumentenbond. Wij vatten hun publiek beschikbare testresultaten samen en 
+          verwijzen voor het lidmaatschap en de volledige rapporten naar 
+          <a href="https://www.consumentenbond.nl/" target="_blank" rel="nofollow" class="text-primary hover:underline">
+            consumentenbond.nl
+          </a>.
+        </p>
       </div>
     </div>
+  </section>
 
-    <!-- Disclaimer -->
-    <div class="my-16 bg-gray-50 rounded-xl p-8 border border-gray-200">
-      <p class="text-sm text-gray-600 leading-relaxed">
-        <strong>Onafhankelijke disclaimer:</strong> De Test Experts! is op geen enkele manier verbonden aan 
-        of een partner van de Consumentenbond. Wij vatten hun publiek beschikbare testresultaten samen en 
-        verwijzen voor het lidmaatschap en de volledige rapporten naar 
-        <a href="https://www.consumentenbond.nl/" target="_blank" rel="nofollow" class="text-primary hover:underline">
-          consumentenbond.nl
-        </a>.
-      </p>
+  <!-- Footer -->
+  <footer class="border-t border-border bg-card py-12">
+    <div class="container mx-auto max-w-5xl px-4">
+      <div class="grid gap-8 md:grid-cols-4">
+        <div>
+          <div class="font-display text-xl text-ink mb-3">De Test Experts!</div>
+          <p class="text-sm text-muted-foreground">
+            Onafhankelijk analyseplatform voor {categoryName.toLowerCase()} in Nederland.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-medium text-ink mb-3">Navigatie</h3>
+          <div class="space-y-2 text-sm">
+            <a href="#" class="block text-muted-foreground hover:text-ink transition">Ranglijst</a>
+            <a href="#" class="block text-muted-foreground hover:text-ink transition">FAQ</a>
+            <a href="#" class="block text-muted-foreground hover:text-ink transition">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-medium text-ink mb-3">Contact</h3>
+          <div class="space-y-2 text-sm text-muted-foreground">
+            <div>Keizersgracht 482</div>
+            <div>1017 EG Amsterdam</div>
+            <div>redactie@testexperts.nl</div>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-medium text-ink mb-3">Databron</h3>
+          <p class="text-sm text-muted-foreground">
+            Alle testdata is eigendom van Consumentenbond.nl
+          </p>
+        </div>
+      </div>
+      <div class="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
+        © 2026 De Test Experts! B.V. · Laatste update: {new Date().toLocaleDateString('nl-NL')}
+      </div>
     </div>
-  </Container>
+  </footer>
 </Layout>
