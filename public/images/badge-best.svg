@@ -1,0 +1,20 @@
+<!-- Best Getest Badge -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 32" fill="none">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="120" height="32" rx="16" fill="url(#goldGradient)"/>
+  
+  <!-- Trophy Icon -->
+  <text x="10" y="22" font-size="16">🏆</text>
+  
+  <!-- Text -->
+  <text x="32" y="21" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#000000">
+    Best Getest
+  </text>
+</svg>

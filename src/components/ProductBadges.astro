@@ -1,0 +1,54 @@
+---
+interface Props {
+  rank: number;
+  price?: string;
+  className?: string;
+}
+
+const { rank, price, className = '' } = Astro.props;
+
+// Determine which badges to show based on rank
+const showBestBadge = rank <= 3;
+const showQualityBadge = rank <= 5 && price && parseFloat(price.replace(/[^0-9.]/g, '')) < 100;
+---
+
+{showBestBadge || showQualityBadge ? (
+  <div class={`flex gap-2 items-center ${className}`}>
+    {showBestBadge && (
+      <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-yellow-400 to-orange-400 shadow-lg badge-best animate-float">
+        <span class="text-base">🏆</span>
+        <span class="text-xs font-bold text-black">Best Getest</span>
+      </div>
+    )}
+    
+    {showQualityBadge && (
+      <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-green-500 to-green-700 shadow-lg badge-quality">
+        <span class="text-base">💚</span>
+        <span class="text-xs font-bold text-white">Prijs/Kwaliteit</span>
+      </div>
+    )}
+  </div>
+) : null}
+
+<style>
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .badge-best {
+    box-shadow: 0 4px 14px rgba(255, 215, 0, 0.4);
+  }
+
+  .badge-quality {
+    box-shadow: 0 4px 14px rgba(76, 175, 80, 0.4);
+  }
+</style>
