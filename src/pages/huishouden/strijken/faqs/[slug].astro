@@ -1,0 +1,215 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: { slug: 'garantie' },
+      props: {
+        title: 'Garantie en Retourneren',
+        faqs: [
+          {
+            question: 'Hoelang is de garantie op een stoomstrijkijzer?',
+            answer: 'De meeste fabrikanten geven 2 jaar garantie op stoomstrijkijzers. Sommige premium merken bieden tot 5 jaar garantie.'
+          },
+          {
+            question: 'Wat valt onder de garantie?',
+            answer: 'De garantie dekt fabricagefouten en defecten die niet door verkeerd gebruik zijn ontstaan. Kalkaanslag en normale slijtage vallen niet onder de garantie.'
+          },
+          {
+            question: 'Hoe lang mag ik retourneren?',
+            answer: 'Bij online aankopen heeft u 14 dagen bedenktijd volgens de wet. Het product moet ongebruikt en in de originele verpakking zijn.'
+          },
+          {
+            question: 'Wat als mijn strijkijzer stuk gaat?',
+            answer: 'Neem contact op met de verkoper of fabrikant. Bij garantie wordt het apparaat gerepareerd of vervangen. Bewaar altijd uw aankoopbewijs.'
+          }
+        ]
+      }
+    },
+    {
+      params: { slug: 'onderhoud' },
+      props: {
+        title: 'Onderhoud en Reiniging',
+        faqs: [
+          {
+            question: 'Hoe vaak moet ik mijn stoomstrijkijzer ontkalken?',
+            answer: 'Dit hangt af van de waterhardheid in uw regio. Gemiddeld elke 1-3 maanden. Bij hard water vaker, bij zacht water minder vaak.'
+          },
+          {
+            question: 'Kan ik azijn gebruiken om te ontkalken?',
+            answer: 'Azijn kan werken, maar het is beter om speciaal ontkalkingsmiddel te gebruiken dat geschikt is voor stoomstrijkijzers. Azijn kan rubber onderdelen aantasten.'
+          },
+          {
+            question: 'Hoe reinig ik de zoolplaat?',
+            answer: 'Gebruik een vochtige doek wanneer het strijkijzer afgekoeld is. Voor hardnekkige vlekken gebruik je een speciaal reinigingsmiddel voor strijkijzers.'
+          },
+          {
+            question: 'Moet ik het water legen na gebruik?',
+            answer: 'Ja, leeg altijd het waterreservoir na gebruik. Dit voorkomt kalkaanslag en bacteriegroei.'
+          },
+          {
+            question: 'Welk water moet ik gebruiken?',
+            answer: 'Gebruik bij voorkeur gedemineraliseerd water. Kraanwater kan bij hard water sneller tot kalkaanslag leiden. Check de handleiding van uw strijkijzer.'
+          }
+        ]
+      }
+    },
+    {
+      params: { slug: 'gebruik' },
+      props: {
+        title: 'Gebruik en Veiligheid',
+        faqs: [
+          {
+            question: 'Welke temperatuur gebruik ik voor welke stof?',
+            answer: 'Synthetisch: laag (110°C), Wol/Zijde: medium (150°C), Katoen/Linnen: hoog (200°C). Check altijd het waslabel.'
+          },
+          {
+            question: 'Kan ik verticaal stomen?',
+            answer: 'De meeste moderne stoomstrijkijzers hebben een verticale stoomfunctie. Dit is handig voor gordijnen en hangende kleding.'
+          },
+          {
+            question: 'Is een stoomstrijkijzer veilig?',
+            answer: 'Ja, moderne stoomstrijkijzers hebben veiligheidsvoorzieningen zoals automatische uitschakeling en antikalkfuncties.'
+          },
+          {
+            question: 'Hoe voorkom ik waterdruppels?',
+            answer: 'Gebruik de juiste temperatuur (niet te laag), leeg het water bij opslag, en gebruik gedemineraliseerd water.'
+          }
+        ]
+      }
+    }
+  ];
+}
+
+const { title, faqs } = Astro.props;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+---
+
+<Layout title={`${title} - Veelgestelde Vragen - De Test Experts!`}>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <div class="bg-gradient-to-b from-sand to-background py-24">
+    <div class="container mx-auto max-w-3xl px-4">
+      <!-- Breadcrumb -->
+      <nav class="mb-8 text-sm">
+        <ol class="flex items-center gap-2 text-muted-foreground">
+          <li><a href="/" class="hover:text-ink transition">Home</a></li>
+          <li>→</li>
+          <li><a href="/huishouden/strijken/beste-modellen/" class="hover:text-ink transition">Stoomstrijkijzers</a></li>
+          <li>→</li>
+          <li><a href="/huishouden/strijken/faqs/" class="hover:text-ink transition">FAQ</a></li>
+          <li>→</li>
+          <li class="text-ink">{title}</li>
+        </ol>
+      </nav>
+
+      <!-- Page Header -->
+      <header class="mb-12">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm text-muted-foreground">
+          <span>Veelgestelde Vragen</span>
+        </div>
+        <h1 class="font-display text-4xl md:text-5xl text-ink mb-4">
+          {title}
+        </h1>
+        <p class="text-xl text-muted-foreground">
+          Antwoorden op de meest gestelde vragen
+        </p>
+      </header>
+
+      <!-- FAQ Items -->
+      <div class="space-y-4 mb-12">
+        {faqs.map((faq) => (
+          <details class="bg-card rounded-xl border border-border p-6 group" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <summary class="cursor-pointer font-medium text-ink list-none">
+              <span class="flex items-center justify-between">
+                <span itemprop="name">{faq.question}</span>
+                <span class="text-muted-foreground group-open:rotate-45 transition-transform">+</span>
+              </span>
+            </summary>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <p class="mt-4 text-muted-foreground leading-relaxed" itemprop="text">
+                {faq.answer}
+              </p>
+            </div>
+          </details>
+        ))}
+      </div>
+
+      <!-- CTA -->
+      <div class="bg-primary/5 rounded-2xl p-8 border border-primary/20">
+        <h2 class="font-display text-2xl text-ink mb-3">
+          Vraag niet beantwoord?
+        </h2>
+        <p class="text-muted-foreground mb-6">
+          Neem contact met ons op of bekijk onze complete productvergelijking.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a 
+            href="/contact"
+            class="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition font-medium"
+          >
+            Neem Contact Op →
+          </a>
+          <a 
+            href="/huishouden/strijken/beste-modellen/"
+            class="inline-flex items-center gap-2 bg-card text-ink border border-border px-6 py-3 rounded-lg hover:bg-muted transition font-medium"
+          >
+            Bekijk Vergelijking
+          </a>
+        </div>
+      </div>
+
+      <!-- Related FAQ Categories -->
+      <aside class="mt-12">
+        <h2 class="font-display text-2xl text-ink mb-6">Andere FAQ Categorieën</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <a href="/huishouden/strijken/faqs/garantie" class="bg-card rounded-xl border border-border p-6 hover:border-primary transition">
+            <h3 class="font-medium text-ink mb-2">Garantie</h3>
+            <p class="text-sm text-muted-foreground">Garantie & retour</p>
+          </a>
+          <a href="/huishouden/strijken/faqs/onderhoud" class="bg-card rounded-xl border border-border p-6 hover:border-primary transition">
+            <h3 class="font-medium text-ink mb-2">Onderhoud</h3>
+            <p class="text-sm text-muted-foreground">Reiniging & onderhoud</p>
+          </a>
+          <a href="/huishouden/strijken/faqs/gebruik" class="bg-card rounded-xl border border-border p-6 hover:border-primary transition">
+            <h3 class="font-medium text-ink mb-2">Gebruik</h3>
+            <p class="text-sm text-muted-foreground">Gebruik & veiligheid</p>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-border bg-card py-12">
+    <div class="container mx-auto max-w-3xl px-4">
+      <div class="text-center">
+        <p class="text-sm text-muted-foreground">
+          <a href="/" class="hover:text-ink transition">Home</a>
+          {' · '}
+          <a href="/privacy" class="hover:text-ink transition">Privacy</a>
+          {' · '}
+          <a href="/terms" class="hover:text-ink transition">Voorwaarden</a>
+          {' · '}
+          <a href="/contact" class="hover:text-ink transition">Contact</a>
+        </p>
+        <p class="text-xs text-muted-foreground mt-4">
+          © 2026 De Test Experts! B.V.
+        </p>
+      </div>
+    </div>
+  </footer>
+</Layout>

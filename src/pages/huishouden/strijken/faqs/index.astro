@@ -1,0 +1,119 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+const faqCategories = [
+  {
+    slug: 'garantie',
+    title: 'Garantie & Retourneren',
+    description: 'Vragen over garantie, retour en service',
+    icon: '🛡️',
+    count: 4
+  },
+  {
+    slug: 'onderhoud',
+    title: 'Onderhoud & Reiniging',
+    description: 'Ontkalken, schoonmaken en onderhoud',
+    icon: '🧹',
+    count: 5
+  },
+  {
+    slug: 'gebruik',
+    title: 'Gebruik & Veiligheid',
+    description: 'Tips voor correct en veilig gebruik',
+    icon: '✨',
+    count: 4
+  }
+];
+---
+
+<Layout title="Veelgestelde Vragen - Stoomstrijkijzers - De Test Experts!">
+  <div class="bg-gradient-to-b from-sand to-background py-24">
+    <div class="container mx-auto max-w-4xl px-4">
+      <!-- Breadcrumb -->
+      <nav class="mb-8 text-sm">
+        <ol class="flex items-center gap-2 text-muted-foreground">
+          <li><a href="/" class="hover:text-ink transition">Home</a></li>
+          <li>→</li>
+          <li><a href="/huishouden/strijken/beste-modellen/" class="hover:text-ink transition">Stoomstrijkijzers</a></li>
+          <li>→</li>
+          <li class="text-ink">FAQ</li>
+        </ol>
+      </nav>
+
+      <!-- Header -->
+      <header class="mb-12 text-center">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm text-muted-foreground">
+          <span>Veelgestelde Vragen</span>
+        </div>
+        <h1 class="font-display text-4xl md:text-6xl text-ink mb-6">
+          FAQ Stoomstrijkijzers
+        </h1>
+        <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
+          Antwoorden op alle vragen over stoomstrijkijzers
+        </p>
+      </header>
+
+      <!-- FAQ Categories -->
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+        {faqCategories.map((category) => (
+          <a 
+            href={`/huishouden/strijken/faqs/${category.slug}`}
+            class="bg-card rounded-2xl border border-border p-8 hover:border-primary transition-all hover:shadow-lg group"
+          >
+            <div class="text-5xl mb-4">{category.icon}</div>
+            <h2 class="font-display text-xl text-ink mb-3 group-hover:text-primary transition">
+              {category.title}
+            </h2>
+            <p class="text-muted-foreground text-sm mb-4">
+              {category.description}
+            </p>
+            <div class="flex items-center justify-between">
+              <span class="text-xs text-muted-foreground">
+                {category.count} vragen
+              </span>
+              <span class="text-primary text-sm font-medium">
+                Bekijk →
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <!-- Quick Contact -->
+      <div class="bg-primary/5 rounded-2xl p-8 border border-primary/20 text-center">
+        <h2 class="font-display text-2xl text-ink mb-3">
+          Vraag niet gevonden?
+        </h2>
+        <p class="text-muted-foreground mb-6">
+          Neem contact met ons op, we helpen je graag verder!
+        </p>
+        <a 
+          href="/contact"
+          class="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary/90 transition font-medium text-lg"
+        >
+          Neem Contact Op →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-border bg-card py-12">
+    <div class="container mx-auto max-w-4xl px-4">
+      <div class="text-center">
+        <p class="text-sm text-muted-foreground">
+          <a href="/" class="hover:text-ink transition">Home</a>
+          {' · '}
+          <a href="/privacy" class="hover:text-ink transition">Privacy</a>
+          {' · '}
+          <a href="/terms" class="hover:text-ink transition">Voorwaarden</a>
+          {' · '}
+          <a href="/contact" class="hover:text-ink transition">Contact</a>
+        </p>
+        <p class="text-xs text-muted-foreground mt-4">
+          © 2026 De Test Experts! B.V.
+        </p>
+      </div>
+    </div>
+  </footer>
+</Layout>

@@ -1,0 +1,210 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return [
+    { 
+      params: { slug: 'stoomcapaciteit' },
+      props: { 
+        title: 'Stoomcapaciteit Uitgelegd',
+        description: 'Alles over stoomcapaciteit bij stoomstrijkijzers',
+        content: {
+          intro: 'De stoomcapaciteit van een stoomstrijkijzer bepaalt hoeveel stoom het apparaat per minuut kan produceren.',
+          sections: [
+            {
+              title: 'Wat is stoomcapaciteit?',
+              content: 'Stoomcapaciteit wordt uitgedrukt in gram per minuut (g/min). Hoe hoger dit getal, hoe meer stoom het strijkijzer produceert.'
+            },
+            {
+              title: 'Waarom is het belangrijk?',
+              content: 'Een hogere stoomcapaciteit betekent dat kreukels sneller en effectiever worden gladgestreken, vooral bij dikkere stoffen.'
+            },
+            {
+              title: 'Wat is een goede waarde?',
+              content: 'Voor normaal gebruik is 40-50 g/min voldoende. Voor intensief gebruik of dikke stoffen kies je beter voor 50+ g/min.'
+            }
+          ]
+        }
+      }
+    },
+    {
+      params: { slug: 'temperatuur' },
+      props: {
+        title: 'Temperatuurinstellingen',
+        description: 'Handleiding voor de juiste strijktemperatuur',
+        content: {
+          intro: 'De juiste temperatuur kiezen voorkomt schade aan uw kleding en zorgt voor betere strijkresultaten.',
+          sections: [
+            {
+              title: 'Temperatuurzones',
+              content: 'Moderne strijkijzers hebben meestal 3 temperatuurzones: laag (synthetisch), medium (wol, zijde) en hoog (katoen, linnen).'
+            },
+            {
+              title: 'Tips voor gebruik',
+              content: 'Begin altijd met de laagste temperatuur en werk omhoog. Check altijd het waslabel van uw kleding.'
+            }
+          ]
+        }
+      }
+    },
+    {
+      params: { slug: 'onderhoud' },
+      props: {
+        title: 'Onderhoud van Uw Stoomstrijkijzer',
+        description: 'Tips voor langdurig optimaal gebruik',
+        content: {
+          intro: 'Goed onderhoud verlengt de levensduur van uw stoomstrijkijzer en houdt de prestaties optimaal.',
+          sections: [
+            {
+              title: 'Regelmatig ontkalken',
+              content: 'Ontkalk uw strijkijzer elke 1-3 maanden, afhankelijk van de waterhardheid. Gebruik speciaal ontkalkingsmiddel of azijn.'
+            },
+            {
+              title: 'Zoolplaat schoonhouden',
+              content: 'Reinig de zoolplaat regelmatig met een vochtige doek. Bij hardnekkige aanslag gebruik je een speciaal reinigingsmiddel.'
+            },
+            {
+              title: 'Water legen',
+              content: 'Leeg altijd het waterreservoir na gebruik om kalkaanslag te voorkomen.'
+            }
+          ]
+        }
+      }
+    }
+  ];
+}
+
+const { title, description, content } = Astro.props;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "author": {
+    "@type": "Organization",
+    "name": "De Test Experts!"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "De Test Experts!",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bste.pages.dev/favicon.svg"
+    }
+  },
+  "datePublished": "2026-01-01",
+  "dateModified": new Date().toISOString().split('T')[0]
+};
+---
+
+<Layout title={`${title} - De Test Experts!`}>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <article class="bg-gradient-to-b from-sand to-background py-24">
+    <div class="container mx-auto max-w-3xl px-4">
+      <!-- Breadcrumb -->
+      <nav class="mb-8 text-sm">
+        <ol class="flex items-center gap-2 text-muted-foreground">
+          <li><a href="/" class="hover:text-ink transition">Home</a></li>
+          <li>→</li>
+          <li><a href="/huishouden/strijken/beste-modellen/" class="hover:text-ink transition">Stoomstrijkijzers</a></li>
+          <li>→</li>
+          <li><a href="/huishouden/strijken/koopgids/" class="hover:text-ink transition">Koopgids</a></li>
+          <li>→</li>
+          <li class="text-ink">{title}</li>
+        </ol>
+      </nav>
+
+      <!-- Article Header -->
+      <header class="mb-12">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm text-muted-foreground">
+          <span>Koopgids</span>
+        </div>
+        <h1 class="font-display text-4xl md:text-5xl text-ink mb-4">
+          {title}
+        </h1>
+        <p class="text-xl text-muted-foreground">
+          {description}
+        </p>
+      </header>
+
+      <!-- Article Content -->
+      <div class="bg-card rounded-2xl border border-border p-8 space-y-8">
+        <!-- Introduction -->
+        <div class="prose prose-lg max-w-none">
+          <p class="text-lg text-muted-foreground leading-relaxed">
+            {content.intro}
+          </p>
+        </div>
+
+        <!-- Sections -->
+        {content.sections.map((section) => (
+          <section class="border-t border-border pt-6">
+            <h2 class="font-display text-2xl text-ink mb-4">
+              {section.title}
+            </h2>
+            <p class="text-muted-foreground leading-relaxed">
+              {section.content}
+            </p>
+          </section>
+        ))}
+
+        <!-- CTA -->
+        <div class="bg-primary/5 rounded-xl p-6 border border-primary/20 mt-8">
+          <h3 class="font-display text-xl text-ink mb-3">
+            Vergelijk alle stoomstrijkijzers
+          </h3>
+          <p class="text-muted-foreground mb-4">
+            Bekijk onze complete vergelijking met testresultaten van de Consumentenbond.
+          </p>
+          <a 
+            href="/huishouden/strijken/beste-modellen/"
+            class="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition font-medium"
+          >
+            Bekijk Vergelijking →
+          </a>
+        </div>
+      </div>
+
+      <!-- Related Guides -->
+      <aside class="mt-12">
+        <h2 class="font-display text-2xl text-ink mb-6">Gerelateerde Artikelen</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <a href="/huishouden/strijken/koopgids/stoomcapaciteit" class="bg-card rounded-xl border border-border p-6 hover:border-primary transition">
+            <h3 class="font-medium text-ink mb-2">Stoomcapaciteit</h3>
+            <p class="text-sm text-muted-foreground">Uitleg over g/min</p>
+          </a>
+          <a href="/huishouden/strijken/koopgids/temperatuur" class="bg-card rounded-xl border border-border p-6 hover:border-primary transition">
+            <h3 class="font-medium text-ink mb-2">Temperatuur</h3>
+            <p class="text-sm text-muted-foreground">Juiste instellingen</p>
+          </a>
+          <a href="/huishouden/strijken/koopgids/onderhoud" class="bg-card rounded-xl border border-border p-6 hover:border-primary transition">
+            <h3 class="font-medium text-ink mb-2">Onderhoud</h3>
+            <p class="text-sm text-muted-foreground">Tips & tricks</p>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="border-t border-border bg-card py-12">
+    <div class="container mx-auto max-w-3xl px-4">
+      <div class="text-center">
+        <p class="text-sm text-muted-foreground">
+          <a href="/" class="hover:text-ink transition">Home</a>
+          {' · '}
+          <a href="/privacy" class="hover:text-ink transition">Privacy</a>
+          {' · '}
+          <a href="/terms" class="hover:text-ink transition">Voorwaarden</a>
+          {' · '}
+          <a href="/contact" class="hover:text-ink transition">Contact</a>
+        </p>
+        <p class="text-xs text-muted-foreground mt-4">
+          © 2026 De Test Experts! B.V.
+        </p>
+      </div>
+    </div>
+  </footer>
+</Layout>

@@ -1,0 +1,266 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  // Load all products from all domains
+  const paths = [];
+  
+  const domainsConfig = await import('../../../../config/domains.json');
+  
+  for (const domain of domainsConfig.domains) {
+    try {
+      const productData = await import(`../../../../content/${domain.id}/products.json`);
+      const products = productData.default || [];
+      
+      products.forEach((product, index) => {
+        const slug = `${product.header?.brand}-${product.header?.type}`
+          .toLowerCase()
+          .replace(/\s+/g, '-')
+          .replace(/[^a-z0-9-]/g, '');
+        
+        paths.push({
+          params: { slug },
+          props: { 
+            product, 
+            domainConfig: domain,
+            allProducts: products 
+          }
+        });
+      });
+    } catch (e) {
+      console.error(`Error loading products for ${domain.id}:`, e);
+    }
+  }
+  
+  return paths;
+}
+
+const { product, domainConfig, allProducts } = Astro.props;
+const categoryName = domainConfig.category_nl || domainConfig.category || 'product';
+
+// Find product rank
+const rank = allProducts.findIndex(p => p.id === product.id) + 1;
+
+// Structured data for product review
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": `${product.header?.brand} ${product.header?.type}`,
+  "brand": {
+    "@type": "Brand",
+    "name": product.header?.brand
+  },
+  "image": product.asset?.src || "",
+  "description": product.summary?.description || `${product.header?.brand} ${product.header?.type} review en specificaties`,
+  "offers": {
+    "@type": "Offer",
+    "price": product.price?.replace(/[^0-9.,]/g, '') || "0",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": product.testresults?.ratingDisplayValue || "0",
+    "bestRating": "10",
+    "reviewCount": "1"
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": product.testresults?.ratingDisplayValue || "0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "De Test Experts!"
+    }
+  }
+};
+---
+
+<Layout title={`${product.header?.brand} ${product.header?.type} Review - De Test Experts!`}>
+  <!-- Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <article class="bg-gradient-to-b from-sand to-background py-24">
+    <div class="container mx-auto max-w-4xl px-4">
+      <!-- Breadcrumb -->
+      <nav class="mb-8 text-sm">
+        <ol class="flex items-center gap-2 text-muted-foreground" itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" class="hover:text-ink transition" itemprop="item">
+              <span itemprop="name">Home</span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li>→</li>
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/huishouden/strijken/beste-modellen/" class="hover:text-ink transition" itemprop="item">
+              <span itemprop="name">{categoryName}</span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <li>→</li>
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span class="text-ink" itemprop="name">Review</span>
+            <meta itemprop="position" content="3" />
+          </li>
+        </ol>
+      </nav>
+
+      <!-- Product Review Header -->
+      <div class="mb-12" itemscope itemtype="https://schema.org/Product">
+        <meta itemprop="name" content={`${product.header?.brand} ${product.header?.type}`} />
+        
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm text-muted-foreground">
+          <span>#{rank} in vergelijking</span>
+        </div>
+
+        <h1 class="font-display text-4xl md:text-5xl text-ink mb-6">
+          <span itemprop="brand" itemscope itemtype="https://schema.org/Brand">
+            <span itemprop="name">{product.header?.brand}</span>
+          </span>{' '}
+          <span itemprop="model">{product.header?.type}</span>
+        </h1>
+
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+          <!-- Product Image -->
+          {product.asset?.src && (
+            <div class="bg-card rounded-2xl border border-border p-8 flex items-center justify-center">
+              <img 
+                src={product.asset.src} 
+                alt={`${product.header?.brand} ${product.header?.type}`}
+                itemprop="image"
+                class="max-h-96 object-contain"
+              />
+            </div>
+          )}
+
+          <!-- Key Specs (EAV Format) -->
+          <div class="space-y-4">
+            <div class="bg-card rounded-xl border border-border p-6">
+              <h2 class="font-display text-2xl text-ink mb-4">Testoordeel</h2>
+              <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                <div class="flex items-baseline gap-2 mb-2">
+                  <span class="font-display text-6xl text-primary" itemprop="ratingValue">
+                    {product.testresults?.ratingDisplayValue || 'N/A'}
+                  </span>
+                  <span class="text-2xl text-muted-foreground">/ <span itemprop="bestRating">10</span></span>
+                </div>
+                <meta itemprop="reviewCount" content="1" />
+              </div>
+            </div>
+
+            <div class="bg-card rounded-xl border border-border p-6" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+              <h2 class="font-display text-xl text-ink mb-2">Prijs</h2>
+              <div class="font-display text-4xl text-ink">
+                <span itemprop="price" content={product.price?.replace(/[^0-9.,]/g, '') || '0'}>
+                  {product.price || 'N/A'}
+                </span>
+              </div>
+              <meta itemprop="priceCurrency" content="EUR" />
+              <link itemprop="availability" href="https://schema.org/InStock" />
+            </div>
+
+            <button 
+              onclick={`goToCart('${product.id}', '${product.header?.brand}', '/out/${domainConfig.id}-${product.id}')`}
+              class="w-full bg-primary text-primary-foreground px-6 py-4 rounded-lg hover:bg-primary/90 transition font-medium text-lg"
+            >
+              🛒 Vergelijk Prijzen
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Description -->
+        {product.summary?.description && (
+          <div class="bg-card rounded-2xl border border-border p-8 mb-8">
+            <h2 class="font-display text-2xl text-ink mb-4">Over dit product</h2>
+            <p class="text-muted-foreground leading-relaxed" itemprop="description">
+              {product.summary.description}
+            </p>
+          </div>
+        )}
+
+        <!-- Specifications (EAV Triplets) -->
+        <div class="bg-card rounded-2xl border border-border p-8 mb-8">
+          <h2 class="font-display text-2xl text-ink mb-6">Specificaties</h2>
+          
+          <dl class="grid md:grid-cols-2 gap-4">
+            <div class="border-b border-border pb-4">
+              <dt class="text-sm text-muted-foreground mb-1">Merk</dt>
+              <dd class="font-medium text-ink">{product.header?.brand}</dd>
+            </div>
+
+            <div class="border-b border-border pb-4">
+              <dt class="text-sm text-muted-foreground mb-1">Model</dt>
+              <dd class="font-medium text-ink">{product.header?.type}</dd>
+            </div>
+
+            <div class="border-b border-border pb-4">
+              <dt class="text-sm text-muted-foreground mb-1">Testoordeel</dt>
+              <dd class="font-medium text-primary">{product.testresults?.ratingDisplayValue || 'N/A'} / 10</dd>
+            </div>
+
+            <div class="border-b border-border pb-4">
+              <dt class="text-sm text-muted-foreground mb-1">Prijs</dt>
+              <dd class="font-medium text-ink">{product.price || 'N/A'}</dd>
+            </div>
+
+            <div class="border-b border-border pb-4">
+              <dt class="text-sm text-muted-foreground mb-1">Rangorde</dt>
+              <dd class="font-medium text-ink">#{rank} van {allProducts.length}</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Related Products -->
+        <div class="bg-card rounded-2xl border border-border p-8">
+          <h2 class="font-display text-2xl text-ink mb-6">Vergelijk met andere modellen</h2>
+          <a 
+            href="/huishouden/strijken/beste-modellen/" 
+            class="inline-flex items-center gap-2 text-primary hover:underline font-medium"
+          >
+            Bekijk alle {allProducts.length} {categoryName.toLowerCase()} →
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="border-t border-border bg-card py-12">
+    <div class="container mx-auto max-w-4xl px-4">
+      <div class="text-center">
+        <p class="text-sm text-muted-foreground">
+          <a href="/" class="hover:text-ink transition">Home</a>
+          {' · '}
+          <a href="/privacy" class="hover:text-ink transition">Privacy</a>
+          {' · '}
+          <a href="/terms" class="hover:text-ink transition">Voorwaarden</a>
+          {' · '}
+          <a href="/contact" class="hover:text-ink transition">Contact</a>
+        </p>
+        <p class="text-xs text-muted-foreground mt-4">
+          © 2026 De Test Experts! B.V.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script is:inline>
+    window.goToCart = function(productId, productName, affiliateUrl) {
+      if (window.gtag) {
+        gtag('event', 'add_to_cart', {
+          currency: 'EUR',
+          value: 1,
+          items: [{
+            item_id: productId,
+            item_name: productName
+          }]
+        });
+      }
+      window.location.href = `/cart?product=${encodeURIComponent(productId)}&url=${encodeURIComponent(affiliateUrl)}`;
+    };
+  </script>
+</Layout>
