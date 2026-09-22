@@ -1,6 +1,5 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import ProductBadges from "@components/ProductBadges.astro";
 
 // Get domain from URL or default to first domain
 const currentDomain = Astro.url.hostname;
@@ -83,15 +82,15 @@ const structuredData = {
 
         <!-- Quick Stats -->
         <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
-          <div class="rounded-xl border border-border bg-card p-4 hover-glow shimmer-card stagger-item">
+          <div class="rounded-xl border border-border bg-card p-4">
             <div class="font-display text-3xl text-primary mb-1">{products.length}</div>
             <div class="text-xs text-muted-foreground">Geteste modellen</div>
           </div>
-          <div class="rounded-xl border border-border bg-card p-4 hover-glow shimmer-card stagger-item">
+          <div class="rounded-xl border border-border bg-card p-4">
             <div class="font-display text-3xl text-primary mb-1">2026</div>
             <div class="text-xs text-muted-foreground">Nieuwste editie</div>
           </div>
-          <div class="rounded-xl border border-border bg-card p-4 hover-glow shimmer-card stagger-item">
+          <div class="rounded-xl border border-border bg-card p-4">
             <div class="font-display text-3xl text-primary mb-1">✓</div>
             <div class="text-xs text-muted-foreground">Onafhankelijk</div>
           </div>
@@ -100,12 +99,9 @@ const structuredData = {
 
       <!-- Top Pick Card with EAV Format -->
       {topProduct && (
-        <div class="mb-16 rounded-2xl border border-border bg-gradient-to-br from-primary/5 to-accent/5 p-8 hover-glow card-enter" itemscope itemtype="https://schema.org/Product">
-          <div class="flex items-center gap-3 mb-4 flex-wrap">
-            <div class="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground">
-              🏆 Beste Koop 2026
-            </div>
-            <ProductBadges rank={topProduct.rank || 1} price={topProduct.price} />
+        <div class="mb-16 rounded-2xl border border-border bg-gradient-to-br from-primary/5 to-accent/5 p-8" itemscope itemtype="https://schema.org/Product">
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground">
+            🏆 Beste Koop 2026
           </div>
           
           <meta itemprop="name" content={`${topProduct.header?.brand} ${topProduct.header?.type}`} />
@@ -121,21 +117,21 @@ const structuredData = {
 
               <!-- EAV Triplets -->
               <dl class="grid grid-cols-2 gap-4 mb-6">
-                <div class="bg-card rounded-lg p-4 border border-border hover-glow">
+                <div class="bg-card rounded-lg p-4 border border-border">
                   <dt class="text-xs text-muted-foreground mb-1">Testoordeel</dt>
                   <dd itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                    <span class="font-display text-3xl text-primary score-glow">
-                      <span itemprop="ratingValue">{topProduct.testresults?.ratingDisplayValue || `#${topProduct.rank || 1}`}</span>
+                    <span class="font-display text-3xl text-primary">
+                      <span itemprop="ratingValue">{topProduct.testresults?.ratingDisplayValue || 'N/A'}</span>
                     </span>
-                    <span class="text-muted-foreground text-sm">{topProduct.testresults?.ratingDisplayValue ? '/ 10' : ' in test'}</span>
+                    <span class="text-muted-foreground text-sm">/ <span itemprop="bestRating">10</span></span>
                     <meta itemprop="reviewCount" content="1" />
                   </dd>
                 </div>
 
-                <div class="bg-card rounded-lg p-4 border border-border hover-glow" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <div class="bg-card rounded-lg p-4 border border-border" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
                   <dt class="text-xs text-muted-foreground mb-1">Prijs</dt>
                   <dd>
-                    <span class="font-display text-3xl text-ink price-highlight">
+                    <span class="font-display text-3xl text-ink">
                       <span itemprop="price" content={topProduct.price?.replace(/[^0-9.,]/g, '') || '0'}>{topProduct.price || 'N/A'}</span>
                     </span>
                     <meta itemprop="priceCurrency" content="EUR" />
@@ -149,19 +145,11 @@ const structuredData = {
               </p>
 
               <button 
-                onclick={`goToCart('top-${domainConfig.id}', '${topProduct.header?.brand}', '/out/top-${domainConfig.id}')`}
-                class="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-medium text-primary-foreground transition hover:bg-primary/90 btn-glow"
+                onclick="goToCart('top-${domainConfig.id}', '${topProduct.header?.brand}', '/out/top-${domainConfig.id}')"
+                class="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-medium text-primary-foreground transition hover:bg-primary/90"
               >
                 🛒 Vergelijk Prijzen
               </button>
-
-              <!-- Consumentenbond Attribution -->
-              <div class="mt-6 flex items-center gap-3 pt-6 border-t border-border">
-                <img src="/images/consumentenbond-logo.svg" alt="Consumentenbond" class="h-6 opacity-80 hover:opacity-100 transition" />
-                <span class="text-xs text-muted-foreground">
-                  Bron: <a href="https://www.consumentenbond.nl" target="_blank" rel="nofollow" class="text-primary hover:underline">Consumentenbond.nl</a>
-                </span>
-              </div>
             </div>
 
             <div class="space-y-4">
@@ -264,7 +252,7 @@ const structuredData = {
       </div>
 
       <!-- FAQ Section -->
-      <div class="mb-16 rounded-2xl bg-gradient-to-b from-muted/30 to-muted/50 p-8">
+      <div class="mb-16">
         <div class="mb-8">
           <p class="text-xs font-medium uppercase tracking-wide text-primary mb-2">Veelgesteld</p>
           <h2 class="font-display text-2xl text-ink md:text-3xl">
@@ -272,26 +260,26 @@ const structuredData = {
           </h2>
         </div>
         <div class="space-y-4" itemscope itemtype="https://schema.org/FAQPage">
-          <details class="group rounded-xl border border-border bg-card p-6 hover-glow" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <details class="group rounded-xl border border-border bg-card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <summary class="cursor-pointer font-medium text-ink list-none">
               <span class="flex items-center justify-between">
                 <span itemprop="name">Wat is de beste {categoryName.toLowerCase()} van 2026?</span>
-                <span class="text-muted-foreground group-open:rotate-45 transition-transform">+</span>
+                <span class="text-muted-foreground">+</span>
               </span>
             </summary>
             <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <p class="mt-4 text-muted-foreground leading-relaxed" itemprop="text">
                 Op basis van de Consumentenbond testresultaten komt de {topProduct?.header?.brand} {topProduct?.header?.type} 
-                als beste uit de test met rank #{topProduct?.rank || 1}.
+                als beste uit de test met een testoordeel van {topProduct?.testresults?.ratingDisplayValue || 'N/A'}.
               </p>
             </div>
           </details>
 
-          <details class="group rounded-xl border border-border bg-card p-6 hover-glow" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <details class="group rounded-xl border border-border bg-card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <summary class="cursor-pointer font-medium text-ink list-none">
               <span class="flex items-center justify-between">
                 <span itemprop="name">Hoe vaak worden de testresultaten bijgewerkt?</span>
-                <span class="text-muted-foreground group-open:rotate-45 transition-transform">+</span>
+                <span class="text-muted-foreground">+</span>
               </span>
             </summary>
             <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -301,11 +289,11 @@ const structuredData = {
             </div>
           </details>
 
-          <details class="group rounded-xl border border-border bg-card p-6 hover-glow" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <details class="group rounded-xl border border-border bg-card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <summary class="cursor-pointer font-medium text-ink list-none">
               <span class="flex items-center justify-between">
                 <span itemprop="name">Zijn jullie onderdeel van de Consumentenbond?</span>
-                <span class="text-muted-foreground group-open:rotate-45 transition-transform">+</span>
+                <span class="text-muted-foreground">+</span>
               </span>
             </summary>
             <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -316,11 +304,11 @@ const structuredData = {
             </div>
           </details>
 
-          <details class="group rounded-xl border border-border bg-card p-6 hover-glow" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <details class="group rounded-xl border border-border bg-card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
             <summary class="cursor-pointer font-medium text-ink list-none">
               <span class="flex items-center justify-between">
                 <span itemprop="name">Waar komen de prijzen vandaan?</span>
-                <span class="text-muted-foreground group-open:rotate-45 transition-transform">+</span>
+                <span class="text-muted-foreground">+</span>
               </span>
             </summary>
             <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -422,14 +410,8 @@ const structuredData = {
       }
 
       noResults.classList.add('hidden');
-      tbody.innerHTML = filteredProducts.map((product, index) => {
-        const rank = product.rank || index + 1;
-        const price = parseFloat((product.price || '0').replace(/[^0-9.]/g, ''));
-        const showBestBadge = rank <= 3;
-        const showQualityBadge = rank <= 5 && price > 0 && price < 100;
-        
-        return `
-        <tr class="table-row-hover" itemscope itemtype="https://schema.org/Product">
+      tbody.innerHTML = filteredProducts.map((product, index) => `
+        <tr class="hover:bg-muted/50 transition-colors" itemscope itemtype="https://schema.org/Product">
           <td class="px-4 py-4">
             <span class="font-display text-lg text-ink">${index + 1}</span>
           </td>
@@ -442,25 +424,19 @@ const structuredData = {
                   <span itemprop="name">${product.header?.brand || ''}</span>
                 </div>
                 <div class="text-sm text-muted-foreground" itemprop="model">${product.header?.type || ''}</div>
-                ${showBestBadge || showQualityBadge ? `
-                  <div class="flex gap-1.5 mt-2">
-                    ${showBestBadge ? '<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-gradient-to-r from-yellow-400 to-orange-400 text-xs font-bold text-black"><span>🏆</span><span>Best</span></span>' : ''}
-                    ${showQualityBadge ? '<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-gradient-to-r from-green-500 to-green-700 text-xs font-bold text-white"><span>💚</span><span>Waarde</span></span>' : ''}
-                  </div>
-                ` : ''}
               </div>
             </div>
           </td>
           <td class="px-4 py-4">
             <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-              <span class="font-display text-2xl text-primary ${rank <= 3 ? 'score-glow' : ''}" itemprop="ratingValue">${product.testresults?.ratingDisplayValue || `#${rank}`}</span>
+              <span class="font-display text-2xl text-primary" itemprop="ratingValue">${product.testresults?.ratingDisplayValue || 'N/A'}</span>
               <meta itemprop="bestRating" content="10" />
               <meta itemprop="reviewCount" content="1" />
             </div>
           </td>
           <td class="px-4 py-4">
             <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-              <span class="font-medium text-ink price-highlight" itemprop="price" content="${product.price?.replace(/[^0-9.,]/g, '') || '0'}">${product.price || 'N/A'}</span>
+              <span class="font-medium text-ink" itemprop="price" content="${product.price?.replace(/[^0-9.,]/g, '') || '0'}">${product.price || 'N/A'}</span>
               <meta itemprop="priceCurrency" content="EUR" />
               <link itemprop="availability" href="https://schema.org/InStock" />
             </div>
@@ -468,14 +444,13 @@ const structuredData = {
           <td class="px-4 py-4">
             <button 
               onclick="goToCart('${product.id || index}', '${product.header?.brand || ''}', '/out/${domainId}-${product.id || index}')"
-              class="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90 btn-glow"
+              class="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
             >
               🛒 Vergelijk
             </button>
           </td>
         </tr>
-        `;
-      }).join('');
+      `).join('');
     }
 
     function filterAndSort() {
