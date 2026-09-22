@@ -1,0 +1,83 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+// Get product info from URL params
+const productId = Astro.url.searchParams.get('product');
+const redirectUrl = Astro.url.searchParams.get('url');
+---
+
+<Layout title="Winkelwagen - De Test Experts!">
+  <div class="min-h-screen bg-gradient-to-b from-sand to-background flex items-center justify-center px-4">
+    <div class="max-w-md w-full">
+      <div class="bg-card rounded-2xl border border-border p-8 text-center">
+        <!-- Loading Animation -->
+        <div class="mb-6">
+          <div class="w-16 h-16 mx-auto bg-primary rounded-full flex items-center justify-center animate-pulse">
+            <svg class="w-8 h-8 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+        </div>
+
+        <h1 class="font-display text-2xl text-ink mb-3">
+          Even geduld...
+        </h1>
+        
+        <p class="text-muted-foreground mb-6">
+          We sturen je door naar onze partner om je aankoop af te ronden.
+        </p>
+
+        <div class="bg-muted rounded-lg p-4 mb-6">
+          <p class="text-sm text-muted-foreground">
+            ✓ Veilige verbinding<br>
+            ✓ Beste prijsgarantie<br>
+            ✓ Snelle levering
+          </p>
+        </div>
+
+        <p class="text-xs text-muted-foreground">
+          Je wordt binnen <span id="countdown" class="font-bold text-primary">3</span> seconden doorgestuurd...
+        </p>
+      </div>
+
+      <div class="mt-6 text-center">
+        <a href="/" class="text-sm text-muted-foreground hover:text-ink transition">
+          ← Terug naar vergelijking
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script define:vars={{ redirectUrl }}>
+    let countdown = 3;
+    const countdownEl = document.getElementById('countdown');
+    
+    const interval = setInterval(() => {
+      countdown--;
+      if (countdownEl) {
+        countdownEl.textContent = countdown;
+      }
+      
+      if (countdown <= 0) {
+        clearInterval(interval);
+        
+        // Track conversion
+        if (window.gtag) {
+          gtag('event', 'purchase', {
+            currency: 'EUR',
+            value: 1,
+            items: [{ item_id: 'redirect' }]
+          });
+        }
+        
+        // Redirect to external shop
+        if (redirectUrl) {
+          window.location.href = redirectUrl;
+        } else {
+          // Fallback to homepage if no URL provided
+          window.location.href = '/';
+        }
+      }
+    }, 1000);
+  </script>
+</Layout>

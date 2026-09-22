@@ -280,9 +280,16 @@ const productsJson = JSON.stringify(products);
         <div>
           <h3 class="font-medium text-ink mb-3">Navigatie</h3>
           <div class="space-y-2 text-sm">
-            <a href="#" class="block text-muted-foreground hover:text-ink transition">Ranglijst</a>
-            <a href="#" class="block text-muted-foreground hover:text-ink transition">FAQ</a>
-            <a href="#" class="block text-muted-foreground hover:text-ink transition">Contact</a>
+            <a href="/" class="block text-muted-foreground hover:text-ink transition">Ranglijst</a>
+            <a href="/about" class="block text-muted-foreground hover:text-ink transition">Over Ons</a>
+            <a href="/contact" class="block text-muted-foreground hover:text-ink transition">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-medium text-ink mb-3">Juridisch</h3>
+          <div class="space-y-2 text-sm">
+            <a href="/privacy" class="block text-muted-foreground hover:text-ink transition">Privacy</a>
+            <a href="/terms" class="block text-muted-foreground hover:text-ink transition">Voorwaarden</a>
           </div>
         </div>
         <div>
@@ -290,13 +297,16 @@ const productsJson = JSON.stringify(products);
           <div class="space-y-2 text-sm text-muted-foreground">
             <div>Keizersgracht 482</div>
             <div>1017 EG Amsterdam</div>
-            <div>redactie@testexperts.nl</div>
+            <a href="mailto:info@detestexperts.nl" class="hover:text-ink transition">info@detestexperts.nl</a>
           </div>
         </div>
         <div>
           <h3 class="font-medium text-ink mb-3">Databron</h3>
           <p class="text-sm text-muted-foreground">
             Alle testdata is eigendom van Consumentenbond.nl
+          </p>
+          <p class="text-xs text-muted-foreground mt-2">
+            <a href="/about" class="hover:text-ink transition">Meer over ons →</a>
           </p>
         </div>
       </div>
@@ -362,14 +372,14 @@ const productsJson = JSON.stringify(products);
             <div class="font-medium text-ink">${product.price || 'N/A'}</div>
           </td>
           <td class="px-4 py-4">
-            <a 
-              href="/out/${domainId}-${product.id || index}"
-              target="_blank"
-              rel="nofollow"
-              class="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
-            >
-              Bekijk →
-            </a>
+            <div class="flex gap-2">
+              <button 
+                onclick="goToCart('${product.id || index}', '${product.header?.brand || ''}', '/out/${domainId}-${product.id || index}')"
+                class="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
+              >
+                🛒 Vergelijk
+              </button>
+            </div>
           </td>
         </tr>
       `).join('');
@@ -426,5 +436,23 @@ const productsJson = JSON.stringify(products);
 
     // Initial render
     filterAndSort();
+
+    // E-commerce simulation functions
+    window.goToCart = function(productId, productName, affiliateUrl) {
+      // Track add to cart event
+      if (window.gtag) {
+        gtag('event', 'add_to_cart', {
+          currency: 'EUR',
+          value: 1,
+          items: [{
+            item_id: productId,
+            item_name: productName
+          }]
+        });
+      }
+      
+      // Redirect to cart page with affiliate URL
+      window.location.href = `/cart?product=${encodeURIComponent(productId)}&url=${encodeURIComponent(affiliateUrl)}`;
+    };
   </script>
 </Layout>

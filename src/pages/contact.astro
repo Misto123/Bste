@@ -1,0 +1,245 @@
+---
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout title="Contact - De Test Experts!">
+  <div class="bg-gradient-to-b from-sand to-background py-24">
+    <div class="container mx-auto max-w-4xl px-4">
+      <h1 class="font-display text-4xl md:text-5xl text-ink mb-8">
+        Contact
+      </h1>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Contact Form -->
+        <div class="bg-card rounded-2xl border border-border p-8">
+          <h2 class="font-display text-2xl text-ink mb-6">
+            Stuur ons een bericht
+          </h2>
+          
+          <form id="contactForm" class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-ink mb-2">
+                Naam *
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="w-full px-4 py-3 rounded-lg border border-border bg-background focus:ring-2 focus:ring-primary focus:border-transparent"
+                placeholder="Uw naam"
+              />
+            </div>
+
+            <div>
+              <label for="email" class="block text-sm font-medium text-ink mb-2">
+                E-mailadres *
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 rounded-lg border border-border bg-background focus:ring-2 focus:ring-primary focus:border-transparent"
+                placeholder="uw@email.nl"
+              />
+            </div>
+
+            <div>
+              <label for="subject" class="block text-sm font-medium text-ink mb-2">
+                Onderwerp *
+              </label>
+              <select
+                id="subject"
+                name="subject"
+                required
+                class="w-full px-4 py-3 rounded-lg border border-border bg-background focus:ring-2 focus:ring-primary focus:border-transparent"
+              >
+                <option value="">Selecteer onderwerp...</option>
+                <option value="algemeen">Algemene vraag</option>
+                <option value="testresultaten">Vraag over testresultaten</option>
+                <option value="technisch">Technisch probleem</option>
+                <option value="samenwerking">Samenwerkingsvoorstel</option>
+                <option value="privacy">Privacy vraag</option>
+                <option value="anders">Anders</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-medium text-ink mb-2">
+                Bericht *
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                rows="6"
+                class="w-full px-4 py-3 rounded-lg border border-border bg-background focus:ring-2 focus:ring-primary focus:border-transparent"
+                placeholder="Uw bericht..."
+              ></textarea>
+            </div>
+
+            <div>
+              <label class="flex items-start gap-3">
+                <input
+                  type="checkbox"
+                  name="privacy"
+                  required
+                  class="mt-1"
+                />
+                <span class="text-sm text-muted-foreground">
+                  Ik ga akkoord met het <a href="/privacy" class="text-primary hover:underline">privacybeleid</a> *
+                </span>
+              </label>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition font-medium"
+            >
+              Verstuur Bericht
+            </button>
+          </form>
+
+          <div id="formSuccess" class="hidden mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+            <p class="text-green-800">
+              ✓ Bedankt voor uw bericht! We nemen zo snel mogelijk contact met u op.
+            </p>
+          </div>
+
+          <div id="formError" class="hidden mt-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+            <p class="text-red-800">
+              ✗ Er is iets misgegaan. Probeer het opnieuw of stuur een e-mail naar info@detestexperts.nl
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="space-y-8">
+          <div class="bg-card rounded-2xl border border-border p-8">
+            <h2 class="font-display text-2xl text-ink mb-6">
+              Contactgegevens
+            </h2>
+            
+            <div class="space-y-6">
+              <div class="flex gap-4">
+                <div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-medium text-ink mb-1">E-mail</h3>
+                  <a href="mailto:info@detestexperts.nl" class="text-primary hover:underline">
+                    info@detestexperts.nl
+                  </a>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-medium text-ink mb-1">Adres</h3>
+                  <p class="text-muted-foreground">
+                    Keizersgracht 482<br>
+                    1017 EG Amsterdam<br>
+                    Nederland
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-medium text-ink mb-1">Reactietijd</h3>
+                  <p class="text-muted-foreground">
+                    Binnen 2 werkdagen
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-card rounded-2xl border border-border p-8">
+            <h2 class="font-display text-2xl text-ink mb-4">
+              Veelgestelde Vragen
+            </h2>
+            <p class="text-muted-foreground mb-4">
+              Voordat u contact opneemt, bekijk eerst onze veelgestelde vragen. Misschien staat uw vraag er al tussen!
+            </p>
+            <a 
+              href="/about#veelgestelde-vragen" 
+              class="inline-flex items-center gap-2 text-primary hover:underline font-medium"
+            >
+              Bekijk FAQ →
+            </a>
+          </div>
+
+          <div class="bg-primary/5 rounded-2xl border border-primary/20 p-8">
+            <h3 class="font-medium text-ink mb-3">
+              💡 Tip
+            </h3>
+            <p class="text-sm text-muted-foreground">
+              Voor vragen over specifieke producten of testresultaten, verwijzen wij u naar <a href="https://www.consumentenbond.nl" target="_blank" class="text-primary hover:underline">Consumentenbond.nl</a>. Wij zijn geen officiële partner van de Consumentenbond en hebben geen toegang tot volledige testrapporten.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="/" class="text-muted-foreground hover:text-ink transition">
+          ← Terug naar homepage
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    const successMsg = document.getElementById('formSuccess');
+    const errorMsg = document.getElementById('formError');
+
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const formData = new FormData(form as HTMLFormElement);
+      const data = Object.fromEntries(formData.entries());
+      
+      try {
+        // In production, this would send to your backend/API
+        // For now, we'll simulate success
+        console.log('Form data:', data);
+        
+        // Simulate API call
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
+        // Show success message
+        successMsg?.classList.remove('hidden');
+        errorMsg?.classList.add('hidden');
+        (form as HTMLFormElement).reset();
+        
+        // Track conversion
+        if (window.gtag) {
+          gtag('event', 'contact_form_submit', {
+            event_category: 'engagement',
+            event_label: data.subject as string
+          });
+        }
+        
+      } catch (error) {
+        // Show error message
+        errorMsg?.classList.remove('hidden');
+        successMsg?.classList.add('hidden');
+      }
+    });
+  </script>
+</Layout>
