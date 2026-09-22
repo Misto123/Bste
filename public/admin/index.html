@@ -41,6 +41,7 @@
           <div class="flex gap-4">
             <button onclick="switchTab('domains')" id="tabDomains" class="px-4 py-2 rounded-lg bg-blue-100 text-blue-600 font-medium">Domains</button>
             <button onclick="switchTab('affiliates')" id="tabAffiliates" class="px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100">Affiliate Links</button>
+            <button onclick="switchTab('scholar')" id="tabScholar" class="px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100">Google Scholar</button>
             <button onclick="logout()" class="text-gray-600 hover:text-gray-900">Logout</button>
           </div>
         </div>
@@ -73,6 +74,135 @@
             </button>
           </div>
           <div id="affiliatesList" class="space-y-4"></div>
+        </div>
+
+        <!-- Google Scholar Tab -->
+        <div id="scholarTab" class="hidden">
+          <div class="mb-6">
+            <h2 class="text-2xl font-bold mb-2">Google Scholar Author Verification</h2>
+            <p class="text-gray-600 mb-4">Manage Google Scholar author verification and paper links for SEO purposes.</p>
+            <a href="https://trello.com/c/s1jm4Ym0/7218-seo-google-scholar-setup" target="_blank" class="text-blue-600 hover:underline text-sm">
+              📚 View Trello Card: SEO Google Scholar Setup
+            </a>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6">
+            <form id="scholarForm" onsubmit="saveScholarSettings(event)">
+              <!-- Author Listed Toggle -->
+              <div class="mb-6">
+                <label class="block text-sm font-medium mb-2">Is Author Listed on Google Scholar?</label>
+                <div class="flex items-center gap-4">
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input 
+                      type="radio" 
+                      name="isListed" 
+                      value="yes" 
+                      id="isListedYes"
+                      class="w-4 h-4"
+                    />
+                    <span>✅ Yes</span>
+                  </label>
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input 
+                      type="radio" 
+                      name="isListed" 
+                      value="no" 
+                      id="isListedNo"
+                      class="w-4 h-4"
+                      checked
+                    />
+                    <span>❌ No</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Paper Links Section -->
+              <div id="paperLinksSection" class="mb-6 hidden">
+                <label class="block text-sm font-medium mb-3">Google Scholar Paper Links (up to 4)</label>
+                <div class="space-y-3">
+                  <div class="flex gap-2">
+                    <input 
+                      type="url" 
+                      id="paperLink1" 
+                      class="flex-1 px-3 py-2 border rounded-lg"
+                      placeholder="https://scholar.google.com/citations?..."
+                    />
+                    <button 
+                      type="button" 
+                      onclick="clearPaperLink(1)" 
+                      class="px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <div class="flex gap-2">
+                    <input 
+                      type="url" 
+                      id="paperLink2" 
+                      class="flex-1 px-3 py-2 border rounded-lg"
+                      placeholder="https://scholar.google.com/citations?..."
+                    />
+                    <button 
+                      type="button" 
+                      onclick="clearPaperLink(2)" 
+                      class="px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <div class="flex gap-2">
+                    <input 
+                      type="url" 
+                      id="paperLink3" 
+                      class="flex-1 px-3 py-2 border rounded-lg"
+                      placeholder="https://scholar.google.com/citations?..."
+                    />
+                    <button 
+                      type="button" 
+                      onclick="clearPaperLink(3)" 
+                      class="px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <div class="flex gap-2">
+                    <input 
+                      type="url" 
+                      id="paperLink4" 
+                      class="flex-1 px-3 py-2 border rounded-lg"
+                      placeholder="https://scholar.google.com/citations?..."
+                    />
+                    <button 
+                      type="button" 
+                      onclick="clearPaperLink(4)" 
+                      class="px-3 py-2 text-red-600 hover:bg-red-50 rounded-lg"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-2">
+                  💡 Tip: Add Google Scholar paper URLs to improve SEO authority and credibility
+                </p>
+              </div>
+
+              <!-- Save Button -->
+              <div class="flex justify-end gap-3">
+                <button 
+                  type="submit" 
+                  class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
+                >
+                  💾 Save Settings
+                </button>
+              </div>
+            </form>
+
+            <!-- Current Settings Display -->
+            <div id="currentScholarSettings" class="mt-8 pt-6 border-t">
+              <h3 class="font-bold mb-3">Current Settings</h3>
+              <div id="scholarStatus" class="text-gray-600">Loading...</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -308,20 +438,31 @@
     }
 
     function switchTab(tab) {
+      // Hide all tabs
+      document.getElementById('domainsTab').classList.add('hidden');
+      document.getElementById('affiliatesTab').classList.add('hidden');
+      document.getElementById('scholarTab').classList.add('hidden');
+      
+      // Reset all tab styles
+      ['tabDomains', 'tabAffiliates', 'tabScholar'].forEach(tabId => {
+        document.getElementById(tabId).classList.remove('bg-blue-100', 'text-blue-600', 'font-medium');
+        document.getElementById(tabId).classList.add('text-gray-600', 'hover:bg-gray-100');
+      });
+      
+      // Show selected tab
       if (tab === 'domains') {
         document.getElementById('domainsTab').classList.remove('hidden');
-        document.getElementById('affiliatesTab').classList.add('hidden');
         document.getElementById('tabDomains').classList.add('bg-blue-100', 'text-blue-600', 'font-medium');
         document.getElementById('tabDomains').classList.remove('text-gray-600', 'hover:bg-gray-100');
-        document.getElementById('tabAffiliates').classList.remove('bg-blue-100', 'text-blue-600', 'font-medium');
-        document.getElementById('tabAffiliates').classList.add('text-gray-600', 'hover:bg-gray-100');
-      } else {
-        document.getElementById('domainsTab').classList.add('hidden');
+      } else if (tab === 'affiliates') {
         document.getElementById('affiliatesTab').classList.remove('hidden');
         document.getElementById('tabAffiliates').classList.add('bg-blue-100', 'text-blue-600', 'font-medium');
         document.getElementById('tabAffiliates').classList.remove('text-gray-600', 'hover:bg-gray-100');
-        document.getElementById('tabDomains').classList.remove('bg-blue-100', 'text-blue-600', 'font-medium');
-        document.getElementById('tabDomains').classList.add('text-gray-600', 'hover:bg-gray-100');
+      } else if (tab === 'scholar') {
+        document.getElementById('scholarTab').classList.remove('hidden');
+        document.getElementById('tabScholar').classList.add('bg-blue-100', 'text-blue-600', 'font-medium');
+        document.getElementById('tabScholar').classList.remove('text-gray-600', 'hover:bg-gray-100');
+        loadScholarSettings();
       }
     }
 
@@ -564,7 +705,135 @@
           document.getElementById('generatedOutLink').textContent = id ? `/out/${id}` : 'Will be: /out/{link-id}';
         });
       }
+
+      // Google Scholar: Toggle paper links visibility
+      const isListedYes = document.getElementById('isListedYes');
+      const isListedNo = document.getElementById('isListedNo');
+      const paperLinksSection = document.getElementById('paperLinksSection');
+
+      if (isListedYes) {
+        isListedYes.addEventListener('change', () => {
+          if (isListedYes.checked) {
+            paperLinksSection.classList.remove('hidden');
+          }
+        });
+      }
+
+      if (isListedNo) {
+        isListedNo.addEventListener('change', () => {
+          if (isListedNo.checked) {
+            paperLinksSection.classList.add('hidden');
+          }
+        });
+      }
     });
+
+    // Google Scholar Functions
+    function loadScholarSettings() {
+      fetch(`${API_BASE}/scholar`, {
+        headers: { 'Authorization': `Bearer ${adminSecret}` }
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data) {
+          // Set radio buttons
+          if (data.isListed === true) {
+            document.getElementById('isListedYes').checked = true;
+            document.getElementById('paperLinksSection').classList.remove('hidden');
+          } else {
+            document.getElementById('isListedNo').checked = true;
+            document.getElementById('paperLinksSection').classList.add('hidden');
+          }
+
+          // Set paper links
+          for (let i = 1; i <= 4; i++) {
+            const input = document.getElementById(`paperLink${i}`);
+            if (input && data.paperLinks && data.paperLinks[i-1]) {
+              input.value = data.paperLinks[i-1];
+            }
+          }
+
+          // Display current status
+          displayScholarStatus(data);
+        } else {
+          document.getElementById('scholarStatus').innerHTML = '<p class="text-gray-500">No settings saved yet</p>';
+        }
+      })
+      .catch(err => {
+        console.error('Error loading scholar settings:', err);
+        document.getElementById('scholarStatus').innerHTML = '<p class="text-red-600">Error loading settings</p>';
+      });
+    }
+
+    function saveScholarSettings(event) {
+      event.preventDefault();
+
+      const isListed = document.getElementById('isListedYes').checked;
+      const paperLinks = [];
+
+      // Collect paper links (only if listed)
+      if (isListed) {
+        for (let i = 1; i <= 4; i++) {
+          const link = document.getElementById(`paperLink${i}`).value.trim();
+          if (link) {
+            paperLinks.push(link);
+          }
+        }
+      }
+
+      const data = {
+        isListed,
+        paperLinks,
+        lastUpdated: new Date().toISOString()
+      };
+
+      fetch(`${API_BASE}/scholar`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${adminSecret}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+      .then(res => res.json())
+      .then(result => {
+        alert('✅ Google Scholar settings saved successfully!');
+        displayScholarStatus(data);
+      })
+      .catch(err => {
+        console.error('Error saving scholar settings:', err);
+        alert('❌ Error saving settings. Please try again.');
+      });
+    }
+
+    function displayScholarStatus(data) {
+      const statusDiv = document.getElementById('scholarStatus');
+      const isListed = data.isListed ? '✅ Yes' : '❌ No';
+      const linksCount = data.paperLinks ? data.paperLinks.length : 0;
+      const lastUpdated = data.lastUpdated ? new Date(data.lastUpdated).toLocaleString('nl-NL') : 'Never';
+
+      let html = `
+        <div class="space-y-2">
+          <p><strong>Author Listed:</strong> ${isListed}</p>
+          <p><strong>Paper Links:</strong> ${linksCount} added</p>
+          <p><strong>Last Updated:</strong> ${lastUpdated}</p>
+      `;
+
+      if (data.paperLinks && data.paperLinks.length > 0) {
+        html += '<div class="mt-3"><strong>Links:</strong><ul class="list-disc list-inside mt-1 text-sm">';
+        data.paperLinks.forEach((link, index) => {
+          html += `<li><a href="${link}" target="_blank" class="text-blue-600 hover:underline">${link}</a></li>`;
+        });
+        html += '</ul></div>';
+      }
+
+      html += '</div>';
+      statusDiv.innerHTML = html;
+    }
+
+    function clearPaperLink(index) {
+      document.getElementById(`paperLink${index}`).value = '';
+    }
   </script>
 </body>
 </html>
