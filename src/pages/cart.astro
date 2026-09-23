@@ -6,7 +6,7 @@ const productId = Astro.url.searchParams.get('product');
 const redirectUrl = Astro.url.searchParams.get('url');
 ---
 
-<Layout title="Winkelwagen - De Test Experts!">
+<Layout title="Winkelwagen - De Test Experts!" noindex={true}>
   <div class="min-h-screen bg-gradient-to-b from-sand to-background flex items-center justify-center px-4">
     <div class="max-w-md w-full">
       <div class="bg-card rounded-2xl border border-border p-8 text-center">
@@ -20,12 +20,18 @@ const redirectUrl = Astro.url.searchParams.get('url');
         </div>
 
         <h1 class="font-display text-2xl text-ink mb-3">
-          Even geduld...
+          Je verlaat De Test Experts!
         </h1>
         
-        <p class="text-muted-foreground mb-6">
-          We sturen je door naar onze partner om je aankoop af te ronden.
+        <p class="text-muted-foreground mb-4">
+          We sturen je door naar onze partner om prijzen te vergelijken.
         </p>
+
+        <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6 text-left">
+          <p class="text-sm text-yellow-800">
+            ⚠️ <strong>Let op:</strong> Dit is een externe website. De Test Experts! ontvangt mogelijk een vergoeding voor doorverwijzingen, zonder extra kosten voor jou.
+          </p>
+        </div>
 
         <div class="bg-muted rounded-lg p-4 mb-6">
           <p class="text-sm text-muted-foreground">

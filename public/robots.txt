@@ -1,4 +1,24 @@
+# robots.txt - De Test Experts!
+
 User-agent: *
 Allow: /
 
-Sitemap: http://astroship.web3templates.com/sitemap-index.xml
+# Block affiliate redirect pages from indexing
+Disallow: /cart
+Disallow: /out/
+
+# Block admin panel
+Disallow: /admin/
+
+# Allow all main content
+Allow: /huishouden/
+Allow: /privacy
+Allow: /terms
+Allow: /about
+Allow: /contact
+
+# Sitemap
+Sitemap: https://bste.pages.dev/sitemap.xml
+
+# Crawl delay for politeness
+Crawl-delay: 1

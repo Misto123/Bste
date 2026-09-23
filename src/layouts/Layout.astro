@@ -3,10 +3,13 @@ import "../styles/global.css";
 
 export interface Props {
   title: string;
+  noindex?: boolean;
+  canonical?: string;
 }
 
-const { title } = Astro.props;
+const { title, noindex = false, canonical } = Astro.props;
 const makeTitle = title ? title : "De Test Experts! - Onafhankelijke Productvergelijkingen";
+const canonicalURL = canonical || Astro.url.pathname;
 ---
 
 <!doctype html>
@@ -18,6 +21,9 @@ const makeTitle = title ? title : "De Test Experts! - Onafhankelijke Productverg
     <meta name="generator" content={Astro.generator} />
     <title>{makeTitle}</title>
     <meta name="description" content="Onafhankelijke productvergelijkingen gebaseerd op Consumentenbond testresultaten." />
+    
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {!noindex && canonical && <link rel="canonical" href={canonical} />}
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
