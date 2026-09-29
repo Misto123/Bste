@@ -1,3 +1,23 @@
-name = "bste"
-pages_build_output_dir = "dist"
+name = "bste-admin"
+main = "worker/index.js"
 compatibility_date = "2024-01-01"
+
+# KV Namespaces
+kv_namespaces = [
+  { binding = "BSTE_KV", id = "YOUR_KV_NAMESPACE_ID", preview_id = "YOUR_PREVIEW_KV_ID" }
+]
+
+# Environment Variables
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[env.staging]
+vars = { ENVIRONMENT = "staging" }
+
+# Secrets (set via: wrangler secret put ADMIN_SECRET)
+# ADMIN_SECRET = "your-secret-here"
+
+# Routes (configure after deployment)
+# routes = [
+#   { pattern = "api.yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]

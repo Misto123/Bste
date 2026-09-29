@@ -49,10 +49,10 @@
   --card-foreground: oklch(0.24 0.01 90);
   --popover: oklch(0.985 0.002 85);
   --popover-foreground: oklch(0.24 0.01 90);
-  --primary: oklch(0.55 0.05 155);
+  --primary: oklch(0.52 0.15 250); /* #1e73be blue from consumentenbeste.nl */
   --primary-foreground: oklch(0.96 0.008 85);
-  --secondary: oklch(0.96 0.008 85);
-  --secondary-foreground: oklch(0.18 0.015 90);
+  --secondary: oklch(0.42 0.18 260); /* #1634b9 darker blue */
+  --secondary-foreground: oklch(0.96 0.008 85);
   --muted: oklch(0.94 0.006 85);
   --muted-foreground: oklch(0.48 0.01 90);
   --accent: oklch(0.94 0.006 85);
@@ -61,16 +61,16 @@
   --destructive-foreground: oklch(0.96 0.008 85);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.55 0.05 155);
+  --ring: oklch(0.52 0.15 250);
   --radius: 0.75rem;
-  --chart-1: oklch(0.65 0.12 195);
-  --chart-2: oklch(0.75 0.1 155);
+  --chart-1: oklch(0.52 0.15 250);
+  --chart-2: oklch(0.42 0.18 260);
   --chart-3: oklch(0.7 0.15 110);
   --chart-4: oklch(0.72 0.14 75);
   --chart-5: oklch(0.68 0.18 25);
   --sand: oklch(0.97 0.006 85);
   --ink: oklch(0.18 0.015 90);
-  --forest: oklch(0.55 0.05 155);
+  --forest: oklch(0.52 0.15 250); /* Updated to match primary */
 }
 
 @layer base {

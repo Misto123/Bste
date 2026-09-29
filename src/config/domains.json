@@ -1,24 +1,50 @@
 {
   "domains": [
     {
+      "id": "consumentenoverzicht",
+      "domain": "consumentenoverzicht.nl",
+      "locale": "nl",
+      "category": "overzicht",
+      "category_nl": "Producten",
+      "meta": {
+        "title": "Consumenten Overzicht – Onafhankelijke Productvergelijkingen",
+        "description": "Ontdek onafhankelijke productvergelijkingen en duidelijke koopgidsen. Vergelijk eenvoudig verschillende producten en maak goed onderbouwde keuzes.",
+        "keywords": ["consumentenbond", "test", "vergelijking", "beste", "producten"]
+      },
+      "theme": {
+        "primary": "#1e73be",
+        "secondary": "#1634b9",
+        "accent": "#13165d"
+      },
+      "data": {
+        "productCount": 0,
+        "brands": [],
+        "priceRange": { "min": 0, "max": 0 },
+        "testMetrics": []
+      },
+      "isMainDomain": true
+    },
+    {
       "id": "stoomstrijkijzer",
       "domain": "bestestoomstrijkijzerconsumentenbond.nl",
       "locale": "nl",
       "category": "stoomstrijkijzer",
+      "category_nl": "Stoomstrijkijzers",
       "meta": {
         "title": "Beste Stoomstrijkijzer 2026 - Consumentenbond Test Vergelijking",
         "description": "Vind de beste stoomstrijkijzer met onze uitgebreide vergelijking van 18 modellen. Test scores voor gladstrijken, levensduur en meer.",
         "keywords": ["stoomstrijkijzer", "consumentenbond", "test", "vergelijking", "beste"]
       },
       "theme": {
-        "primary": "#0066cc",
-        "secondary": "#00cc66"
+        "primary": "#1e73be",
+        "secondary": "#1634b9",
+        "accent": "#13165d"
       },
       "data": {
         "productCount": 18,
         "brands": ["Philips", "Tefal", "Braun"],
         "priceRange": { "min": 24.99, "max": 380.00 },
-        "testMetrics": ["Gladstrijken", "Levensduur", "Gebruiksgemak", "Krasbestendigheid zool", "Stoomproductie"]
+        "testMetrics": ["Gladstrijken", "Levensduur", "Gebruiksgemak", "Krasbestendigheid", "Stoomfunctie"]
       }
     },
     {
@@ -26,20 +52,22 @@
       "domain": "bestewasmachineconsumentenbond.nl",
       "locale": "nl",
       "category": "wasmachine",
+      "category_nl": "Wasmachines",
       "meta": {
         "title": "Beste Wasmachine 2026 - Consumentenbond Test Vergelijking",
-        "description": "Ontdek de beste wasmachine met vergelijking van 18 modellen. Test scores voor schoonwassen, energieverbruik, geluid en duurzaamheid.",
+        "description": "Vind de beste wasmachine met vergelijking van 18 modellen. Test scores voor wasen, energieverbruik, gebruiksgemak en meer.",
         "keywords": ["wasmachine", "consumentenbond", "test", "vergelijking", "beste"]
       },
       "theme": {
-        "primary": "#0066cc",
-        "secondary": "#00cc66"
+        "primary": "#1e73be",
+        "secondary": "#1634b9",
+        "accent": "#13165d"
       },
       "data": {
         "productCount": 18,
-        "brands": ["Bosch", "Siemens", "Beko", "AEG", "Hisense"],
-        "priceRange": { "min": 365.00, "max": 757.00 },
-        "testMetrics": ["Schoonwassen", "Uitspoelen", "Centrifugeren", "Snelheid", "Geluid", "Gebruiksgemak", "Duurzaamheid", "Energiegebruik", "Waterverbruik"]
+        "brands": ["Bosch", "Siemens", "Beko", "Miele", "AEG", "Samsung", "LG"],
+        "priceRange": { "min": 399.00, "max": 1499.00 },
+        "testMetrics": ["Wasen", "Energieverbruik", "Waterverbruik", "Geluid", "Gebruiksgemak", "Levensduur"]
       }
     },
     {
@@ -47,14 +75,16 @@
       "domain": "bestesmartphoneconsumentenbond.nl",
       "locale": "nl",
       "category": "smartphone",
+      "category_nl": "Smartphones",
       "meta": {
         "title": "Beste Smartphone 2026 - Consumentenbond Test Vergelijking",
         "description": "Vind de beste smartphone met vergelijking van 18 modellen. Test scores voor batterij, camera's, scherm en prestaties.",
         "keywords": ["smartphone", "consumentenbond", "test", "vergelijking", "beste"]
       },
       "theme": {
-        "primary": "#0066cc",
-        "secondary": "#00cc66"
+        "primary": "#1e73be",
+        "secondary": "#1634b9",
+        "accent": "#13165d"
       },
       "data": {
         "productCount": 18,
@@ -62,6 +92,32 @@
         "priceRange": { "min": 119.00, "max": 1091.69 },
         "testMetrics": ["Batterij", "Scherm", "Camera's: fotograferen", "Camera's: selfies", "Camera's: filmen", "Stevigheid", "Prestaties", "Bellen", "Geluid", "Beveiliging", "Gebruiksgemak", "Mogelijkheden"]
       }
+    }
+  ],
+  "shops": [
+    {
+      "id": "amazon-nl",
+      "name": "Amazon.nl",
+      "domain": "amazon.nl",
+      "affiliateTag": "your-tag-20",
+      "logo": "/images/shops/amazon.svg",
+      "enabled": true
+    },
+    {
+      "id": "bol-com",
+      "name": "Bol.com",
+      "domain": "bol.com",
+      "affiliateTag": "",
+      "logo": "/images/shops/bol.svg",
+      "enabled": true
+    },
+    {
+      "id": "coolblue",
+      "name": "Coolblue",
+      "domain": "coolblue.nl",
+      "affiliateTag": "",
+      "logo": "/images/shops/coolblue.svg",
+      "enabled": true
     }
   ]
 }
